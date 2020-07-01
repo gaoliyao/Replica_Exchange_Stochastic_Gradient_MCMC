@@ -1,0 +1,1708 @@
+Namespace(F_anneal=1.02, F_jump=0.7, LRgap=0.66, T=0.01, Tgap=0.2, alpha=0.3, anneal=1.02, aug=1, bias_F=300000.0, burn=200, chains=2, ck=False, data='cifar10', depth=20, gpu=2, ifstop=1, lr=2e-06, lr_anneal=0.984, model='resnet', momentum=0.9, multi=0, repeats=50, seed=61731, sn=500, split=2, test=500, total=50000, train=256, types='swap', var=5, wdecay=25, windows=20)
+Files already downloaded and verified
+Chain 1 Initial learning rate 2.00e-06 temperature 1.00e-02
+Chain 0 Initial learning rate 3.03e-06 temperature 5.00e-02
+Epoch 0 Chain 0 Acc: 35.18 BMA: 0.00 Best Acc: 35.18 Best BMA: 0.00 Temperature: 4.90E-02  Loss: 75062.977 Corrections: -inf
+Epoch 0 Chain 1 Acc: 43.85 BMA: 0.00 Best Acc: 43.85 Best BMA: 0.00 Temperature: 9.80E-03  Loss: 75544.633 Corrections: -inf
+
+Epoch 1 Chain 0 Acc: 46.68 BMA: 0.00 Best Acc: 46.68 Best BMA: 0.00 Temperature: 4.81E-02  Loss: 55988.418 Corrections: -inf
+Epoch 1 Chain 1 Acc: 42.58 BMA: 0.00 Best Acc: 43.85 Best BMA: 0.00 Temperature: 9.61E-03  Loss: 50478.195 Corrections: -inf
+
+Epoch 2 Chain 0 Acc: 59.27 BMA: 0.00 Best Acc: 59.27 Best BMA: 0.00 Temperature: 4.71E-02  Loss: 52017.824 Corrections: -inf
+Epoch 2 Chain 1 Acc: 46.23 BMA: 0.00 Best Acc: 46.23 Best BMA: 0.00 Temperature: 9.42E-03  Loss: 43721.492 Corrections: -inf
+
+Epoch 3 Chain 0 Acc: 64.80 BMA: 0.00 Best Acc: 64.80 Best BMA: 0.00 Temperature: 4.62E-02  Loss: 51837.629 Corrections: -inf
+Epoch 3 Chain 1 Acc: 63.94 BMA: 0.00 Best Acc: 63.94 Best BMA: 0.00 Temperature: 9.24E-03  Loss: 55477.695 Corrections: -inf
+
+Epoch 4 Chain 0 Acc: 64.77 BMA: 0.00 Best Acc: 64.80 Best BMA: 0.00 Temperature: 4.53E-02  Loss: 39440.469 Corrections: -inf
+Epoch 4 Chain 1 Acc: 68.65 BMA: 0.00 Best Acc: 68.65 Best BMA: 0.00 Temperature: 9.06E-03  Loss: 37309.102 Corrections: -inf
+
+Epoch 5 Chain 0 Acc: 64.75 BMA: 0.00 Best Acc: 64.80 Best BMA: 0.00 Temperature: 4.44E-02  Loss: 39600.156 Corrections: -inf
+Epoch 5 Chain 1 Acc: 66.60 BMA: 0.00 Best Acc: 68.65 Best BMA: 0.00 Temperature: 8.88E-03  Loss: 42391.266 Corrections: -inf
+
+Epoch 6 Chain 0 Acc: 63.50 BMA: 0.00 Best Acc: 64.80 Best BMA: 0.00 Temperature: 4.35E-02  Loss: 35001.801 Corrections: -inf
+Epoch 6 Chain 1 Acc: 72.12 BMA: 0.00 Best Acc: 72.12 Best BMA: 0.00 Temperature: 8.71E-03  Loss: 30040.514 Corrections: -inf
+
+Epoch 7 Chain 0 Acc: 63.69 BMA: 0.00 Best Acc: 64.80 Best BMA: 0.00 Temperature: 4.27E-02  Loss: 43516.211 Corrections: -inf
+Epoch 7 Chain 1 Acc: 65.73 BMA: 0.00 Best Acc: 72.12 Best BMA: 0.00 Temperature: 8.53E-03  Loss: 45713.172 Corrections: -inf
+
+Epoch 8 Chain 0 Acc: 75.24 BMA: 0.00 Best Acc: 75.24 Best BMA: 0.00 Temperature: 4.18E-02  Loss: 27017.010 Corrections: -inf
+Epoch 8 Chain 1 Acc: 75.45 BMA: 0.00 Best Acc: 75.45 Best BMA: 0.00 Temperature: 8.37E-03  Loss: 29241.205 Corrections: -inf
+
+Epoch 9 Chain 0 Acc: 73.89 BMA: 0.00 Best Acc: 75.24 Best BMA: 0.00 Temperature: 4.10E-02  Loss: 37619.148 Corrections: -inf
+Epoch 9 Chain 1 Acc: 71.37 BMA: 0.00 Best Acc: 75.45 Best BMA: 0.00 Temperature: 8.20E-03  Loss: 30699.807 Corrections: -inf
+
+Epoch 10 Chain 0 loss std 3.58e+03 variance 6.41e+06 smothing variance 6.41e+06 scaled smoothing variance 1.75e+01
+Epoch 10 Chain 1 loss std 3.42e+03 variance 5.86e+06 smothing variance 5.86e+06 scaled smoothing variance 1.60e+01
+Epoch 10 Swap (with jump F) chain 0 with chain 1 and increase 
+Epoch 10 Swap (with jump F) chain 0 with chain 1 and increase 
+Epoch 10 Chain 0 Acc: 77.33 BMA: 0.00 Best Acc: 77.33 Best BMA: 0.00 Temperature: 4.02E-02  Loss: 26213.088 Corrections: -6678.824
+Epoch 10 Chain 1 Acc: 76.38 BMA: 0.00 Best Acc: 76.38 Best BMA: 0.00 Temperature: 8.04E-03  Loss: 30855.373 Corrections: -6678.824
+
+Epoch 11 Chain 0 Acc: 77.75 BMA: 0.00 Best Acc: 77.75 Best BMA: 0.00 Temperature: 3.94E-02  Loss: 34821.988 Corrections: -6678.824
+Epoch 11 Chain 1 Acc: 75.11 BMA: 0.00 Best Acc: 76.38 Best BMA: 0.00 Temperature: 7.88E-03  Loss: 30805.752 Corrections: -6678.824
+
+Epoch 12 Chain 0 Acc: 74.30 BMA: 0.00 Best Acc: 77.75 Best BMA: 0.00 Temperature: 3.87E-02  Loss: 43130.836 Corrections: -6678.824
+Epoch 12 Chain 1 Acc: 75.87 BMA: 0.00 Best Acc: 76.38 Best BMA: 0.00 Temperature: 7.73E-03  Loss: 40865.125 Corrections: -6678.824
+
+Epoch 13 Chain 0 Acc: 77.98 BMA: 0.00 Best Acc: 77.98 Best BMA: 0.00 Temperature: 3.79E-02  Loss: 29783.338 Corrections: -6678.824
+Epoch 13 Chain 1 Acc: 75.77 BMA: 0.00 Best Acc: 76.38 Best BMA: 0.00 Temperature: 7.58E-03  Loss: 26147.697 Corrections: -6678.824
+
+Epoch 14 Chain 0 Acc: 79.19 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 3.72E-02  Loss: 29018.109 Corrections: -6678.824
+Epoch 14 Chain 1 Acc: 69.09 BMA: 0.00 Best Acc: 76.38 Best BMA: 0.00 Temperature: 7.43E-03  Loss: 23116.986 Corrections: -6678.824
+
+Epoch 15 Chain 0 loss std 3.27e+03 variance 5.33e+06 smothing variance 6.09e+06 scaled smoothing variance 3.08e+01
+Epoch 15 Chain 1 loss std 4.54e+03 variance 1.03e+07 smothing variance 7.20e+06 scaled smoothing variance 3.64e+01
+Epoch 15 Chain 0 Acc: 67.86 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 3.64E-02  Loss: 34592.898 Corrections: -7228.222
+Epoch 15 Chain 1 Acc: 73.14 BMA: 0.00 Best Acc: 76.38 Best BMA: 0.00 Temperature: 7.28E-03  Loss: 30437.834 Corrections: -7228.222
+
+Epoch 16 Chain 0 Acc: 69.18 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 3.57E-02  Loss: 27636.207 Corrections: -7228.222
+Epoch 16 Chain 1 Acc: 77.18 BMA: 0.00 Best Acc: 77.18 Best BMA: 0.00 Temperature: 7.14E-03  Loss: 23991.037 Corrections: -7228.222
+
+Epoch 17 Chain 0 Acc: 75.64 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 3.50E-02  Loss: 29591.506 Corrections: -7228.222
+Epoch 17 Chain 1 Acc: 76.69 BMA: 0.00 Best Acc: 77.18 Best BMA: 0.00 Temperature: 7.00E-03  Loss: 24329.555 Corrections: -7228.222
+
+Epoch 18 Chain 0 Acc: 72.80 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 3.43E-02  Loss: 17676.375 Corrections: -7228.222
+Epoch 18 Chain 1 Acc: 81.63 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 6.86E-03  Loss: 14454.952 Corrections: -7228.222
+
+Epoch 19 Chain 0 Acc: 76.00 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 3.36E-02  Loss: 26587.641 Corrections: -7228.222
+Epoch 19 Chain 1 Acc: 76.48 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 6.73E-03  Loss: 20743.863 Corrections: -7228.222
+
+Epoch 20 Chain 0 loss std 3.61e+03 variance 6.50e+06 smothing variance 6.21e+06 scaled smoothing variance 2.84e+01
+Epoch 20 Chain 1 loss std 3.15e+03 variance 4.97e+06 smothing variance 6.53e+06 scaled smoothing variance 2.99e+01
+Epoch 20 Chain 0 Acc: 75.50 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 3.30E-02  Loss: 28982.564 Corrections: -6931.821
+Epoch 20 Chain 1 Acc: 81.16 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 6.60E-03  Loss: 33418.805 Corrections: -6931.821
+
+Epoch 21 Swap (with jump F) chain 0 with chain 1 and increase 
+Epoch 21 Chain 0 Acc: 77.22 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 3.23E-02  Loss: 35895.211 Corrections: -6931.821
+Epoch 21 Chain 1 Acc: 69.92 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 6.47E-03  Loss: 43939.918 Corrections: -6931.821
+
+Epoch 22 Chain 0 Acc: 71.46 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 3.17E-02  Loss: 41543.898 Corrections: -9902.601
+Epoch 22 Chain 1 Acc: 79.80 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 6.34E-03  Loss: 31372.188 Corrections: -9902.601
+
+Epoch 23 Chain 0 Acc: 71.41 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 3.11E-02  Loss: 42263.992 Corrections: -9902.601
+Epoch 23 Chain 1 Acc: 79.39 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 6.22E-03  Loss: 36779.395 Corrections: -9902.601
+
+Epoch 24 Chain 0 Acc: 77.28 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 3.05E-02  Loss: 33197.008 Corrections: -9902.601
+Epoch 24 Chain 1 Acc: 81.42 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 6.10E-03  Loss: 23674.100 Corrections: -9902.601
+
+Epoch 25 Chain 0 loss std 4.03e+03 variance 8.13e+06 smothing variance 6.79e+06 scaled smoothing variance 4.02e+01
+Epoch 25 Chain 1 loss std 3.32e+03 variance 5.51e+06 smothing variance 6.22e+06 scaled smoothing variance 3.69e+01
+Epoch 25 Chain 0 Acc: 75.88 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.99E-02  Loss: 25947.842 Corrections: -10113.017
+Epoch 25 Chain 1 Acc: 77.33 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 5.98E-03  Loss: 23760.096 Corrections: -10113.017
+
+Epoch 26 Chain 0 Acc: 77.42 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.93E-02  Loss: 28771.951 Corrections: -10113.017
+Epoch 26 Chain 1 Acc: 77.62 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 5.86E-03  Loss: 30450.264 Corrections: -10113.017
+
+Epoch 27 Chain 0 Acc: 76.27 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.87E-02  Loss: 30103.541 Corrections: -10113.017
+Epoch 27 Chain 1 Acc: 81.38 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 5.74E-03  Loss: 25171.963 Corrections: -10113.017
+
+Epoch 28 Chain 0 Acc: 76.90 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.82E-02  Loss: 26885.000 Corrections: -10113.017
+Epoch 28 Chain 1 Acc: 80.12 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 5.63E-03  Loss: 25969.428 Corrections: -10113.017
+
+Epoch 29 Chain 0 Acc: 70.26 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.76E-02  Loss: 34208.371 Corrections: -10113.017
+Epoch 29 Chain 1 Acc: 80.88 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 5.52E-03  Loss: 34502.184 Corrections: -10113.017
+
+Epoch 30 Chain 0 loss std 4.07e+03 variance 8.29e+06 smothing variance 7.24e+06 scaled smoothing variance 3.88e+01
+Epoch 30 Chain 1 loss std 3.03e+03 variance 4.59e+06 smothing variance 5.73e+06 scaled smoothing variance 3.08e+01
+Epoch 30 Chain 0 Acc: 61.35 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.71E-02  Loss: 37482.215 Corrections: -10081.977
+Epoch 30 Chain 1 Acc: 76.67 BMA: 0.00 Best Acc: 81.63 Best BMA: 0.00 Temperature: 5.41E-03  Loss: 30683.922 Corrections: -10081.977
+
+Epoch 31 Chain 0 Acc: 74.00 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.65E-02  Loss: 31867.984 Corrections: -10081.977
+Epoch 31 Chain 1 Acc: 81.74 BMA: 0.00 Best Acc: 81.74 Best BMA: 0.00 Temperature: 5.31E-03  Loss: 22869.500 Corrections: -10081.977
+
+Epoch 32 Chain 0 Acc: 75.13 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.60E-02  Loss: 39944.605 Corrections: -10081.977
+Epoch 32 Chain 1 Acc: 79.81 BMA: 0.00 Best Acc: 81.74 Best BMA: 0.00 Temperature: 5.20E-03  Loss: 44251.781 Corrections: -10081.977
+
+Epoch 33 Chain 0 Acc: 78.51 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.55E-02  Loss: 26405.090 Corrections: -10081.977
+Epoch 33 Chain 1 Acc: 72.93 BMA: 0.00 Best Acc: 81.74 Best BMA: 0.00 Temperature: 5.10E-03  Loss: 33783.891 Corrections: -10081.977
+
+Epoch 34 Chain 0 Acc: 74.67 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.50E-02  Loss: 22798.928 Corrections: -10081.977
+Epoch 34 Chain 1 Acc: 80.28 BMA: 0.00 Best Acc: 81.74 Best BMA: 0.00 Temperature: 5.00E-03  Loss: 19343.924 Corrections: -10081.977
+
+Epoch 35 Chain 0 loss std 3.79e+03 variance 7.17e+06 smothing variance 7.22e+06 scaled smoothing variance 3.51e+01
+Epoch 35 Chain 1 loss std 3.95e+03 variance 7.80e+06 smothing variance 6.35e+06 scaled smoothing variance 3.09e+01
+Epoch 35 Chain 0 Acc: 72.15 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.45E-02  Loss: 36261.211 Corrections: -10550.591
+Epoch 35 Chain 1 Acc: 79.89 BMA: 0.00 Best Acc: 81.74 Best BMA: 0.00 Temperature: 4.90E-03  Loss: 29278.764 Corrections: -10550.591
+
+Epoch 36 Chain 0 Acc: 77.53 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.40E-02  Loss: 25681.025 Corrections: -10550.591
+Epoch 36 Chain 1 Acc: 80.44 BMA: 0.00 Best Acc: 81.74 Best BMA: 0.00 Temperature: 4.81E-03  Loss: 22569.096 Corrections: -10550.591
+
+Epoch 37 Chain 0 Acc: 75.47 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.36E-02  Loss: 26499.635 Corrections: -10550.591
+Epoch 37 Chain 1 Acc: 80.50 BMA: 0.00 Best Acc: 81.74 Best BMA: 0.00 Temperature: 4.71E-03  Loss: 23288.492 Corrections: -10550.591
+
+Epoch 38 Chain 0 Acc: 74.70 BMA: 0.00 Best Acc: 79.19 Best BMA: 0.00 Temperature: 2.31E-02  Loss: 26780.963 Corrections: -10550.591
+Epoch 38 Chain 1 Acc: 69.83 BMA: 0.00 Best Acc: 81.74 Best BMA: 0.00 Temperature: 4.62E-03  Loss: 23766.287 Corrections: -10550.591
+
+Epoch 39 Chain 0 Acc: 79.66 BMA: 0.00 Best Acc: 79.66 Best BMA: 0.00 Temperature: 2.26E-02  Loss: 41441.621 Corrections: -10550.591
+Epoch 39 Chain 1 Acc: 79.07 BMA: 0.00 Best Acc: 81.74 Best BMA: 0.00 Temperature: 4.53E-03  Loss: 36947.941 Corrections: -10550.591
+
+Epoch 40 Chain 0 loss std 3.04e+03 variance 4.63e+06 smothing variance 6.44e+06 scaled smoothing variance 2.84e+01
+Epoch 40 Chain 1 loss std 3.80e+03 variance 7.22e+06 smothing variance 6.61e+06 scaled smoothing variance 2.91e+01
+Epoch 40 Chain 0 Acc: 74.59 BMA: 0.00 Best Acc: 79.66 Best BMA: 0.00 Temperature: 2.22E-02  Loss: 26405.838 Corrections: -10151.340
+Epoch 40 Chain 1 Acc: 79.04 BMA: 0.00 Best Acc: 81.74 Best BMA: 0.00 Temperature: 4.44E-03  Loss: 20738.562 Corrections: -10151.340
+
+Epoch 41 Chain 0 Acc: 75.58 BMA: 0.00 Best Acc: 79.66 Best BMA: 0.00 Temperature: 2.18E-02  Loss: 32775.695 Corrections: -10151.340
+Epoch 41 Chain 1 Acc: 78.20 BMA: 0.00 Best Acc: 81.74 Best BMA: 0.00 Temperature: 4.35E-03  Loss: 26273.453 Corrections: -10151.340
+
+Epoch 42 Chain 0 Acc: 78.89 BMA: 0.00 Best Acc: 79.66 Best BMA: 0.00 Temperature: 2.13E-02  Loss: 44961.301 Corrections: -10151.340
+Epoch 42 Chain 1 Acc: 82.77 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 4.27E-03  Loss: 34508.156 Corrections: -10151.340
+
+Epoch 43 Chain 0 Acc: 75.50 BMA: 0.00 Best Acc: 79.66 Best BMA: 0.00 Temperature: 2.09E-02  Loss: 26009.150 Corrections: -10151.340
+Epoch 43 Chain 1 Acc: 79.83 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 4.18E-03  Loss: 28078.207 Corrections: -10151.340
+
+Epoch 44 Chain 0 Acc: 74.78 BMA: 0.00 Best Acc: 79.66 Best BMA: 0.00 Temperature: 2.05E-02  Loss: 35025.863 Corrections: -10151.340
+Epoch 44 Chain 1 Acc: 75.51 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 4.10E-03  Loss: 30650.496 Corrections: -10151.340
+
+Epoch 45 Chain 0 loss std 4.77e+03 variance 1.14e+07 smothing variance 7.93e+06 scaled smoothing variance 3.16e+01
+Epoch 45 Chain 1 loss std 3.95e+03 variance 7.80e+06 smothing variance 6.97e+06 scaled smoothing variance 2.78e+01
+Epoch 45 Chain 0 Acc: 72.22 BMA: 0.00 Best Acc: 79.66 Best BMA: 0.00 Temperature: 2.01E-02  Loss: 28250.668 Corrections: -11580.897
+Epoch 45 Chain 1 Acc: 79.04 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 4.02E-03  Loss: 31509.500 Corrections: -11580.897
+
+Epoch 46 Chain 0 Acc: 75.73 BMA: 0.00 Best Acc: 79.66 Best BMA: 0.00 Temperature: 1.97E-02  Loss: 32593.912 Corrections: -11580.897
+Epoch 46 Chain 1 Acc: 81.68 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.94E-03  Loss: 29544.592 Corrections: -11580.897
+
+Epoch 47 Chain 0 Acc: 74.43 BMA: 0.00 Best Acc: 79.66 Best BMA: 0.00 Temperature: 1.93E-02  Loss: 27720.150 Corrections: -11580.897
+Epoch 47 Chain 1 Acc: 81.00 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.87E-03  Loss: 23020.525 Corrections: -11580.897
+
+Epoch 48 Chain 0 Acc: 80.98 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.89E-02  Loss: 25956.287 Corrections: -11580.897
+Epoch 48 Chain 1 Acc: 72.20 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.79E-03  Loss: 23233.799 Corrections: -11580.897
+
+Epoch 49 Chain 0 Acc: 78.22 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.86E-02  Loss: 34375.047 Corrections: -11580.897
+Epoch 49 Chain 1 Acc: 80.67 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.72E-03  Loss: 26729.920 Corrections: -11580.897
+
+Epoch 50 Chain 0 loss std 3.62e+03 variance 6.56e+06 smothing variance 7.52e+06 scaled smoothing variance 2.71e+01
+Epoch 50 Chain 1 loss std 2.49e+03 variance 3.10e+06 smothing variance 5.81e+06 scaled smoothing variance 2.10e+01
+Epoch 50 Chain 0 Acc: 69.39 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.82E-02  Loss: 24198.434 Corrections: -10358.961
+Epoch 50 Chain 1 Acc: 76.02 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.64E-03  Loss: 21005.773 Corrections: -10358.961
+
+Epoch 51 Chain 0 Acc: 71.64 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.79E-02  Loss: 31864.045 Corrections: -10358.961
+Epoch 51 Chain 1 Acc: 75.27 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.57E-03  Loss: 31814.789 Corrections: -10358.961
+
+Epoch 52 Chain 0 Acc: 75.19 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.75E-02  Loss: 29559.303 Corrections: -10358.961
+Epoch 52 Chain 1 Acc: 77.95 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.50E-03  Loss: 23236.570 Corrections: -10358.961
+
+Epoch 53 Chain 0 Acc: 79.17 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.72E-02  Loss: 32043.105 Corrections: -10358.961
+Epoch 53 Chain 1 Acc: 79.97 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.43E-03  Loss: 29452.506 Corrections: -10358.961
+
+Epoch 54 Chain 0 Acc: 79.21 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.68E-02  Loss: 39638.027 Corrections: -10358.961
+Epoch 54 Chain 1 Acc: 74.59 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.37E-03  Loss: 33108.531 Corrections: -10358.961
+
+Epoch 55 Chain 0 loss std 3.44e+03 variance 5.92e+06 smothing variance 7.04e+06 scaled smoothing variance 2.30e+01
+Epoch 55 Chain 1 loss std 3.70e+03 variance 6.84e+06 smothing variance 6.12e+06 scaled smoothing variance 2.00e+01
+Epoch 55 Chain 0 Acc: 76.67 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.65E-02  Loss: 25854.963 Corrections: -10226.195
+Epoch 55 Chain 1 Acc: 77.04 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.30E-03  Loss: 19369.873 Corrections: -10226.195
+
+Epoch 56 Chain 0 Acc: 76.01 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.62E-02  Loss: 31787.154 Corrections: -10226.195
+Epoch 56 Chain 1 Acc: 81.94 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.23E-03  Loss: 28594.148 Corrections: -10226.195
+
+Epoch 57 Chain 0 Acc: 72.97 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.59E-02  Loss: 34232.266 Corrections: -10226.195
+Epoch 57 Chain 1 Acc: 75.21 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.17E-03  Loss: 28838.736 Corrections: -10226.195
+
+Epoch 58 Chain 0 Acc: 75.19 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.55E-02  Loss: 32743.938 Corrections: -10226.195
+Epoch 58 Chain 1 Acc: 80.35 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.11E-03  Loss: 24953.539 Corrections: -10226.195
+
+Epoch 59 Chain 0 Acc: 71.91 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.52E-02  Loss: 34937.047 Corrections: -10226.195
+Epoch 59 Chain 1 Acc: 79.97 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 3.05E-03  Loss: 26245.146 Corrections: -10226.195
+
+Epoch 60 Chain 0 loss std 3.51e+03 variance 6.16e+06 smothing variance 6.77e+06 scaled smoothing variance 2.01e+01
+Epoch 60 Chain 1 loss std 3.72e+03 variance 6.92e+06 smothing variance 6.36e+06 scaled smoothing variance 1.88e+01
+Epoch 60 Chain 0 Acc: 80.91 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.49E-02  Loss: 32123.465 Corrections: -10208.960
+Epoch 60 Chain 1 Acc: 75.70 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.99E-03  Loss: 32340.727 Corrections: -10208.960
+
+Epoch 61 Chain 0 Acc: 73.84 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.46E-02  Loss: 30748.502 Corrections: -10208.960
+Epoch 61 Chain 1 Acc: 81.73 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.93E-03  Loss: 28454.203 Corrections: -10208.960
+
+Epoch 62 Chain 0 Acc: 62.63 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.44E-02  Loss: 31780.424 Corrections: -10208.960
+Epoch 62 Chain 1 Acc: 74.96 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.87E-03  Loss: 30416.355 Corrections: -10208.960
+
+Epoch 63 Chain 0 Acc: 76.15 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.41E-02  Loss: 31116.277 Corrections: -10208.960
+Epoch 63 Chain 1 Acc: 79.26 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.82E-03  Loss: 32198.414 Corrections: -10208.960
+
+Epoch 64 Chain 0 Acc: 79.87 BMA: 0.00 Best Acc: 80.98 Best BMA: 0.00 Temperature: 1.38E-02  Loss: 32154.373 Corrections: -10208.960
+Epoch 64 Chain 1 Acc: 77.68 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.76E-03  Loss: 30710.945 Corrections: -10208.960
+
+Epoch 65 Chain 0 loss std 2.74e+03 variance 3.77e+06 smothing variance 5.87e+06 scaled smoothing variance 1.58e+01
+Epoch 65 Chain 1 loss std 4.33e+03 variance 9.35e+06 smothing variance 7.26e+06 scaled smoothing variance 1.95e+01
+Epoch 65 Chain 0 Acc: 81.11 BMA: 0.00 Best Acc: 81.11 Best BMA: 0.00 Temperature: 1.35E-02  Loss: 34184.621 Corrections: -10206.441
+Epoch 65 Chain 1 Acc: 81.83 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.71E-03  Loss: 25322.941 Corrections: -10206.441
+
+Epoch 66 Chain 0 Acc: 79.30 BMA: 0.00 Best Acc: 81.11 Best BMA: 0.00 Temperature: 1.33E-02  Loss: 26565.617 Corrections: -10206.441
+Epoch 66 Chain 1 Acc: 77.99 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.65E-03  Loss: 20964.615 Corrections: -10206.441
+
+Epoch 67 Chain 0 Acc: 75.55 BMA: 0.00 Best Acc: 81.11 Best BMA: 0.00 Temperature: 1.30E-02  Loss: 17743.943 Corrections: -10206.441
+Epoch 67 Chain 1 Acc: 80.26 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.60E-03  Loss: 12880.236 Corrections: -10206.441
+
+Epoch 68 Chain 0 Acc: 77.32 BMA: 0.00 Best Acc: 81.11 Best BMA: 0.00 Temperature: 1.28E-02  Loss: 35304.562 Corrections: -10206.441
+Epoch 68 Chain 1 Acc: 82.21 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.55E-03  Loss: 30676.857 Corrections: -10206.441
+
+Epoch 69 Chain 0 Acc: 80.98 BMA: 0.00 Best Acc: 81.11 Best BMA: 0.00 Temperature: 1.25E-02  Loss: 27953.869 Corrections: -10206.441
+Epoch 69 Chain 1 Acc: 82.38 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.50E-03  Loss: 21077.922 Corrections: -10206.441
+
+Epoch 70 Chain 0 loss std 3.70e+03 variance 6.85e+06 smothing variance 6.16e+06 scaled smoothing variance 1.50e+01
+Epoch 70 Chain 1 loss std 2.94e+03 variance 4.34e+06 smothing variance 6.38e+06 scaled smoothing variance 1.55e+01
+Epoch 70 Chain 0 Acc: 77.48 BMA: 0.00 Best Acc: 81.11 Best BMA: 0.00 Temperature: 1.23E-02  Loss: 42834.633 Corrections: -9753.460
+Epoch 70 Chain 1 Acc: 78.64 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.45E-03  Loss: 33529.742 Corrections: -9753.460
+
+Epoch 71 Chain 0 Acc: 70.56 BMA: 0.00 Best Acc: 81.11 Best BMA: 0.00 Temperature: 1.20E-02  Loss: 29790.109 Corrections: -9753.460
+Epoch 71 Chain 1 Acc: 81.52 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.40E-03  Loss: 20660.477 Corrections: -9753.460
+
+Epoch 72 Chain 0 Acc: 78.84 BMA: 0.00 Best Acc: 81.11 Best BMA: 0.00 Temperature: 1.18E-02  Loss: 23598.004 Corrections: -9753.460
+Epoch 72 Chain 1 Acc: 75.64 BMA: 0.00 Best Acc: 82.77 Best BMA: 0.00 Temperature: 2.36E-03  Loss: 27288.529 Corrections: -9753.460
+
+Epoch 73 Chain 0 Acc: 81.33 BMA: 0.00 Best Acc: 81.33 Best BMA: 0.00 Temperature: 1.15E-02  Loss: 29072.064 Corrections: -9753.460
+Epoch 73 Chain 1 Acc: 84.27 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 2.31E-03  Loss: 25137.270 Corrections: -9753.460
+
+Epoch 74 Chain 0 Acc: 72.94 BMA: 0.00 Best Acc: 81.33 Best BMA: 0.00 Temperature: 1.13E-02  Loss: 22766.264 Corrections: -9753.460
+Epoch 74 Chain 1 Acc: 82.98 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 2.26E-03  Loss: 19704.377 Corrections: -9753.460
+
+Epoch 75 Chain 0 loss std 4.94e+03 variance 1.22e+07 smothing variance 7.98e+06 scaled smoothing variance 1.76e+01
+Epoch 75 Chain 1 loss std 3.62e+03 variance 6.55e+06 smothing variance 6.43e+06 scaled smoothing variance 1.42e+01
+Epoch 75 Chain 0 Acc: 75.01 BMA: 0.00 Best Acc: 81.33 Best BMA: 0.00 Temperature: 1.11E-02  Loss: 24365.357 Corrections: -11202.822
+Epoch 75 Chain 1 Acc: 80.16 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 2.22E-03  Loss: 19640.193 Corrections: -11202.822
+
+Epoch 76 Chain 0 Acc: 78.13 BMA: 0.00 Best Acc: 81.33 Best BMA: 0.00 Temperature: 1.09E-02  Loss: 25198.490 Corrections: -11202.822
+Epoch 76 Chain 1 Acc: 72.59 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 2.18E-03  Loss: 24424.150 Corrections: -11202.822
+
+Epoch 77 Chain 0 Acc: 58.89 BMA: 0.00 Best Acc: 81.33 Best BMA: 0.00 Temperature: 1.07E-02  Loss: 19772.641 Corrections: -11202.822
+Epoch 77 Chain 1 Acc: 81.55 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 2.13E-03  Loss: 23995.221 Corrections: -11202.822
+
+Epoch 78 Chain 0 Acc: 77.44 BMA: 0.00 Best Acc: 81.33 Best BMA: 0.00 Temperature: 1.05E-02  Loss: 23709.221 Corrections: -11202.822
+Epoch 78 Chain 1 Acc: 80.43 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 2.09E-03  Loss: 20934.900 Corrections: -11202.822
+
+Epoch 79 Chain 0 Acc: 81.47 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 1.03E-02  Loss: 34179.461 Corrections: -11202.822
+Epoch 79 Chain 1 Acc: 81.85 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 2.05E-03  Loss: 30860.537 Corrections: -11202.822
+
+Epoch 80 Chain 0 loss std 2.97e+03 variance 4.41e+06 smothing variance 6.91e+06 scaled smoothing variance 1.38e+01
+Epoch 80 Chain 1 loss std 3.36e+03 variance 5.65e+06 smothing variance 6.20e+06 scaled smoothing variance 1.24e+01
+Epoch 80 Chain 0 Acc: 80.58 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 1.01E-02  Loss: 39895.664 Corrections: -10187.906
+Epoch 80 Chain 1 Acc: 81.96 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 2.01E-03  Loss: 31267.314 Corrections: -10187.906
+
+Epoch 81 Chain 0 Acc: 79.54 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 9.86E-03  Loss: 19165.168 Corrections: -10187.906
+Epoch 81 Chain 1 Acc: 76.47 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.97E-03  Loss: 16704.000 Corrections: -10187.906
+
+Epoch 82 Chain 0 Acc: 76.90 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 9.66E-03  Loss: 33947.621 Corrections: -10187.906
+Epoch 82 Chain 1 Acc: 74.80 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.93E-03  Loss: 27464.836 Corrections: -10187.906
+
+Epoch 83 Chain 0 Acc: 77.68 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 9.47E-03  Loss: 22325.992 Corrections: -10187.906
+Epoch 83 Chain 1 Acc: 80.16 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.89E-03  Loss: 22593.227 Corrections: -10187.906
+
+Epoch 84 Chain 0 Acc: 79.78 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 9.29E-03  Loss: 23117.980 Corrections: -10187.906
+Epoch 84 Chain 1 Acc: 80.18 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.86E-03  Loss: 17431.830 Corrections: -10187.906
+
+Epoch 85 Chain 0 loss std 4.36e+03 variance 9.50e+06 smothing variance 7.69e+06 scaled smoothing variance 1.39e+01
+Epoch 85 Chain 1 loss std 3.54e+03 variance 6.27e+06 smothing variance 6.22e+06 scaled smoothing variance 1.12e+01
+Epoch 85 Chain 0 Acc: 78.45 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 9.11E-03  Loss: 28272.033 Corrections: -10808.584
+Epoch 85 Chain 1 Acc: 81.58 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.82E-03  Loss: 19192.381 Corrections: -10808.584
+
+Epoch 86 Chain 0 Acc: 67.97 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 8.93E-03  Loss: 34646.465 Corrections: -10808.584
+Epoch 86 Chain 1 Acc: 77.80 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.79E-03  Loss: 29274.363 Corrections: -10808.584
+
+Epoch 87 Chain 0 Acc: 79.11 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 8.75E-03  Loss: 21144.047 Corrections: -10808.584
+Epoch 87 Chain 1 Acc: 82.06 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.75E-03  Loss: 19340.744 Corrections: -10808.584
+
+Epoch 88 Chain 0 Acc: 77.13 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 8.58E-03  Loss: 20402.824 Corrections: -10808.584
+Epoch 88 Chain 1 Acc: 83.63 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.72E-03  Loss: 21859.811 Corrections: -10808.584
+
+Epoch 89 Chain 0 Acc: 79.26 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 8.41E-03  Loss: 26387.555 Corrections: -10808.584
+Epoch 89 Chain 1 Acc: 80.98 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.68E-03  Loss: 26162.734 Corrections: -10808.584
+
+Epoch 90 Chain 0 loss std 3.70e+03 variance 6.84e+06 smothing variance 7.43e+06 scaled smoothing variance 1.22e+01
+Epoch 90 Chain 1 loss std 2.69e+03 variance 3.61e+06 smothing variance 5.44e+06 scaled smoothing variance 8.89e+00
+Epoch 90 Chain 0 Acc: 74.13 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 8.25E-03  Loss: 26498.525 Corrections: -10005.336
+Epoch 90 Chain 1 Acc: 79.46 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.65E-03  Loss: 24882.498 Corrections: -10005.336
+
+Epoch 91 Chain 0 Acc: 79.68 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 8.09E-03  Loss: 24268.820 Corrections: -10005.336
+Epoch 91 Chain 1 Acc: 73.97 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.62E-03  Loss: 17339.498 Corrections: -10005.336
+
+Epoch 92 Chain 0 Acc: 74.27 BMA: 0.00 Best Acc: 81.47 Best BMA: 0.00 Temperature: 7.93E-03  Loss: 24659.738 Corrections: -10005.336
+Epoch 92 Chain 1 Acc: 80.24 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.59E-03  Loss: 20646.727 Corrections: -10005.336
+
+Epoch 93 Chain 0 Acc: 82.16 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 7.77E-03  Loss: 18863.881 Corrections: -10005.336
+Epoch 93 Chain 1 Acc: 82.16 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.55E-03  Loss: 17050.270 Corrections: -10005.336
+
+Epoch 94 Chain 0 Acc: 78.79 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 7.62E-03  Loss: 22313.299 Corrections: -10005.336
+Epoch 94 Chain 1 Acc: 78.13 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.52E-03  Loss: 15531.745 Corrections: -10005.336
+
+Epoch 95 Chain 0 loss std 3.69e+03 variance 6.79e+06 smothing variance 7.24e+06 scaled smoothing variance 1.07e+01
+Epoch 95 Chain 1 loss std 3.17e+03 variance 5.04e+06 smothing variance 5.32e+06 scaled smoothing variance 7.87e+00
+Epoch 95 Chain 0 Acc: 72.28 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 7.47E-03  Loss: 30870.822 Corrections: -9762.907
+Epoch 95 Chain 1 Acc: 78.72 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.49E-03  Loss: 33540.762 Corrections: -9762.907
+
+Epoch 96 Chain 0 Acc: 67.66 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 7.32E-03  Loss: 31874.076 Corrections: -9762.907
+Epoch 96 Chain 1 Acc: 81.91 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.46E-03  Loss: 25516.256 Corrections: -9762.907
+
+Epoch 97 Chain 0 Acc: 78.17 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 7.18E-03  Loss: 27664.381 Corrections: -9762.907
+Epoch 97 Chain 1 Acc: 75.05 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.44E-03  Loss: 32221.291 Corrections: -9762.907
+
+Epoch 98 Chain 0 Acc: 78.55 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 7.04E-03  Loss: 22243.893 Corrections: -9762.907
+Epoch 98 Chain 1 Acc: 82.47 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.41E-03  Loss: 20579.100 Corrections: -9762.907
+
+Epoch 99 Chain 0 Acc: 73.88 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 6.90E-03  Loss: 19937.281 Corrections: -9762.907
+Epoch 99 Chain 1 Acc: 81.46 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.38E-03  Loss: 14723.057 Corrections: -9762.907
+
+Epoch 100 Chain 0 loss std 4.41e+03 variance 9.71e+06 smothing variance 7.98e+06 scaled smoothing variance 1.07e+01
+Epoch 100 Chain 1 loss std 3.24e+03 variance 5.23e+06 smothing variance 5.29e+06 scaled smoothing variance 7.10e+00
+Epoch 100 Chain 0 Acc: 72.76 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 6.77E-03  Loss: 24367.270 Corrections: -10319.097
+Epoch 100 Chain 1 Acc: 82.94 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.35E-03  Loss: 29736.588 Corrections: -10319.097
+
+Epoch 101 Chain 0 Acc: 81.17 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 6.63E-03  Loss: 31960.100 Corrections: -10319.097
+Epoch 101 Chain 1 Acc: 83.74 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.33E-03  Loss: 25259.494 Corrections: -10319.097
+
+Epoch 102 Chain 0 Acc: 80.37 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 6.50E-03  Loss: 19103.916 Corrections: -10319.097
+Epoch 102 Chain 1 Acc: 79.26 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.30E-03  Loss: 19937.889 Corrections: -10319.097
+
+Epoch 103 Chain 0 Acc: 77.02 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 6.38E-03  Loss: 33828.789 Corrections: -10319.097
+Epoch 103 Chain 1 Acc: 79.06 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.28E-03  Loss: 26569.676 Corrections: -10319.097
+
+Epoch 104 Chain 0 Acc: 77.05 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 6.25E-03  Loss: 23424.205 Corrections: -10319.097
+Epoch 104 Chain 1 Acc: 82.92 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.25E-03  Loss: 21096.270 Corrections: -10319.097
+
+Epoch 105 Chain 0 loss std 3.93e+03 variance 7.73e+06 smothing variance 7.90e+06 scaled smoothing variance 9.60e+00
+Epoch 105 Chain 1 loss std 3.02e+03 variance 4.57e+06 smothing variance 5.07e+06 scaled smoothing variance 6.17e+00
+Epoch 105 Chain 0 Acc: 69.47 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 6.13E-03  Loss: 31383.336 Corrections: -10090.971
+Epoch 105 Chain 1 Acc: 81.83 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.23E-03  Loss: 30364.604 Corrections: -10090.971
+
+Epoch 106 Chain 0 Acc: 80.29 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 6.01E-03  Loss: 22818.789 Corrections: -10090.971
+Epoch 106 Chain 1 Acc: 62.18 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.20E-03  Loss: 25940.844 Corrections: -10090.971
+
+Epoch 107 Chain 0 Acc: 73.70 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 5.89E-03  Loss: 30922.598 Corrections: -10090.971
+Epoch 107 Chain 1 Acc: 81.20 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.18E-03  Loss: 24321.654 Corrections: -10090.971
+
+Epoch 108 Chain 0 Acc: 77.44 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 5.77E-03  Loss: 28487.902 Corrections: -10090.971
+Epoch 108 Chain 1 Acc: 80.62 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.15E-03  Loss: 29756.555 Corrections: -10090.971
+
+Epoch 109 Chain 0 Acc: 77.63 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 5.66E-03  Loss: 33037.047 Corrections: -10090.971
+Epoch 109 Chain 1 Acc: 77.83 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.13E-03  Loss: 25966.594 Corrections: -10090.971
+
+Epoch 110 Chain 0 loss std 3.73e+03 variance 6.97e+06 smothing variance 7.62e+06 scaled smoothing variance 8.39e+00
+Epoch 110 Chain 1 loss std 3.92e+03 variance 7.67e+06 smothing variance 5.85e+06 scaled smoothing variance 6.44e+00
+Epoch 110 Chain 0 Acc: 80.13 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 5.55E-03  Loss: 27535.986 Corrections: -10476.933
+Epoch 110 Chain 1 Acc: 80.86 BMA: 0.00 Best Acc: 84.27 Best BMA: 0.00 Temperature: 1.11E-03  Loss: 32422.199 Corrections: -10476.933
+
+Epoch 111 Chain 0 Acc: 78.30 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 5.44E-03  Loss: 27532.309 Corrections: -10476.933
+Epoch 111 Chain 1 Acc: 84.65 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 1.09E-03  Loss: 24156.051 Corrections: -10476.933
+
+Epoch 112 Chain 0 Acc: 78.74 BMA: 0.00 Best Acc: 82.16 Best BMA: 0.00 Temperature: 5.34E-03  Loss: 29201.668 Corrections: -10476.933
+Epoch 112 Chain 1 Acc: 83.95 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 1.07E-03  Loss: 22311.500 Corrections: -10476.933
+
+Epoch 113 Chain 0 Acc: 83.55 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 5.23E-03  Loss: 27629.285 Corrections: -10476.933
+Epoch 113 Chain 1 Acc: 79.45 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 1.05E-03  Loss: 24815.146 Corrections: -10476.933
+
+Epoch 114 Chain 0 Acc: 77.62 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 5.13E-03  Loss: 25683.521 Corrections: -10476.933
+Epoch 114 Chain 1 Acc: 82.89 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 1.03E-03  Loss: 17337.236 Corrections: -10476.933
+
+Epoch 115 Chain 0 loss std 3.45e+03 variance 5.96e+06 smothing variance 7.12e+06 scaled smoothing variance 7.10e+00
+Epoch 115 Chain 1 loss std 2.95e+03 variance 4.36e+06 smothing variance 5.41e+06 scaled smoothing variance 5.39e+00
+Epoch 115 Chain 0 Acc: 80.06 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 5.03E-03  Loss: 21474.922 Corrections: -9741.483
+Epoch 115 Chain 1 Acc: 84.49 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 1.01E-03  Loss: 18916.488 Corrections: -9741.483
+
+Epoch 116 Chain 0 Acc: 67.18 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 4.93E-03  Loss: 23641.566 Corrections: -9741.483
+Epoch 116 Chain 1 Acc: 80.03 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 9.86E-04  Loss: 23714.871 Corrections: -9741.483
+
+Epoch 117 Chain 0 Acc: 71.74 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 4.83E-03  Loss: 31712.135 Corrections: -9741.483
+Epoch 117 Chain 1 Acc: 73.05 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 9.66E-04  Loss: 21623.006 Corrections: -9741.483
+
+Epoch 118 Chain 0 Acc: 78.30 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 4.74E-03  Loss: 27142.783 Corrections: -9741.483
+Epoch 118 Chain 1 Acc: 84.39 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 9.48E-04  Loss: 21117.215 Corrections: -9741.483
+
+Epoch 119 Chain 0 Acc: 72.61 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 4.64E-03  Loss: 15378.578 Corrections: -9741.483
+Epoch 119 Chain 1 Acc: 83.99 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 9.29E-04  Loss: 16411.443 Corrections: -9741.483
+
+Epoch 120 Chain 0 loss std 4.11e+03 variance 8.46e+06 smothing variance 7.52e+06 scaled smoothing variance 6.79e+00
+Epoch 120 Chain 1 loss std 3.31e+03 variance 5.47e+06 smothing variance 5.42e+06 scaled smoothing variance 4.90e+00
+Epoch 120 Chain 0 Acc: 80.20 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 4.55E-03  Loss: 22979.836 Corrections: -10066.864
+Epoch 120 Chain 1 Acc: 80.61 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 9.11E-04  Loss: 16163.343 Corrections: -10066.864
+
+Epoch 121 Chain 0 Acc: 82.83 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 4.46E-03  Loss: 30796.895 Corrections: -10066.864
+Epoch 121 Chain 1 Acc: 80.53 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 8.93E-04  Loss: 32714.879 Corrections: -10066.864
+
+Epoch 122 Chain 0 Acc: 79.78 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 4.38E-03  Loss: 27340.820 Corrections: -10066.864
+Epoch 122 Chain 1 Acc: 81.40 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 8.75E-04  Loss: 28997.643 Corrections: -10066.864
+
+Epoch 123 Chain 0 Acc: 80.63 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 4.29E-03  Loss: 32484.611 Corrections: -10066.864
+Epoch 123 Chain 1 Acc: 79.95 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 8.58E-04  Loss: 28036.979 Corrections: -10066.864
+
+Epoch 124 Chain 0 Acc: 79.26 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 4.21E-03  Loss: 14770.885 Corrections: -10066.864
+Epoch 124 Chain 1 Acc: 80.42 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 8.41E-04  Loss: 16016.778 Corrections: -10066.864
+
+Epoch 125 Chain 0 loss std 2.79e+03 variance 3.89e+06 smothing variance 6.43e+06 scaled smoothing variance 5.26e+00
+Epoch 125 Chain 1 loss std 3.84e+03 variance 7.37e+06 smothing variance 6.01e+06 scaled smoothing variance 4.91e+00
+Epoch 125 Chain 0 Acc: 75.59 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 4.12E-03  Loss: 26356.529 Corrections: -9671.689
+Epoch 125 Chain 1 Acc: 78.35 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 8.25E-04  Loss: 27595.977 Corrections: -9671.689
+
+Epoch 126 Chain 0 Acc: 74.39 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 4.04E-03  Loss: 24417.889 Corrections: -9671.689
+Epoch 126 Chain 1 Acc: 74.99 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 8.09E-04  Loss: 22281.885 Corrections: -9671.689
+
+Epoch 127 Chain 0 Acc: 78.83 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.96E-03  Loss: 29729.254 Corrections: -9671.689
+Epoch 127 Chain 1 Acc: 79.76 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 7.93E-04  Loss: 29711.395 Corrections: -9671.689
+
+Epoch 128 Chain 0 Acc: 79.34 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.89E-03  Loss: 34623.926 Corrections: -9671.689
+Epoch 128 Chain 1 Acc: 81.35 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 7.77E-04  Loss: 27049.182 Corrections: -9671.689
+
+Epoch 129 Chain 0 Acc: 79.77 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.81E-03  Loss: 15566.509 Corrections: -9671.689
+Epoch 129 Chain 1 Acc: 81.13 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 7.62E-04  Loss: 13186.178 Corrections: -9671.689
+
+Epoch 130 Chain 0 loss std 3.58e+03 variance 6.40e+06 smothing variance 6.42e+06 scaled smoothing variance 4.76e+00
+Epoch 130 Chain 1 loss std 3.27e+03 variance 5.34e+06 smothing variance 5.81e+06 scaled smoothing variance 4.30e+00
+Epoch 130 Chain 0 Acc: 81.14 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.74E-03  Loss: 24331.502 Corrections: -9509.276
+Epoch 130 Chain 1 Acc: 81.33 BMA: 0.00 Best Acc: 84.65 Best BMA: 0.00 Temperature: 7.47E-04  Loss: 19886.557 Corrections: -9509.276
+
+Epoch 131 Chain 0 Acc: 79.03 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.66E-03  Loss: 23757.246 Corrections: -9509.276
+Epoch 131 Chain 1 Acc: 85.40 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 7.32E-04  Loss: 22736.625 Corrections: -9509.276
+
+Epoch 132 Chain 0 Acc: 79.41 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.59E-03  Loss: 24858.994 Corrections: -9509.276
+Epoch 132 Chain 1 Acc: 81.87 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 7.18E-04  Loss: 26878.035 Corrections: -9509.276
+
+Epoch 133 Chain 0 Acc: 79.06 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.52E-03  Loss: 29554.254 Corrections: -9509.276
+Epoch 133 Chain 1 Acc: 79.74 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 7.04E-04  Loss: 28217.766 Corrections: -9509.276
+
+Epoch 134 Chain 0 Acc: 73.58 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.45E-03  Loss: 25565.010 Corrections: -9509.276
+Epoch 134 Chain 1 Acc: 81.12 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 6.90E-04  Loss: 14742.050 Corrections: -9509.276
+
+Epoch 135 Chain 0 loss std 3.71e+03 variance 6.87e+06 smothing variance 6.56e+06 scaled smoothing variance 4.40e+00
+Epoch 135 Chain 1 loss std 2.87e+03 variance 4.12e+06 smothing variance 5.30e+06 scaled smoothing variance 3.56e+00
+Epoch 135 Chain 0 Acc: 82.29 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.38E-03  Loss: 19719.748 Corrections: -9220.680
+Epoch 135 Chain 1 Acc: 82.61 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 6.77E-04  Loss: 11906.436 Corrections: -9220.680
+
+Epoch 136 Chain 0 Acc: 77.52 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.32E-03  Loss: 20653.863 Corrections: -9220.680
+Epoch 136 Chain 1 Acc: 82.71 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 6.63E-04  Loss: 21748.963 Corrections: -9220.680
+
+Epoch 137 Chain 0 Acc: 80.28 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.25E-03  Loss: 35820.867 Corrections: -9220.680
+Epoch 137 Chain 1 Acc: 80.21 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 6.50E-04  Loss: 26444.191 Corrections: -9220.680
+
+Epoch 138 Chain 0 Acc: 76.09 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.19E-03  Loss: 19570.264 Corrections: -9220.680
+Epoch 138 Chain 1 Acc: 80.33 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 6.38E-04  Loss: 17328.457 Corrections: -9220.680
+
+Epoch 139 Chain 0 Acc: 80.43 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.13E-03  Loss: 30430.514 Corrections: -9220.680
+Epoch 139 Chain 1 Acc: 82.06 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 6.25E-04  Loss: 26076.549 Corrections: -9220.680
+
+Epoch 140 Chain 0 loss std 3.57e+03 variance 6.38e+06 smothing variance 6.50e+06 scaled smoothing variance 3.95e+00
+Epoch 140 Chain 1 loss std 3.93e+03 variance 7.73e+06 smothing variance 6.03e+06 scaled smoothing variance 3.66e+00
+Epoch 140 Chain 0 Acc: 81.35 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.06E-03  Loss: 24709.775 Corrections: -9744.317
+Epoch 140 Chain 1 Acc: 82.69 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 6.13E-04  Loss: 24567.072 Corrections: -9744.317
+
+Epoch 141 Chain 0 Acc: 82.70 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 3.00E-03  Loss: 19246.723 Corrections: -9744.317
+Epoch 141 Chain 1 Acc: 83.50 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 6.01E-04  Loss: 21283.170 Corrections: -9744.317
+
+Epoch 142 Chain 0 Acc: 77.37 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.95E-03  Loss: 21404.383 Corrections: -9744.317
+Epoch 142 Chain 1 Acc: 81.60 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 5.89E-04  Loss: 21135.148 Corrections: -9744.317
+
+Epoch 143 Chain 0 Acc: 67.88 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.89E-03  Loss: 29911.271 Corrections: -9744.317
+Epoch 143 Chain 1 Acc: 76.93 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 5.78E-04  Loss: 19820.350 Corrections: -9744.317
+
+Epoch 144 Chain 0 Acc: 78.29 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.83E-03  Loss: 29016.680 Corrections: -9744.317
+Epoch 144 Chain 1 Acc: 75.57 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 5.66E-04  Loss: 21997.754 Corrections: -9744.317
+
+Epoch 145 Chain 0 loss std 3.67e+03 variance 6.75e+06 smothing variance 6.58e+06 scaled smoothing variance 3.62e+00
+Epoch 145 Chain 1 loss std 4.00e+03 variance 7.99e+06 smothing variance 6.62e+06 scaled smoothing variance 3.64e+00
+Epoch 145 Chain 0 Acc: 80.69 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.78E-03  Loss: 33108.555 Corrections: -10259.489
+Epoch 145 Chain 1 Acc: 83.12 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 5.55E-04  Loss: 22147.436 Corrections: -10259.489
+
+Epoch 146 Chain 0 Acc: 82.05 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.72E-03  Loss: 19940.457 Corrections: -10259.489
+Epoch 146 Chain 1 Acc: 85.32 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 5.44E-04  Loss: 19993.404 Corrections: -10259.489
+
+Epoch 147 Chain 0 Acc: 80.44 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.67E-03  Loss: 27139.207 Corrections: -10259.489
+Epoch 147 Chain 1 Acc: 85.09 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 5.34E-04  Loss: 18472.412 Corrections: -10259.489
+
+Epoch 148 Chain 0 Acc: 77.61 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.62E-03  Loss: 35272.020 Corrections: -10259.489
+Epoch 148 Chain 1 Acc: 85.18 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 5.23E-04  Loss: 26948.199 Corrections: -10259.489
+
+Epoch 149 Chain 0 Acc: 81.65 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.56E-03  Loss: 15032.729 Corrections: -10259.489
+Epoch 149 Chain 1 Acc: 82.04 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 5.13E-04  Loss: 15433.147 Corrections: -10259.489
+
+Epoch 150 Chain 0 loss std 3.51e+03 variance 6.17e+06 smothing variance 6.46e+06 scaled smoothing variance 3.22e+00
+Epoch 150 Chain 1 loss std 3.29e+03 variance 5.42e+06 smothing variance 6.26e+06 scaled smoothing variance 3.12e+00
+Epoch 150 Chain 0 Acc: 72.60 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.51E-03  Loss: 26876.533 Corrections: -9885.136
+Epoch 150 Chain 1 Acc: 82.84 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 5.03E-04  Loss: 19852.281 Corrections: -9885.136
+
+Epoch 151 Chain 0 Acc: 76.80 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.46E-03  Loss: 19216.217 Corrections: -9885.136
+Epoch 151 Chain 1 Acc: 80.48 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 4.93E-04  Loss: 14676.818 Corrections: -9885.136
+
+Epoch 152 Chain 0 Acc: 80.04 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.42E-03  Loss: 25517.281 Corrections: -9885.136
+Epoch 152 Chain 1 Acc: 81.61 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 4.83E-04  Loss: 21597.555 Corrections: -9885.136
+
+Epoch 153 Chain 0 Acc: 80.67 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.37E-03  Loss: 32756.691 Corrections: -9885.136
+Epoch 153 Chain 1 Acc: 83.32 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 4.74E-04  Loss: 31830.639 Corrections: -9885.136
+
+Epoch 154 Chain 0 Acc: 80.53 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.32E-03  Loss: 27388.055 Corrections: -9885.136
+Epoch 154 Chain 1 Acc: 82.16 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 4.64E-04  Loss: 29115.566 Corrections: -9885.136
+
+Epoch 155 Chain 0 loss std 3.44e+03 variance 5.90e+06 smothing variance 6.29e+06 scaled smoothing variance 2.84e+00
+Epoch 155 Chain 1 loss std 3.66e+03 variance 6.71e+06 smothing variance 6.39e+06 scaled smoothing variance 2.89e+00
+Epoch 155 Chain 0 Acc: 78.09 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.28E-03  Loss: 25001.531 Corrections: -9861.184
+Epoch 155 Chain 1 Acc: 81.28 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 4.55E-04  Loss: 24487.975 Corrections: -9861.184
+
+Epoch 156 Chain 0 Acc: 72.02 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.23E-03  Loss: 27569.414 Corrections: -9861.184
+Epoch 156 Chain 1 Acc: 83.23 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 4.46E-04  Loss: 25142.664 Corrections: -9861.184
+
+Epoch 157 Chain 0 Acc: 80.07 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.19E-03  Loss: 25796.932 Corrections: -9861.184
+Epoch 157 Chain 1 Acc: 82.07 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 4.38E-04  Loss: 17829.881 Corrections: -9861.184
+
+Epoch 158 Chain 0 Acc: 73.38 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.15E-03  Loss: 21116.576 Corrections: -9861.184
+Epoch 158 Chain 1 Acc: 80.98 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 4.29E-04  Loss: 23204.264 Corrections: -9861.184
+
+Epoch 159 Chain 0 Acc: 70.41 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.10E-03  Loss: 28557.348 Corrections: -9861.184
+Epoch 159 Chain 1 Acc: 84.00 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 4.21E-04  Loss: 23614.361 Corrections: -9861.184
+
+Epoch 160 Chain 0 loss std 3.52e+03 variance 6.18e+06 smothing variance 6.26e+06 scaled smoothing variance 2.56e+00
+Epoch 160 Chain 1 loss std 2.54e+03 variance 3.22e+06 smothing variance 5.44e+06 scaled smoothing variance 2.22e+00
+Epoch 160 Chain 0 Acc: 82.95 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.06E-03  Loss: 27118.934 Corrections: -9093.629
+Epoch 160 Chain 1 Acc: 81.44 BMA: 0.00 Best Acc: 85.40 Best BMA: 0.00 Temperature: 4.12E-04  Loss: 19296.314 Corrections: -9093.629
+
+Epoch 161 Chain 0 Acc: 82.92 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 2.02E-03  Loss: 28084.439 Corrections: -9093.629
+Epoch 161 Chain 1 Acc: 86.71 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 4.04E-04  Loss: 18132.406 Corrections: -9093.629
+
+Epoch 162 Chain 0 Acc: 80.63 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.98E-03  Loss: 20935.383 Corrections: -9093.629
+Epoch 162 Chain 1 Acc: 82.92 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.96E-04  Loss: 15629.706 Corrections: -9093.629
+
+Epoch 163 Chain 0 Acc: 80.04 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.94E-03  Loss: 27651.176 Corrections: -9093.629
+Epoch 163 Chain 1 Acc: 82.85 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.89E-04  Loss: 24908.086 Corrections: -9093.629
+
+Epoch 164 Chain 0 Acc: 80.41 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.91E-03  Loss: 17418.588 Corrections: -9093.629
+Epoch 164 Chain 1 Acc: 85.10 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.81E-04  Loss: 13051.399 Corrections: -9093.629
+
+Epoch 165 Chain 0 loss std 3.04e+03 variance 4.63e+06 smothing variance 5.77e+06 scaled smoothing variance 2.14e+00
+Epoch 165 Chain 1 loss std 2.75e+03 variance 3.78e+06 smothing variance 4.94e+06 scaled smoothing variance 1.83e+00
+Epoch 165 Chain 0 Acc: 78.31 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.87E-03  Loss: 23162.660 Corrections: -8327.346
+Epoch 165 Chain 1 Acc: 83.58 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.74E-04  Loss: 20001.709 Corrections: -8327.346
+
+Epoch 166 Chain 0 Acc: 82.31 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.83E-03  Loss: 18421.494 Corrections: -8327.346
+Epoch 166 Chain 1 Acc: 80.45 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.66E-04  Loss: 19894.918 Corrections: -8327.346
+
+Epoch 167 Chain 0 Acc: 80.97 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.80E-03  Loss: 22693.502 Corrections: -8327.346
+Epoch 167 Chain 1 Acc: 83.84 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.59E-04  Loss: 20518.637 Corrections: -8327.346
+
+Epoch 168 Chain 0 Acc: 81.31 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.76E-03  Loss: 28943.887 Corrections: -8327.346
+Epoch 168 Chain 1 Acc: 84.37 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.52E-04  Loss: 27083.209 Corrections: -8327.346
+
+Epoch 169 Chain 0 Acc: 79.36 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.73E-03  Loss: 30951.602 Corrections: -8327.346
+Epoch 169 Chain 1 Acc: 84.80 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.45E-04  Loss: 22234.914 Corrections: -8327.346
+
+Epoch 170 Chain 0 loss std 4.19e+03 variance 8.77e+06 smothing variance 6.67e+06 scaled smoothing variance 2.24e+00
+Epoch 170 Chain 1 loss std 2.70e+03 variance 3.64e+06 smothing variance 4.55e+06 scaled smoothing variance 1.53e+00
+Epoch 170 Chain 0 Acc: 71.07 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.69E-03  Loss: 23509.645 Corrections: -8723.483
+Epoch 170 Chain 1 Acc: 75.65 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.38E-04  Loss: 15770.492 Corrections: -8723.483
+
+Epoch 171 Chain 0 Acc: 71.67 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.66E-03  Loss: 18138.004 Corrections: -8723.483
+Epoch 171 Chain 1 Acc: 86.10 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.32E-04  Loss: 14622.736 Corrections: -8723.483
+
+Epoch 172 Chain 0 Acc: 77.78 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.63E-03  Loss: 23680.291 Corrections: -8723.483
+Epoch 172 Chain 1 Acc: 82.63 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.25E-04  Loss: 21033.936 Corrections: -8723.483
+
+Epoch 173 Chain 0 Acc: 80.63 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.59E-03  Loss: 30617.820 Corrections: -8723.483
+Epoch 173 Chain 1 Acc: 81.40 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.19E-04  Loss: 21567.818 Corrections: -8723.483
+
+Epoch 174 Chain 0 Acc: 76.29 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.56E-03  Loss: 35789.688 Corrections: -8723.483
+Epoch 174 Chain 1 Acc: 81.22 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.13E-04  Loss: 24720.449 Corrections: -8723.483
+
+Epoch 175 Chain 0 loss std 3.73e+03 variance 6.95e+06 smothing variance 6.75e+06 scaled smoothing variance 2.05e+00
+Epoch 175 Chain 1 loss std 3.34e+03 variance 5.56e+06 smothing variance 4.85e+06 scaled smoothing variance 1.47e+00
+Epoch 175 Chain 0 Acc: 75.78 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.53E-03  Loss: 38589.117 Corrections: -9024.189
+Epoch 175 Chain 1 Acc: 84.70 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.06E-04  Loss: 30703.312 Corrections: -9024.189
+
+Epoch 176 Chain 0 Acc: 80.47 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.50E-03  Loss: 20150.494 Corrections: -9024.189
+Epoch 176 Chain 1 Acc: 85.10 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 3.00E-04  Loss: 21217.414 Corrections: -9024.189
+
+Epoch 177 Chain 0 Acc: 78.76 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.47E-03  Loss: 30120.617 Corrections: -9024.189
+Epoch 177 Chain 1 Acc: 80.17 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.95E-04  Loss: 28007.061 Corrections: -9024.189
+
+Epoch 178 Chain 0 Acc: 79.59 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.44E-03  Loss: 28267.062 Corrections: -9024.189
+Epoch 178 Chain 1 Acc: 83.31 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.89E-04  Loss: 24425.135 Corrections: -9024.189
+
+Epoch 179 Chain 0 Acc: 79.90 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.42E-03  Loss: 33146.621 Corrections: -9024.189
+Epoch 179 Chain 1 Acc: 84.33 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.83E-04  Loss: 25030.875 Corrections: -9024.189
+
+Epoch 180 Chain 0 loss std 3.25e+03 variance 5.28e+06 smothing variance 6.31e+06 scaled smoothing variance 1.74e+00
+Epoch 180 Chain 1 loss std 2.87e+03 variance 4.11e+06 smothing variance 4.63e+06 scaled smoothing variance 1.27e+00
+Epoch 180 Chain 0 Acc: 76.85 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.39E-03  Loss: 41041.906 Corrections: -8507.736
+Epoch 180 Chain 1 Acc: 81.79 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.78E-04  Loss: 36489.047 Corrections: -8507.736
+
+Epoch 181 Chain 0 Acc: 81.20 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.36E-03  Loss: 19489.709 Corrections: -8507.736
+Epoch 181 Chain 1 Acc: 85.30 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.72E-04  Loss: 15341.207 Corrections: -8507.736
+
+Epoch 182 Chain 0 Acc: 77.83 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.33E-03  Loss: 26759.551 Corrections: -8507.736
+Epoch 182 Chain 1 Acc: 79.51 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.67E-04  Loss: 21222.127 Corrections: -8507.736
+
+Epoch 183 Chain 0 Acc: 78.53 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.31E-03  Loss: 27977.066 Corrections: -8507.736
+Epoch 183 Chain 1 Acc: 81.62 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.62E-04  Loss: 21673.314 Corrections: -8507.736
+
+Epoch 184 Chain 0 Acc: 79.55 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.28E-03  Loss: 23594.396 Corrections: -8507.736
+Epoch 184 Chain 1 Acc: 84.55 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.56E-04  Loss: 25334.604 Corrections: -8507.736
+
+Epoch 185 Chain 0 loss std 3.20e+03 variance 5.11e+06 smothing variance 5.95e+06 scaled smoothing variance 1.48e+00
+Epoch 185 Chain 1 loss std 2.85e+03 variance 4.05e+06 smothing variance 4.46e+06 scaled smoothing variance 1.11e+00
+Epoch 185 Chain 0 Acc: 81.16 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.26E-03  Loss: 22977.822 Corrections: -8092.732
+Epoch 185 Chain 1 Acc: 74.87 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.51E-04  Loss: 24622.357 Corrections: -8092.732
+
+Epoch 186 Chain 0 Acc: 74.55 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.23E-03  Loss: 22120.090 Corrections: -8092.732
+Epoch 186 Chain 1 Acc: 78.53 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.46E-04  Loss: 15670.037 Corrections: -8092.732
+
+Epoch 187 Chain 0 Acc: 78.71 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.21E-03  Loss: 20188.691 Corrections: -8092.732
+Epoch 187 Chain 1 Acc: 80.36 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.42E-04  Loss: 22063.854 Corrections: -8092.732
+
+Epoch 188 Chain 0 Acc: 81.72 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.18E-03  Loss: 34878.285 Corrections: -8092.732
+Epoch 188 Chain 1 Acc: 83.25 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.37E-04  Loss: 30662.975 Corrections: -8092.732
+
+Epoch 189 Chain 0 Acc: 81.96 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.16E-03  Loss: 35668.867 Corrections: -8092.732
+Epoch 189 Chain 1 Acc: 83.17 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.32E-04  Loss: 35388.738 Corrections: -8092.732
+
+Epoch 190 Chain 0 loss std 3.60e+03 variance 6.48e+06 smothing variance 6.11e+06 scaled smoothing variance 1.38e+00
+Epoch 190 Chain 1 loss std 4.52e+03 variance 1.02e+07 smothing variance 6.19e+06 scaled smoothing variance 1.40e+00
+Epoch 190 Chain 0 Acc: 65.73 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.14E-03  Loss: 22067.797 Corrections: -9560.166
+Epoch 190 Chain 1 Acc: 81.23 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.28E-04  Loss: 22188.572 Corrections: -9560.166
+
+Epoch 191 Chain 0 Acc: 82.09 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.12E-03  Loss: 25076.818 Corrections: -9560.166
+Epoch 191 Chain 1 Acc: 83.71 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.23E-04  Loss: 28755.826 Corrections: -9560.166
+
+Epoch 192 Chain 0 Acc: 77.54 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.09E-03  Loss: 25462.047 Corrections: -9560.166
+Epoch 192 Chain 1 Acc: 83.25 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.19E-04  Loss: 20643.338 Corrections: -9560.166
+
+Epoch 193 Chain 0 Acc: 74.29 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.07E-03  Loss: 48054.988 Corrections: -9560.166
+Epoch 193 Chain 1 Acc: 80.66 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.15E-04  Loss: 40261.801 Corrections: -9560.166
+
+Epoch 194 Chain 0 Acc: 79.77 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.05E-03  Loss: 24043.393 Corrections: -9560.166
+Epoch 194 Chain 1 Acc: 76.90 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.10E-04  Loss: 16395.346 Corrections: -9560.166
+
+Epoch 195 Chain 0 loss std 3.36e+03 variance 5.63e+06 smothing variance 5.97e+06 scaled smoothing variance 1.22e+00
+Epoch 195 Chain 1 loss std 4.32e+03 variance 9.32e+06 smothing variance 7.13e+06 scaled smoothing variance 1.46e+00
+Epoch 195 Chain 0 Acc: 78.91 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.03E-03  Loss: 19789.791 Corrections: -10179.178
+Epoch 195 Chain 1 Acc: 82.41 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.06E-04  Loss: 21767.328 Corrections: -10179.178
+
+Epoch 196 Chain 0 Acc: 81.84 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 1.01E-03  Loss: 29624.703 Corrections: -10179.178
+Epoch 196 Chain 1 Acc: 84.05 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 2.02E-04  Loss: 31051.391 Corrections: -10179.178
+
+Epoch 197 Chain 0 Acc: 75.64 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 9.91E-04  Loss: 28386.240 Corrections: -10179.178
+Epoch 197 Chain 1 Acc: 82.09 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 1.98E-04  Loss: 19660.963 Corrections: -10179.178
+
+Epoch 198 Chain 0 Acc: 63.81 BMA: 0.00 Best Acc: 83.55 Best BMA: 0.00 Temperature: 9.72E-04  Loss: 29310.180 Corrections: -10179.178
+Epoch 198 Chain 1 Acc: 80.27 BMA: 0.00 Best Acc: 86.71 Best BMA: 0.00 Temperature: 1.94E-04  Loss: 18483.197 Corrections: -10179.178
+
+Epoch 199 Chain 0 Acc: 76.91 BMA: 76.91 Best Acc: 83.55 Best BMA: 76.91 Temperature: 9.53E-04  Loss: 20637.283 Corrections: -10179.178
+Epoch 199 Chain 1 Acc: 80.71 BMA: 80.71 Best Acc: 86.71 Best BMA: 80.71 Temperature: 1.91E-04  Loss: 15459.186 Corrections: -10179.178
+
+Epoch 200 Chain 0 loss std 3.66e+03 variance 6.68e+06 smothing variance 6.18e+06 scaled smoothing variance 1.14e+00
+Epoch 200 Chain 1 loss std 3.98e+03 variance 7.93e+06 smothing variance 7.37e+06 scaled smoothing variance 1.36e+00
+Epoch 200 Chain 0 Acc: 76.60 BMA: 83.07 Best Acc: 83.55 Best BMA: 83.07 Temperature: 9.34E-04  Loss: 24931.041 Corrections: -10533.164
+Epoch 200 Chain 1 Acc: 85.04 BMA: 86.39 Best Acc: 86.71 Best BMA: 86.39 Temperature: 1.87E-04  Loss: 22594.301 Corrections: -10533.164
+
+Epoch 201 Chain 0 Acc: 78.51 BMA: 86.07 Best Acc: 83.55 Best BMA: 86.07 Temperature: 9.16E-04  Loss: 30419.600 Corrections: -10533.164
+Epoch 201 Chain 1 Acc: 82.37 BMA: 87.47 Best Acc: 86.71 Best BMA: 87.47 Temperature: 1.83E-04  Loss: 28503.305 Corrections: -10533.164
+
+Epoch 202 Chain 0 Acc: 75.48 BMA: 86.94 Best Acc: 83.55 Best BMA: 86.94 Temperature: 8.98E-04  Loss: 19123.988 Corrections: -10533.164
+Epoch 202 Chain 1 Acc: 77.93 BMA: 87.86 Best Acc: 86.71 Best BMA: 87.86 Temperature: 1.80E-04  Loss: 17519.633 Corrections: -10533.164
+
+Epoch 203 Chain 0 Acc: 78.22 BMA: 87.09 Best Acc: 83.55 Best BMA: 87.09 Temperature: 8.80E-04  Loss: 29736.107 Corrections: -10533.164
+Epoch 203 Chain 1 Acc: 81.10 BMA: 88.92 Best Acc: 86.71 Best BMA: 88.92 Temperature: 1.76E-04  Loss: 27707.412 Corrections: -10533.164
+
+Epoch 204 Chain 0 Acc: 80.71 BMA: 88.39 Best Acc: 83.55 Best BMA: 88.39 Temperature: 8.63E-04  Loss: 27209.506 Corrections: -10533.164
+Epoch 204 Chain 1 Acc: 80.84 BMA: 89.55 Best Acc: 86.71 Best BMA: 89.55 Temperature: 1.73E-04  Loss: 25225.562 Corrections: -10533.164
+
+Epoch 205 Chain 0 loss std 3.28e+03 variance 5.38e+06 smothing variance 5.94e+06 scaled smoothing variance 9.96e-01
+Epoch 205 Chain 1 loss std 3.81e+03 variance 7.25e+06 smothing variance 7.33e+06 scaled smoothing variance 1.23e+00
+Epoch 205 Chain 0 Acc: 77.88 BMA: 88.75 Best Acc: 83.55 Best BMA: 88.75 Temperature: 8.46E-04  Loss: 23601.916 Corrections: -10319.576
+Epoch 205 Chain 1 Acc: 85.64 BMA: 89.76 Best Acc: 86.71 Best BMA: 89.76 Temperature: 1.69E-04  Loss: 23730.197 Corrections: -10319.576
+
+Epoch 206 Chain 0 Acc: 76.54 BMA: 88.89 Best Acc: 83.55 Best BMA: 88.89 Temperature: 8.29E-04  Loss: 23154.266 Corrections: -10319.576
+Epoch 206 Chain 1 Acc: 86.01 BMA: 89.88 Best Acc: 86.71 Best BMA: 89.88 Temperature: 1.66E-04  Loss: 15897.086 Corrections: -10319.576
+
+Epoch 207 Chain 0 Acc: 83.24 BMA: 89.04 Best Acc: 83.55 Best BMA: 89.04 Temperature: 8.13E-04  Loss: 24378.336 Corrections: -10319.576
+Epoch 207 Chain 1 Acc: 83.23 BMA: 89.97 Best Acc: 86.71 Best BMA: 89.97 Temperature: 1.63E-04  Loss: 19940.729 Corrections: -10319.576
+
+Epoch 208 Chain 0 Acc: 73.02 BMA: 88.97 Best Acc: 83.55 Best BMA: 89.04 Temperature: 7.97E-04  Loss: 23491.045 Corrections: -10319.576
+Epoch 208 Chain 1 Acc: 85.21 BMA: 90.12 Best Acc: 86.71 Best BMA: 90.12 Temperature: 1.59E-04  Loss: 17263.850 Corrections: -10319.576
+
+Epoch 209 Chain 0 Acc: 77.18 BMA: 89.21 Best Acc: 83.55 Best BMA: 89.21 Temperature: 7.82E-04  Loss: 20745.199 Corrections: -10319.576
+Epoch 209 Chain 1 Acc: 80.50 BMA: 90.17 Best Acc: 86.71 Best BMA: 90.17 Temperature: 1.56E-04  Loss: 21827.492 Corrections: -10319.576
+
+Epoch 210 Chain 0 loss std 3.39e+03 variance 5.73e+06 smothing variance 5.88e+06 scaled smoothing variance 8.93e-01
+Epoch 210 Chain 1 loss std 4.83e+03 variance 1.16e+07 smothing variance 8.63e+06 scaled smoothing variance 1.31e+00
+Epoch 210 Chain 0 Acc: 76.69 BMA: 89.27 Best Acc: 83.55 Best BMA: 89.27 Temperature: 7.66E-04  Loss: 25281.957 Corrections: -11276.052
+Epoch 210 Chain 1 Acc: 84.55 BMA: 90.33 Best Acc: 86.71 Best BMA: 90.33 Temperature: 1.53E-04  Loss: 25620.264 Corrections: -11276.052
+
+Epoch 211 Chain 0 Acc: 73.60 BMA: 89.36 Best Acc: 83.55 Best BMA: 89.36 Temperature: 7.51E-04  Loss: 28574.008 Corrections: -11276.052
+Epoch 211 Chain 1 Acc: 83.35 BMA: 90.54 Best Acc: 86.71 Best BMA: 90.54 Temperature: 1.50E-04  Loss: 21259.137 Corrections: -11276.052
+
+Epoch 212 Chain 0 Acc: 82.45 BMA: 89.45 Best Acc: 83.55 Best BMA: 89.45 Temperature: 7.36E-04  Loss: 20436.883 Corrections: -11276.052
+Epoch 212 Chain 1 Acc: 86.25 BMA: 90.67 Best Acc: 86.71 Best BMA: 90.67 Temperature: 1.47E-04  Loss: 18165.656 Corrections: -11276.052
+
+Epoch 213 Chain 0 Acc: 76.37 BMA: 89.61 Best Acc: 83.55 Best BMA: 89.61 Temperature: 7.22E-04  Loss: 23973.854 Corrections: -11276.052
+Epoch 213 Chain 1 Acc: 82.84 BMA: 90.65 Best Acc: 86.71 Best BMA: 90.67 Temperature: 1.44E-04  Loss: 19102.977 Corrections: -11276.052
+
+Epoch 214 Chain 0 Acc: 79.52 BMA: 89.77 Best Acc: 83.55 Best BMA: 89.77 Temperature: 7.08E-04  Loss: 28108.770 Corrections: -11276.052
+Epoch 214 Chain 1 Acc: 83.53 BMA: 90.75 Best Acc: 86.71 Best BMA: 90.75 Temperature: 1.42E-04  Loss: 23485.859 Corrections: -11276.052
+
+Epoch 215 Chain 0 loss std 2.73e+03 variance 3.73e+06 smothing variance 5.23e+06 scaled smoothing variance 7.20e-01
+Epoch 215 Chain 1 loss std 2.28e+03 variance 2.59e+06 smothing variance 6.82e+06 scaled smoothing variance 9.38e-01
+Epoch 215 Chain 0 Acc: 79.55 BMA: 90.07 Best Acc: 83.55 Best BMA: 90.07 Temperature: 6.94E-04  Loss: 23984.643 Corrections: -9367.173
+Epoch 215 Chain 1 Acc: 74.58 BMA: 90.78 Best Acc: 86.71 Best BMA: 90.78 Temperature: 1.39E-04  Loss: 17028.311 Corrections: -9367.173
+
+Epoch 216 Chain 0 Acc: 78.89 BMA: 90.13 Best Acc: 83.55 Best BMA: 90.13 Temperature: 6.80E-04  Loss: 23864.385 Corrections: -9367.173
+Epoch 216 Chain 1 Acc: 80.37 BMA: 90.59 Best Acc: 86.71 Best BMA: 90.78 Temperature: 1.36E-04  Loss: 20545.902 Corrections: -9367.173
+
+Epoch 217 Chain 0 Acc: 82.58 BMA: 90.10 Best Acc: 83.55 Best BMA: 90.13 Temperature: 6.67E-04  Loss: 31069.451 Corrections: -9367.173
+Epoch 217 Chain 1 Acc: 83.80 BMA: 90.71 Best Acc: 86.71 Best BMA: 90.78 Temperature: 1.33E-04  Loss: 20341.574 Corrections: -9367.173
+
+Epoch 218 Chain 0 Acc: 84.24 BMA: 90.17 Best Acc: 84.24 Best BMA: 90.17 Temperature: 6.54E-04  Loss: 21850.416 Corrections: -9367.173
+Epoch 218 Chain 1 Acc: 85.51 BMA: 90.82 Best Acc: 86.71 Best BMA: 90.82 Temperature: 1.31E-04  Loss: 22779.635 Corrections: -9367.173
+
+Epoch 219 Chain 0 Acc: 83.10 BMA: 90.16 Best Acc: 84.24 Best BMA: 90.17 Temperature: 6.41E-04  Loss: 32708.791 Corrections: -9367.173
+Epoch 219 Chain 1 Acc: 85.86 BMA: 90.91 Best Acc: 86.71 Best BMA: 90.91 Temperature: 1.28E-04  Loss: 33545.438 Corrections: -9367.173
+
+Epoch 220 Chain 0 loss std 3.15e+03 variance 4.96e+06 smothing variance 5.15e+06 scaled smoothing variance 6.42e-01
+Epoch 220 Chain 1 loss std 2.62e+03 variance 3.44e+06 smothing variance 5.80e+06 scaled smoothing variance 7.23e-01
+Epoch 220 Chain 0 Acc: 81.59 BMA: 90.16 Best Acc: 84.24 Best BMA: 90.17 Temperature: 6.29E-04  Loss: 28851.477 Corrections: -8515.420
+Epoch 220 Chain 1 Acc: 85.31 BMA: 90.91 Best Acc: 86.71 Best BMA: 90.91 Temperature: 1.26E-04  Loss: 22877.574 Corrections: -8515.420
+
+Epoch 221 Chain 0 Acc: 80.69 BMA: 90.36 Best Acc: 84.24 Best BMA: 90.36 Temperature: 6.16E-04  Loss: 19549.475 Corrections: -8515.420
+Epoch 221 Chain 1 Acc: 85.00 BMA: 90.98 Best Acc: 86.71 Best BMA: 90.98 Temperature: 1.23E-04  Loss: 20486.221 Corrections: -8515.420
+
+Epoch 222 Chain 0 Acc: 80.31 BMA: 90.30 Best Acc: 84.24 Best BMA: 90.36 Temperature: 6.04E-04  Loss: 22375.512 Corrections: -8515.420
+Epoch 222 Chain 1 Acc: 83.72 BMA: 90.99 Best Acc: 86.71 Best BMA: 90.99 Temperature: 1.21E-04  Loss: 16817.086 Corrections: -8515.420
+
+Epoch 223 Chain 0 Acc: 80.26 BMA: 90.33 Best Acc: 84.24 Best BMA: 90.36 Temperature: 5.92E-04  Loss: 19917.588 Corrections: -8515.420
+Epoch 223 Chain 1 Acc: 85.30 BMA: 91.13 Best Acc: 86.71 Best BMA: 91.13 Temperature: 1.18E-04  Loss: 20501.213 Corrections: -8515.420
+
+Epoch 224 Chain 0 Acc: 79.76 BMA: 90.38 Best Acc: 84.24 Best BMA: 90.38 Temperature: 5.81E-04  Loss: 25746.643 Corrections: -8515.420
+Epoch 224 Chain 1 Acc: 84.74 BMA: 91.09 Best Acc: 86.71 Best BMA: 91.13 Temperature: 1.16E-04  Loss: 20890.371 Corrections: -8515.420
+
+Epoch 225 Chain 0 loss std 3.22e+03 variance 5.18e+06 smothing variance 5.16e+06 scaled smoothing variance 5.82e-01
+Epoch 225 Chain 1 loss std 2.62e+03 variance 3.42e+06 smothing variance 5.09e+06 scaled smoothing variance 5.74e-01
+Epoch 225 Chain 0 Acc: 83.81 BMA: 90.42 Best Acc: 84.24 Best BMA: 90.42 Temperature: 5.69E-04  Loss: 19286.439 Corrections: -7965.721
+Epoch 225 Chain 1 Acc: 85.86 BMA: 91.17 Best Acc: 86.71 Best BMA: 91.17 Temperature: 1.14E-04  Loss: 17872.209 Corrections: -7965.721
+
+Epoch 226 Chain 0 Acc: 80.55 BMA: 90.48 Best Acc: 84.24 Best BMA: 90.48 Temperature: 5.58E-04  Loss: 17522.982 Corrections: -7965.721
+Epoch 226 Chain 1 Acc: 88.18 BMA: 91.25 Best Acc: 88.18 Best BMA: 91.25 Temperature: 1.12E-04  Loss: 19852.225 Corrections: -7965.721
+
+Epoch 227 Chain 0 Acc: 84.83 BMA: 90.59 Best Acc: 84.83 Best BMA: 90.59 Temperature: 5.47E-04  Loss: 16406.932 Corrections: -7965.721
+Epoch 227 Chain 1 Acc: 84.02 BMA: 91.42 Best Acc: 88.18 Best BMA: 91.42 Temperature: 1.09E-04  Loss: 17907.104 Corrections: -7965.721
+
+Epoch 228 Chain 0 Acc: 75.42 BMA: 90.54 Best Acc: 84.83 Best BMA: 90.59 Temperature: 5.36E-04  Loss: 28045.092 Corrections: -7965.721
+Epoch 228 Chain 1 Acc: 86.20 BMA: 91.42 Best Acc: 88.18 Best BMA: 91.42 Temperature: 1.07E-04  Loss: 22887.188 Corrections: -7965.721
+
+Epoch 229 Chain 0 Acc: 83.76 BMA: 90.48 Best Acc: 84.83 Best BMA: 90.59 Temperature: 5.26E-04  Loss: 12296.554 Corrections: -7965.721
+Epoch 229 Chain 1 Acc: 84.20 BMA: 91.49 Best Acc: 88.18 Best BMA: 91.49 Temperature: 1.05E-04  Loss: 10421.066 Corrections: -7965.721
+
+Epoch 230 Chain 0 loss std 2.94e+03 variance 4.34e+06 smothing variance 4.91e+06 scaled smoothing variance 5.02e-01
+Epoch 230 Chain 1 loss std 3.08e+03 variance 4.73e+06 smothing variance 4.98e+06 scaled smoothing variance 5.09e-01
+Epoch 230 Chain 0 Acc: 85.12 BMA: 90.53 Best Acc: 85.12 Best BMA: 90.59 Temperature: 5.16E-04  Loss: 21477.596 Corrections: -7690.415
+Epoch 230 Chain 1 Acc: 84.47 BMA: 91.57 Best Acc: 88.18 Best BMA: 91.57 Temperature: 1.03E-04  Loss: 15179.630 Corrections: -7690.415
+
+Epoch 231 Chain 0 Acc: 84.40 BMA: 90.51 Best Acc: 85.12 Best BMA: 90.59 Temperature: 5.06E-04  Loss: 15617.896 Corrections: -7690.415
+Epoch 231 Chain 1 Acc: 84.66 BMA: 91.57 Best Acc: 88.18 Best BMA: 91.57 Temperature: 1.01E-04  Loss: 12126.531 Corrections: -7690.415
+
+Epoch 232 Chain 0 Acc: 82.65 BMA: 90.63 Best Acc: 85.12 Best BMA: 90.63 Temperature: 4.96E-04  Loss: 27009.744 Corrections: -7690.415
+Epoch 232 Chain 1 Acc: 86.56 BMA: 91.56 Best Acc: 88.18 Best BMA: 91.57 Temperature: 9.91E-05  Loss: 19649.883 Corrections: -7690.415
+
+Epoch 233 Chain 0 Acc: 82.43 BMA: 90.66 Best Acc: 85.12 Best BMA: 90.66 Temperature: 4.86E-04  Loss: 15578.034 Corrections: -7690.415
+Epoch 233 Chain 1 Acc: 84.84 BMA: 91.64 Best Acc: 88.18 Best BMA: 91.64 Temperature: 9.72E-05  Loss: 12570.646 Corrections: -7690.415
+
+Epoch 234 Chain 0 Acc: 81.04 BMA: 90.81 Best Acc: 85.12 Best BMA: 90.81 Temperature: 4.76E-04  Loss: 26505.414 Corrections: -7690.415
+Epoch 234 Chain 1 Acc: 83.88 BMA: 91.65 Best Acc: 88.18 Best BMA: 91.65 Temperature: 9.53E-05  Loss: 27894.025 Corrections: -7690.415
+
+Epoch 235 Chain 0 loss std 4.15e+03 variance 8.61e+06 smothing variance 6.02e+06 scaled smoothing variance 5.58e-01
+Epoch 235 Chain 1 loss std 3.28e+03 variance 5.39e+06 smothing variance 5.10e+06 scaled smoothing variance 4.72e-01
+Epoch 235 Chain 0 Acc: 85.40 BMA: 90.88 Best Acc: 85.40 Best BMA: 90.88 Temperature: 4.67E-04  Loss: 23581.574 Corrections: -8648.001
+Epoch 235 Chain 1 Acc: 87.45 BMA: 91.63 Best Acc: 88.18 Best BMA: 91.65 Temperature: 9.34E-05  Loss: 22943.213 Corrections: -8648.001
+
+Epoch 236 Chain 0 Acc: 81.35 BMA: 91.01 Best Acc: 85.40 Best BMA: 91.01 Temperature: 4.58E-04  Loss: 22534.916 Corrections: -8648.001
+Epoch 236 Chain 1 Acc: 87.84 BMA: 91.67 Best Acc: 88.18 Best BMA: 91.67 Temperature: 9.16E-05  Loss: 21029.826 Corrections: -8648.001
+
+Epoch 237 Chain 0 Acc: 82.82 BMA: 91.02 Best Acc: 85.40 Best BMA: 91.02 Temperature: 4.49E-04  Loss: 26669.246 Corrections: -8648.001
+Epoch 237 Chain 1 Acc: 85.67 BMA: 91.77 Best Acc: 88.18 Best BMA: 91.77 Temperature: 8.98E-05  Loss: 23958.434 Corrections: -8648.001
+
+Epoch 238 Chain 0 Acc: 84.82 BMA: 91.13 Best Acc: 85.40 Best BMA: 91.13 Temperature: 4.40E-04  Loss: 15081.614 Corrections: -8648.001
+Epoch 238 Chain 1 Acc: 84.81 BMA: 91.83 Best Acc: 88.18 Best BMA: 91.83 Temperature: 8.80E-05  Loss: 11634.877 Corrections: -8648.001
+
+Epoch 239 Chain 0 Acc: 85.84 BMA: 91.24 Best Acc: 85.84 Best BMA: 91.24 Temperature: 4.31E-04  Loss: 21226.963 Corrections: -8648.001
+Epoch 239 Chain 1 Acc: 85.64 BMA: 91.85 Best Acc: 88.18 Best BMA: 91.85 Temperature: 8.63E-05  Loss: 19488.799 Corrections: -8648.001
+
+Epoch 240 Chain 0 loss std 3.00e+03 variance 4.51e+06 smothing variance 5.57e+06 scaled smoothing variance 4.67e-01
+Epoch 240 Chain 1 loss std 2.81e+03 variance 3.95e+06 smothing variance 4.76e+06 scaled smoothing variance 3.99e-01
+Epoch 240 Chain 0 Acc: 86.41 BMA: 91.19 Best Acc: 86.41 Best BMA: 91.24 Temperature: 4.23E-04  Loss: 22819.709 Corrections: -8026.643
+Epoch 240 Chain 1 Acc: 87.33 BMA: 91.85 Best Acc: 88.18 Best BMA: 91.85 Temperature: 8.46E-05  Loss: 26215.602 Corrections: -8026.643
+
+Epoch 241 Chain 0 Acc: 85.93 BMA: 91.30 Best Acc: 86.41 Best BMA: 91.30 Temperature: 4.15E-04  Loss: 26560.992 Corrections: -8026.643
+Epoch 241 Chain 1 Acc: 86.01 BMA: 91.87 Best Acc: 88.18 Best BMA: 91.87 Temperature: 8.29E-05  Loss: 24317.064 Corrections: -8026.643
+
+Epoch 242 Chain 0 Acc: 84.81 BMA: 91.32 Best Acc: 86.41 Best BMA: 91.32 Temperature: 4.07E-04  Loss: 25964.803 Corrections: -8026.643
+Epoch 242 Chain 1 Acc: 89.04 BMA: 91.92 Best Acc: 89.04 Best BMA: 91.92 Temperature: 8.13E-05  Loss: 24535.998 Corrections: -8026.643
+
+Epoch 243 Chain 0 Acc: 84.50 BMA: 91.29 Best Acc: 86.41 Best BMA: 91.32 Temperature: 3.99E-04  Loss: 17021.646 Corrections: -8026.643
+Epoch 243 Chain 1 Acc: 83.30 BMA: 91.87 Best Acc: 89.04 Best BMA: 91.92 Temperature: 7.97E-05  Loss: 16824.643 Corrections: -8026.643
+
+Epoch 244 Chain 0 Acc: 76.57 BMA: 91.43 Best Acc: 86.41 Best BMA: 91.43 Temperature: 3.91E-04  Loss: 17299.939 Corrections: -8026.643
+Epoch 244 Chain 1 Acc: 86.81 BMA: 91.92 Best Acc: 89.04 Best BMA: 91.92 Temperature: 7.82E-05  Loss: 16333.440 Corrections: -8026.643
+
+Epoch 245 Chain 0 loss std 4.64e+03 variance 1.08e+07 smothing variance 7.13e+06 scaled smoothing variance 5.42e-01
+Epoch 245 Chain 1 loss std 2.83e+03 variance 4.02e+06 smothing variance 4.54e+06 scaled smoothing variance 3.44e-01
+Epoch 245 Chain 0 Acc: 84.52 BMA: 91.41 Best Acc: 86.41 Best BMA: 91.43 Temperature: 3.83E-04  Loss: 16598.920 Corrections: -9071.272
+Epoch 245 Chain 1 Acc: 86.85 BMA: 91.90 Best Acc: 89.04 Best BMA: 91.92 Temperature: 7.66E-05  Loss: 16724.385 Corrections: -9071.272
+
+Epoch 246 Chain 0 Acc: 84.39 BMA: 91.43 Best Acc: 86.41 Best BMA: 91.43 Temperature: 3.76E-04  Loss: 29569.113 Corrections: -9071.272
+Epoch 246 Chain 1 Acc: 85.86 BMA: 91.95 Best Acc: 89.04 Best BMA: 91.95 Temperature: 7.51E-05  Loss: 25180.322 Corrections: -9071.272
+
+Epoch 247 Chain 0 Acc: 80.97 BMA: 91.35 Best Acc: 86.41 Best BMA: 91.43 Temperature: 3.68E-04  Loss: 16854.633 Corrections: -9071.272
+Epoch 247 Chain 1 Acc: 85.81 BMA: 91.91 Best Acc: 89.04 Best BMA: 91.95 Temperature: 7.36E-05  Loss: 12751.491 Corrections: -9071.272
+
+Epoch 248 Chain 0 Acc: 84.94 BMA: 91.44 Best Acc: 86.41 Best BMA: 91.44 Temperature: 3.61E-04  Loss: 30501.699 Corrections: -9071.272
+Epoch 248 Chain 1 Acc: 85.76 BMA: 92.00 Best Acc: 89.04 Best BMA: 92.00 Temperature: 7.22E-05  Loss: 24691.471 Corrections: -9071.272
+
+Epoch 249 Chain 0 Acc: 83.87 BMA: 91.38 Best Acc: 86.41 Best BMA: 91.44 Temperature: 3.54E-04  Loss: 33477.684 Corrections: -9071.272
+Epoch 249 Chain 1 Acc: 88.00 BMA: 92.08 Best Acc: 89.04 Best BMA: 92.08 Temperature: 7.08E-05  Loss: 32790.668 Corrections: -9071.272
+
+Epoch 250 Chain 0 loss std 3.19e+03 variance 5.08e+06 smothing variance 6.52e+06 scaled smoothing variance 4.48e-01
+Epoch 250 Chain 1 loss std 2.68e+03 variance 3.58e+06 smothing variance 4.25e+06 scaled smoothing variance 2.92e-01
+Epoch 250 Chain 0 Acc: 87.79 BMA: 91.53 Best Acc: 87.79 Best BMA: 91.53 Temperature: 3.47E-04  Loss: 19033.285 Corrections: -8369.467
+Epoch 250 Chain 1 Acc: 86.97 BMA: 92.07 Best Acc: 89.04 Best BMA: 92.08 Temperature: 6.94E-05  Loss: 20678.857 Corrections: -8369.467
+
+Epoch 251 Chain 0 Acc: 86.87 BMA: 91.58 Best Acc: 87.79 Best BMA: 91.58 Temperature: 3.40E-04  Loss: 19958.051 Corrections: -8369.467
+Epoch 251 Chain 1 Acc: 87.56 BMA: 92.06 Best Acc: 89.04 Best BMA: 92.08 Temperature: 6.80E-05  Loss: 15213.642 Corrections: -8369.467
+
+Epoch 252 Chain 0 Acc: 86.71 BMA: 91.55 Best Acc: 87.79 Best BMA: 91.58 Temperature: 3.34E-04  Loss: 27757.967 Corrections: -8369.467
+Epoch 252 Chain 1 Acc: 84.40 BMA: 92.14 Best Acc: 89.04 Best BMA: 92.14 Temperature: 6.67E-05  Loss: 21891.764 Corrections: -8369.467
+
+Epoch 253 Chain 0 Acc: 85.08 BMA: 91.60 Best Acc: 87.79 Best BMA: 91.60 Temperature: 3.27E-04  Loss: 23759.865 Corrections: -8369.467
+Epoch 253 Chain 1 Acc: 86.63 BMA: 92.19 Best Acc: 89.04 Best BMA: 92.19 Temperature: 6.54E-05  Loss: 19031.951 Corrections: -8369.467
+
+Epoch 254 Chain 0 Acc: 83.59 BMA: 91.67 Best Acc: 87.79 Best BMA: 91.67 Temperature: 3.21E-04  Loss: 19853.922 Corrections: -8369.467
+Epoch 254 Chain 1 Acc: 87.40 BMA: 92.19 Best Acc: 89.04 Best BMA: 92.19 Temperature: 6.41E-05  Loss: 15820.531 Corrections: -8369.467
+
+Epoch 255 Chain 0 loss std 3.11e+03 variance 4.83e+06 smothing variance 6.01e+06 scaled smoothing variance 3.74e-01
+Epoch 255 Chain 1 loss std 2.76e+03 variance 3.81e+06 smothing variance 4.12e+06 scaled smoothing variance 2.57e-01
+Epoch 255 Chain 0 Acc: 85.88 BMA: 91.74 Best Acc: 87.79 Best BMA: 91.74 Temperature: 3.14E-04  Loss: 13705.059 Corrections: -7873.396
+Epoch 255 Chain 1 Acc: 87.68 BMA: 92.22 Best Acc: 89.04 Best BMA: 92.22 Temperature: 6.29E-05  Loss: 11726.443 Corrections: -7873.396
+
+Epoch 256 Chain 0 Acc: 84.97 BMA: 91.73 Best Acc: 87.79 Best BMA: 91.74 Temperature: 3.08E-04  Loss: 17327.949 Corrections: -7873.396
+Epoch 256 Chain 1 Acc: 88.40 BMA: 92.23 Best Acc: 89.04 Best BMA: 92.23 Temperature: 6.16E-05  Loss: 17609.178 Corrections: -7873.396
+
+Epoch 257 Chain 0 Acc: 85.41 BMA: 91.77 Best Acc: 87.79 Best BMA: 91.77 Temperature: 3.02E-04  Loss: 20194.324 Corrections: -7873.396
+Epoch 257 Chain 1 Acc: 86.95 BMA: 92.33 Best Acc: 89.04 Best BMA: 92.33 Temperature: 6.04E-05  Loss: 16831.605 Corrections: -7873.396
+
+Epoch 258 Chain 0 Acc: 87.49 BMA: 91.81 Best Acc: 87.79 Best BMA: 91.81 Temperature: 2.96E-04  Loss: 16196.224 Corrections: -7873.396
+Epoch 258 Chain 1 Acc: 88.09 BMA: 92.38 Best Acc: 89.04 Best BMA: 92.38 Temperature: 5.92E-05  Loss: 18055.943 Corrections: -7873.396
+
+Epoch 259 Chain 0 Acc: 87.29 BMA: 91.84 Best Acc: 87.79 Best BMA: 91.84 Temperature: 2.90E-04  Loss: 18630.195 Corrections: -7873.396
+Epoch 259 Chain 1 Acc: 89.25 BMA: 92.43 Best Acc: 89.25 Best BMA: 92.43 Temperature: 5.81E-05  Loss: 7867.814 Corrections: -7873.396
+
+Epoch 260 Chain 0 loss std 2.23e+03 variance 2.48e+06 smothing variance 4.95e+06 scaled smoothing variance 2.79e-01
+Epoch 260 Chain 1 loss std 2.26e+03 variance 2.55e+06 smothing variance 3.65e+06 scaled smoothing variance 2.06e-01
+Epoch 260 Chain 0 Acc: 83.95 BMA: 91.84 Best Acc: 87.79 Best BMA: 91.84 Temperature: 2.85E-04  Loss: 32248.488 Corrections: -6685.802
+Epoch 260 Chain 1 Acc: 87.39 BMA: 92.39 Best Acc: 89.25 Best BMA: 92.43 Temperature: 5.69E-05  Loss: 16409.713 Corrections: -6685.802
+
+Epoch 261 Chain 0 Acc: 87.51 BMA: 91.87 Best Acc: 87.79 Best BMA: 91.87 Temperature: 2.79E-04  Loss: 24433.174 Corrections: -6685.802
+Epoch 261 Chain 1 Acc: 85.78 BMA: 92.43 Best Acc: 89.25 Best BMA: 92.43 Temperature: 5.58E-05  Loss: 24264.615 Corrections: -6685.802
+
+Epoch 262 Chain 0 Acc: 86.90 BMA: 91.86 Best Acc: 87.79 Best BMA: 91.87 Temperature: 2.74E-04  Loss: 22011.021 Corrections: -6685.802
+Epoch 262 Chain 1 Acc: 87.33 BMA: 92.47 Best Acc: 89.25 Best BMA: 92.47 Temperature: 5.47E-05  Loss: 18986.395 Corrections: -6685.802
+
+Epoch 263 Chain 0 Acc: 85.08 BMA: 91.86 Best Acc: 87.79 Best BMA: 91.87 Temperature: 2.68E-04  Loss: 30752.879 Corrections: -6685.802
+Epoch 263 Chain 1 Acc: 87.57 BMA: 92.52 Best Acc: 89.25 Best BMA: 92.52 Temperature: 5.36E-05  Loss: 22352.316 Corrections: -6685.802
+
+Epoch 264 Chain 0 Acc: 88.23 BMA: 91.92 Best Acc: 88.23 Best BMA: 91.92 Temperature: 2.63E-04  Loss: 22677.414 Corrections: -6685.802
+Epoch 264 Chain 1 Acc: 89.95 BMA: 92.52 Best Acc: 89.95 Best BMA: 92.52 Temperature: 5.26E-05  Loss: 21273.689 Corrections: -6685.802
+
+Epoch 265 Chain 0 loss std 2.56e+03 variance 3.28e+06 smothing variance 4.45e+06 scaled smoothing variance 2.27e-01
+Epoch 265 Chain 1 loss std 2.40e+03 variance 2.89e+06 smothing variance 3.42e+06 scaled smoothing variance 1.75e-01
+Epoch 265 Chain 0 Acc: 88.23 BMA: 91.96 Best Acc: 88.23 Best BMA: 91.96 Temperature: 2.58E-04  Loss: 28071.002 Corrections: -6118.095
+Epoch 265 Chain 1 Acc: 89.27 BMA: 92.49 Best Acc: 89.95 Best BMA: 92.52 Temperature: 5.16E-05  Loss: 23293.105 Corrections: -6118.095
+
+Epoch 266 Chain 0 Acc: 88.62 BMA: 91.95 Best Acc: 88.62 Best BMA: 91.96 Temperature: 2.53E-04  Loss: 14659.934 Corrections: -6118.095
+Epoch 266 Chain 1 Acc: 87.46 BMA: 92.48 Best Acc: 89.95 Best BMA: 92.52 Temperature: 5.06E-05  Loss: 9846.323 Corrections: -6118.095
+
+Epoch 267 Chain 0 Acc: 82.93 BMA: 92.02 Best Acc: 88.62 Best BMA: 92.02 Temperature: 2.48E-04  Loss: 17133.352 Corrections: -6118.095
+Epoch 267 Chain 1 Acc: 86.39 BMA: 92.47 Best Acc: 89.95 Best BMA: 92.52 Temperature: 4.96E-05  Loss: 13848.183 Corrections: -6118.095
+
+Epoch 268 Chain 0 Acc: 87.45 BMA: 92.05 Best Acc: 88.62 Best BMA: 92.05 Temperature: 2.43E-04  Loss: 26820.666 Corrections: -6118.095
+Epoch 268 Chain 1 Acc: 88.65 BMA: 92.52 Best Acc: 89.95 Best BMA: 92.52 Temperature: 4.86E-05  Loss: 20727.578 Corrections: -6118.095
+
+Epoch 269 Chain 0 Acc: 82.92 BMA: 92.09 Best Acc: 88.62 Best BMA: 92.09 Temperature: 2.38E-04  Loss: 24060.207 Corrections: -6118.095
+Epoch 269 Chain 1 Acc: 88.20 BMA: 92.49 Best Acc: 89.95 Best BMA: 92.52 Temperature: 4.76E-05  Loss: 12506.400 Corrections: -6118.095
+
+Epoch 270 Chain 0 loss std 3.23e+03 variance 5.22e+06 smothing variance 4.68e+06 scaled smoothing variance 2.17e-01
+Epoch 270 Chain 1 loss std 2.74e+03 variance 3.75e+06 smothing variance 3.52e+06 scaled smoothing variance 1.63e-01
+Epoch 270 Chain 0 Acc: 86.75 BMA: 92.05 Best Acc: 88.62 Best BMA: 92.09 Temperature: 2.34E-04  Loss: 22720.854 Corrections: -6374.663
+Epoch 270 Chain 1 Acc: 88.58 BMA: 92.56 Best Acc: 89.95 Best BMA: 92.56 Temperature: 4.67E-05  Loss: 18047.312 Corrections: -6374.663
+
+Epoch 271 Chain 0 Acc: 82.87 BMA: 92.10 Best Acc: 88.62 Best BMA: 92.10 Temperature: 2.29E-04  Loss: 19725.521 Corrections: -6374.663
+Epoch 271 Chain 1 Acc: 88.32 BMA: 92.59 Best Acc: 89.95 Best BMA: 92.59 Temperature: 4.58E-05  Loss: 22736.514 Corrections: -6374.663
+
+Epoch 272 Chain 0 Acc: 84.43 BMA: 92.09 Best Acc: 88.62 Best BMA: 92.10 Temperature: 2.24E-04  Loss: 18124.686 Corrections: -6374.663
+Epoch 272 Chain 1 Acc: 88.68 BMA: 92.57 Best Acc: 89.95 Best BMA: 92.59 Temperature: 4.49E-05  Loss: 16807.293 Corrections: -6374.663
+
+Epoch 273 Chain 0 Acc: 86.68 BMA: 92.10 Best Acc: 88.62 Best BMA: 92.10 Temperature: 2.20E-04  Loss: 14852.564 Corrections: -6374.663
+Epoch 273 Chain 1 Acc: 88.25 BMA: 92.62 Best Acc: 89.95 Best BMA: 92.62 Temperature: 4.40E-05  Loss: 10327.496 Corrections: -6374.663
+
+Epoch 274 Chain 0 Acc: 85.20 BMA: 92.12 Best Acc: 88.62 Best BMA: 92.12 Temperature: 2.16E-04  Loss: 22090.625 Corrections: -6374.663
+Epoch 274 Chain 1 Acc: 88.15 BMA: 92.59 Best Acc: 89.95 Best BMA: 92.62 Temperature: 4.31E-05  Loss: 15429.560 Corrections: -6374.663
+
+Epoch 275 Chain 0 loss std 3.09e+03 variance 4.77e+06 smothing variance 4.71e+06 scaled smoothing variance 1.97e-01
+Epoch 275 Chain 1 loss std 2.57e+03 variance 3.29e+06 smothing variance 3.45e+06 scaled smoothing variance 1.45e-01
+Epoch 275 Chain 0 Acc: 86.33 BMA: 92.15 Best Acc: 88.62 Best BMA: 92.15 Temperature: 2.12E-04  Loss: 11209.048 Corrections: -6342.917
+Epoch 275 Chain 1 Acc: 87.61 BMA: 92.65 Best Acc: 89.95 Best BMA: 92.65 Temperature: 4.23E-05  Loss: 8513.048 Corrections: -6342.917
+
+Epoch 276 Chain 0 Acc: 86.53 BMA: 92.16 Best Acc: 88.62 Best BMA: 92.16 Temperature: 2.07E-04  Loss: 19951.627 Corrections: -6342.917
+Epoch 276 Chain 1 Acc: 89.12 BMA: 92.67 Best Acc: 89.95 Best BMA: 92.67 Temperature: 4.15E-05  Loss: 16742.340 Corrections: -6342.917
+
+Epoch 277 Chain 0 Acc: 88.15 BMA: 92.23 Best Acc: 88.62 Best BMA: 92.23 Temperature: 2.03E-04  Loss: 16188.920 Corrections: -6342.917
+Epoch 277 Chain 1 Acc: 87.95 BMA: 92.67 Best Acc: 89.95 Best BMA: 92.67 Temperature: 4.07E-05  Loss: 11082.624 Corrections: -6342.917
+
+Epoch 278 Chain 0 Acc: 87.77 BMA: 92.25 Best Acc: 88.62 Best BMA: 92.25 Temperature: 1.99E-04  Loss: 20192.865 Corrections: -6342.917
+Epoch 278 Chain 1 Acc: 86.35 BMA: 92.63 Best Acc: 89.95 Best BMA: 92.67 Temperature: 3.99E-05  Loss: 12122.404 Corrections: -6342.917
+
+Epoch 279 Chain 0 Acc: 88.81 BMA: 92.27 Best Acc: 88.81 Best BMA: 92.27 Temperature: 1.95E-04  Loss: 23166.803 Corrections: -6342.917
+Epoch 279 Chain 1 Acc: 89.55 BMA: 92.65 Best Acc: 89.95 Best BMA: 92.67 Temperature: 3.91E-05  Loss: 25342.229 Corrections: -6342.917
+
+Epoch 280 Chain 0 loss std 2.26e+03 variance 2.56e+06 smothing variance 4.06e+06 scaled smoothing variance 1.54e-01
+Epoch 280 Chain 1 loss std 2.23e+03 variance 2.49e+06 smothing variance 3.16e+06 scaled smoothing variance 1.20e-01
+Epoch 280 Chain 0 Acc: 89.23 BMA: 92.27 Best Acc: 89.23 Best BMA: 92.27 Temperature: 1.92E-04  Loss: 16674.973 Corrections: -5617.350
+Epoch 280 Chain 1 Acc: 90.33 BMA: 92.69 Best Acc: 90.33 Best BMA: 92.69 Temperature: 3.83E-05  Loss: 17790.143 Corrections: -5617.350
+
+Epoch 281 Chain 0 Acc: 85.80 BMA: 92.31 Best Acc: 89.23 Best BMA: 92.31 Temperature: 1.88E-04  Loss: 12222.613 Corrections: -5617.350
+Epoch 281 Chain 1 Acc: 87.92 BMA: 92.68 Best Acc: 90.33 Best BMA: 92.69 Temperature: 3.76E-05  Loss: 9801.801 Corrections: -5617.350
+
+Epoch 282 Chain 0 Acc: 88.88 BMA: 92.32 Best Acc: 89.23 Best BMA: 92.32 Temperature: 1.84E-04  Loss: 15869.920 Corrections: -5617.350
+Epoch 282 Chain 1 Acc: 88.88 BMA: 92.74 Best Acc: 90.33 Best BMA: 92.74 Temperature: 3.68E-05  Loss: 16471.035 Corrections: -5617.350
+
+Epoch 283 Chain 0 Acc: 87.20 BMA: 92.37 Best Acc: 89.23 Best BMA: 92.37 Temperature: 1.81E-04  Loss: 16592.602 Corrections: -5617.350
+Epoch 283 Chain 1 Acc: 90.04 BMA: 92.73 Best Acc: 90.33 Best BMA: 92.74 Temperature: 3.61E-05  Loss: 20444.090 Corrections: -5617.350
+
+Epoch 284 Chain 0 Acc: 87.15 BMA: 92.41 Best Acc: 89.23 Best BMA: 92.41 Temperature: 1.77E-04  Loss: 12335.478 Corrections: -5617.350
+Epoch 284 Chain 1 Acc: 89.67 BMA: 92.74 Best Acc: 90.33 Best BMA: 92.74 Temperature: 3.54E-05  Loss: 11642.940 Corrections: -5617.350
+
+Epoch 285 Chain 0 loss std 3.41e+03 variance 5.82e+06 smothing variance 4.59e+06 scaled smoothing variance 1.58e-01
+Epoch 285 Chain 1 loss std 2.22e+03 variance 2.46e+06 smothing variance 2.95e+06 scaled smoothing variance 1.02e-01
+Epoch 285 Chain 0 Acc: 87.87 BMA: 92.42 Best Acc: 89.23 Best BMA: 92.42 Temperature: 1.74E-04  Loss: 17419.715 Corrections: -5861.572
+Epoch 285 Chain 1 Acc: 87.64 BMA: 92.76 Best Acc: 90.33 Best BMA: 92.76 Temperature: 3.47E-05  Loss: 12887.522 Corrections: -5861.572
+
+Epoch 286 Chain 0 Acc: 85.49 BMA: 92.44 Best Acc: 89.23 Best BMA: 92.44 Temperature: 1.70E-04  Loss: 23627.354 Corrections: -5861.572
+Epoch 286 Chain 1 Acc: 87.29 BMA: 92.77 Best Acc: 90.33 Best BMA: 92.77 Temperature: 3.40E-05  Loss: 16850.141 Corrections: -5861.572
+
+Epoch 287 Chain 0 Acc: 88.60 BMA: 92.48 Best Acc: 89.23 Best BMA: 92.48 Temperature: 1.67E-04  Loss: 16675.422 Corrections: -5861.572
+Epoch 287 Chain 1 Acc: 90.02 BMA: 92.76 Best Acc: 90.33 Best BMA: 92.77 Temperature: 3.34E-05  Loss: 14085.869 Corrections: -5861.572
+
+Epoch 288 Chain 0 Acc: 88.64 BMA: 92.48 Best Acc: 89.23 Best BMA: 92.48 Temperature: 1.64E-04  Loss: 19907.199 Corrections: -5861.572
+Epoch 288 Chain 1 Acc: 90.67 BMA: 92.79 Best Acc: 90.67 Best BMA: 92.79 Temperature: 3.27E-05  Loss: 13994.442 Corrections: -5861.572
+
+Epoch 289 Chain 0 Acc: 88.00 BMA: 92.47 Best Acc: 89.23 Best BMA: 92.48 Temperature: 1.60E-04  Loss: 11729.846 Corrections: -5861.572
+Epoch 289 Chain 1 Acc: 88.43 BMA: 92.83 Best Acc: 90.67 Best BMA: 92.83 Temperature: 3.21E-05  Loss: 4983.413 Corrections: -5861.572
+
+Epoch 290 Chain 0 loss std 2.23e+03 variance 2.49e+06 smothing variance 3.96e+06 scaled smoothing variance 1.23e-01
+Epoch 290 Chain 1 loss std 2.61e+03 variance 3.40e+06 smothing variance 3.09e+06 scaled smoothing variance 9.62e-02
+Epoch 290 Chain 0 Acc: 86.13 BMA: 92.52 Best Acc: 89.23 Best BMA: 92.52 Temperature: 1.57E-04  Loss: 11427.353 Corrections: -5476.934
+Epoch 290 Chain 1 Acc: 88.34 BMA: 92.85 Best Acc: 90.67 Best BMA: 92.85 Temperature: 3.14E-05  Loss: 11427.062 Corrections: -5476.934
+
+Epoch 291 Chain 0 Acc: 89.29 BMA: 92.50 Best Acc: 89.29 Best BMA: 92.52 Temperature: 1.54E-04  Loss: 21248.045 Corrections: -5476.934
+Epoch 291 Chain 1 Acc: 89.99 BMA: 92.90 Best Acc: 90.67 Best BMA: 92.90 Temperature: 3.08E-05  Loss: 14828.524 Corrections: -5476.934
+
+Epoch 292 Chain 0 Acc: 89.82 BMA: 92.54 Best Acc: 89.82 Best BMA: 92.54 Temperature: 1.51E-04  Loss: 19376.443 Corrections: -5476.934
+Epoch 292 Chain 1 Acc: 89.55 BMA: 92.89 Best Acc: 90.67 Best BMA: 92.90 Temperature: 3.02E-05  Loss: 18623.527 Corrections: -5476.934
+
+Epoch 293 Chain 0 Acc: 88.60 BMA: 92.56 Best Acc: 89.82 Best BMA: 92.56 Temperature: 1.48E-04  Loss: 13959.761 Corrections: -5476.934
+Epoch 293 Chain 1 Acc: 90.09 BMA: 92.92 Best Acc: 90.67 Best BMA: 92.92 Temperature: 2.96E-05  Loss: 9533.357 Corrections: -5476.934
+
+Epoch 294 Chain 0 Acc: 87.58 BMA: 92.56 Best Acc: 89.82 Best BMA: 92.56 Temperature: 1.45E-04  Loss: 6098.321 Corrections: -5476.934
+Epoch 294 Chain 1 Acc: 88.28 BMA: 92.90 Best Acc: 90.67 Best BMA: 92.92 Temperature: 2.90E-05  Loss: 9100.784 Corrections: -5476.934
+
+Epoch 295 Chain 0 loss std 3.06e+03 variance 4.69e+06 smothing variance 4.18e+06 scaled smoothing variance 1.18e-01
+Epoch 295 Chain 1 loss std 2.30e+03 variance 2.65e+06 smothing variance 2.96e+06 scaled smoothing variance 8.34e-02
+Epoch 295 Chain 0 Acc: 86.37 BMA: 92.55 Best Acc: 89.82 Best BMA: 92.56 Temperature: 1.42E-04  Loss: 14075.896 Corrections: -5547.556
+Epoch 295 Chain 1 Acc: 89.67 BMA: 92.90 Best Acc: 90.67 Best BMA: 92.92 Temperature: 2.85E-05  Loss: 11238.797 Corrections: -5547.556
+
+Epoch 296 Chain 0 Acc: 89.69 BMA: 92.60 Best Acc: 89.82 Best BMA: 92.60 Temperature: 1.40E-04  Loss: 13409.642 Corrections: -5547.556
+Epoch 296 Chain 1 Acc: 89.78 BMA: 92.91 Best Acc: 90.67 Best BMA: 92.92 Temperature: 2.79E-05  Loss: 9516.603 Corrections: -5547.556
+
+Epoch 297 Chain 0 Acc: 88.30 BMA: 92.59 Best Acc: 89.82 Best BMA: 92.60 Temperature: 1.37E-04  Loss: 17327.424 Corrections: -5547.556
+Epoch 297 Chain 1 Acc: 90.50 BMA: 92.92 Best Acc: 90.67 Best BMA: 92.92 Temperature: 2.74E-05  Loss: 14537.841 Corrections: -5547.556
+
+Epoch 298 Chain 0 Acc: 88.07 BMA: 92.62 Best Acc: 89.82 Best BMA: 92.62 Temperature: 1.34E-04  Loss: 15217.889 Corrections: -5547.556
+Epoch 298 Chain 1 Acc: 89.40 BMA: 92.92 Best Acc: 90.67 Best BMA: 92.92 Temperature: 2.68E-05  Loss: 14026.601 Corrections: -5547.556
+
+Epoch 299 Chain 0 Acc: 90.40 BMA: 92.65 Best Acc: 90.40 Best BMA: 92.65 Temperature: 1.31E-04  Loss: 13512.770 Corrections: -5547.556
+Epoch 299 Chain 1 Acc: 90.30 BMA: 92.94 Best Acc: 90.67 Best BMA: 92.94 Temperature: 2.63E-05  Loss: 14266.102 Corrections: -5547.556
+
+Epoch 300 Chain 0 loss std 1.90e+03 variance 1.80e+06 smothing variance 3.46e+06 scaled smoothing variance 8.85e-02
+Epoch 300 Chain 1 loss std 2.38e+03 variance 2.83e+06 smothing variance 2.92e+06 scaled smoothing variance 7.46e-02
+Epoch 300 Chain 0 Acc: 89.25 BMA: 92.63 Best Acc: 90.40 Best BMA: 92.65 Temperature: 1.29E-04  Loss: 12531.333 Corrections: -4963.222
+Epoch 300 Chain 1 Acc: 90.02 BMA: 92.96 Best Acc: 90.67 Best BMA: 92.96 Temperature: 2.58E-05  Loss: 7184.324 Corrections: -4963.222
+
+Epoch 301 Chain 0 Acc: 88.79 BMA: 92.64 Best Acc: 90.40 Best BMA: 92.65 Temperature: 1.26E-04  Loss: 13378.614 Corrections: -4963.222
+Epoch 301 Chain 1 Acc: 90.48 BMA: 92.97 Best Acc: 90.67 Best BMA: 92.97 Temperature: 2.53E-05  Loss: 11898.158 Corrections: -4963.222
+
+Epoch 302 Chain 0 Acc: 89.32 BMA: 92.64 Best Acc: 90.40 Best BMA: 92.65 Temperature: 1.24E-04  Loss: 23424.484 Corrections: -4963.222
+Epoch 302 Chain 1 Acc: 90.65 BMA: 93.01 Best Acc: 90.67 Best BMA: 93.01 Temperature: 2.48E-05  Loss: 16709.219 Corrections: -4963.222
+
+Epoch 303 Chain 0 Acc: 87.81 BMA: 92.74 Best Acc: 90.40 Best BMA: 92.74 Temperature: 1.21E-04  Loss: 12994.955 Corrections: -4963.222
+Epoch 303 Chain 1 Acc: 89.29 BMA: 93.01 Best Acc: 90.67 Best BMA: 93.01 Temperature: 2.43E-05  Loss: 11983.095 Corrections: -4963.222
+
+Epoch 304 Chain 0 Acc: 90.14 BMA: 92.74 Best Acc: 90.40 Best BMA: 92.74 Temperature: 1.19E-04  Loss: 10172.212 Corrections: -4963.222
+Epoch 304 Chain 1 Acc: 89.01 BMA: 93.03 Best Acc: 90.67 Best BMA: 93.03 Temperature: 2.38E-05  Loss: 8628.635 Corrections: -4963.222
+
+Epoch 305 Chain 0 loss std 1.96e+03 variance 1.92e+06 smothing variance 3.00e+06 scaled smoothing variance 6.95e-02
+Epoch 305 Chain 1 loss std 2.18e+03 variance 2.37e+06 smothing variance 2.76e+06 scaled smoothing variance 6.38e-02
+Epoch 305 Swap (with jump F) chain 0 with chain 1 and increase 
+Epoch 305 Chain 0 Acc: 88.64 BMA: 92.76 Best Acc: 90.40 Best BMA: 92.76 Temperature: 1.17E-04  Loss: 17208.418 Corrections: -6392.717
+Epoch 305 Chain 1 Acc: 91.26 BMA: 93.07 Best Acc: 91.26 Best BMA: 93.07 Temperature: 2.34E-05  Loss: 15970.365 Corrections: -6392.717
+
+Epoch 306 Chain 0 Acc: 88.95 BMA: 92.77 Best Acc: 90.40 Best BMA: 92.77 Temperature: 1.14E-04  Loss: 13555.965 Corrections: -6392.717
+Epoch 306 Chain 1 Acc: 90.73 BMA: 93.10 Best Acc: 91.26 Best BMA: 93.10 Temperature: 2.29E-05  Loss: 8358.489 Corrections: -6392.717
+
+Epoch 307 Chain 0 Acc: 88.54 BMA: 92.75 Best Acc: 90.40 Best BMA: 92.77 Temperature: 1.12E-04  Loss: 9673.495 Corrections: -6392.717
+Epoch 307 Chain 1 Acc: 90.69 BMA: 93.10 Best Acc: 91.26 Best BMA: 93.10 Temperature: 2.24E-05  Loss: 10493.240 Corrections: -6392.717
+
+Epoch 308 Chain 0 Acc: 87.75 BMA: 92.78 Best Acc: 90.40 Best BMA: 92.78 Temperature: 1.10E-04  Loss: 19051.340 Corrections: -6392.717
+Epoch 308 Chain 1 Acc: 91.55 BMA: 93.14 Best Acc: 91.55 Best BMA: 93.14 Temperature: 2.20E-05  Loss: 14324.656 Corrections: -6392.717
+
+Epoch 309 Chain 0 Acc: 88.73 BMA: 92.84 Best Acc: 90.40 Best BMA: 92.84 Temperature: 1.08E-04  Loss: 13256.031 Corrections: -6392.717
+Epoch 309 Chain 1 Acc: 91.12 BMA: 93.16 Best Acc: 91.55 Best BMA: 93.16 Temperature: 2.16E-05  Loss: 10691.133 Corrections: -6392.717
+
+Epoch 310 Chain 0 loss std 2.39e+03 variance 2.86e+06 smothing variance 2.96e+06 scaled smoothing variance 8.86e-02
+Epoch 310 Chain 1 loss std 1.80e+03 variance 1.63e+06 smothing variance 2.42e+06 scaled smoothing variance 7.24e-02
+Epoch 310 Chain 0 Acc: 87.83 BMA: 92.85 Best Acc: 90.40 Best BMA: 92.85 Temperature: 1.06E-04  Loss: 18134.312 Corrections: -5970.711
+Epoch 310 Chain 1 Acc: 90.95 BMA: 93.19 Best Acc: 91.55 Best BMA: 93.19 Temperature: 2.12E-05  Loss: 12152.966 Corrections: -5970.711
+
+Epoch 311 Chain 0 Acc: 87.54 BMA: 92.83 Best Acc: 90.40 Best BMA: 92.85 Temperature: 1.04E-04  Loss: 13927.659 Corrections: -5970.711
+Epoch 311 Chain 1 Acc: 91.36 BMA: 93.19 Best Acc: 91.55 Best BMA: 93.19 Temperature: 2.07E-05  Loss: 13211.448 Corrections: -5970.711
+
+Epoch 312 Chain 0 Acc: 87.87 BMA: 92.86 Best Acc: 90.40 Best BMA: 92.86 Temperature: 1.02E-04  Loss: 10790.789 Corrections: -5970.711
+Epoch 312 Chain 1 Acc: 90.77 BMA: 93.21 Best Acc: 91.55 Best BMA: 93.21 Temperature: 2.03E-05  Loss: 5978.471 Corrections: -5970.711
+
+Epoch 313 Chain 0 Acc: 89.83 BMA: 92.89 Best Acc: 90.40 Best BMA: 92.89 Temperature: 9.97E-05  Loss: 17567.209 Corrections: -5970.711
+Epoch 313 Chain 1 Acc: 91.11 BMA: 93.28 Best Acc: 91.55 Best BMA: 93.28 Temperature: 1.99E-05  Loss: 13595.711 Corrections: -5970.711
+
+Epoch 314 Chain 0 Acc: 88.58 BMA: 92.85 Best Acc: 90.40 Best BMA: 92.89 Temperature: 9.77E-05  Loss: 15240.734 Corrections: -5970.711
+Epoch 314 Chain 1 Acc: 91.38 BMA: 93.33 Best Acc: 91.55 Best BMA: 93.33 Temperature: 1.95E-05  Loss: 12313.237 Corrections: -5970.711
+
+Epoch 315 Chain 0 loss std 2.43e+03 variance 2.94e+06 smothing variance 2.95e+06 scaled smoothing variance 8.02e-02
+Epoch 315 Chain 1 loss std 1.97e+03 variance 1.94e+06 smothing variance 2.27e+06 scaled smoothing variance 6.17e-02
+Epoch 315 Chain 0 Acc: 89.60 BMA: 92.87 Best Acc: 90.40 Best BMA: 92.89 Temperature: 9.58E-05  Loss: 16178.110 Corrections: -5805.396
+Epoch 315 Chain 1 Acc: 91.78 BMA: 93.34 Best Acc: 91.78 Best BMA: 93.34 Temperature: 1.92E-05  Loss: 11518.465 Corrections: -5805.396
+
+Epoch 316 Chain 0 Acc: 89.00 BMA: 92.87 Best Acc: 90.40 Best BMA: 92.89 Temperature: 9.39E-05  Loss: 19791.711 Corrections: -5805.396
+Epoch 316 Chain 1 Acc: 89.02 BMA: 93.35 Best Acc: 91.78 Best BMA: 93.35 Temperature: 1.88E-05  Loss: 11149.081 Corrections: -5805.396
+
+Epoch 317 Chain 0 Acc: 89.03 BMA: 92.91 Best Acc: 90.40 Best BMA: 92.91 Temperature: 9.21E-05  Loss: 13947.418 Corrections: -5805.396
+Epoch 317 Chain 1 Acc: 88.98 BMA: 93.38 Best Acc: 91.78 Best BMA: 93.38 Temperature: 1.84E-05  Loss: 11970.763 Corrections: -5805.396
+
+Epoch 318 Chain 0 Acc: 90.20 BMA: 92.95 Best Acc: 90.40 Best BMA: 92.95 Temperature: 9.03E-05  Loss: 18610.621 Corrections: -5805.396
+Epoch 318 Chain 1 Acc: 90.68 BMA: 93.36 Best Acc: 91.78 Best BMA: 93.38 Temperature: 1.81E-05  Loss: 12021.196 Corrections: -5805.396
+
+Epoch 319 Chain 0 Acc: 88.96 BMA: 92.89 Best Acc: 90.40 Best BMA: 92.95 Temperature: 8.85E-05  Loss: 15889.231 Corrections: -5805.396
+Epoch 319 Chain 1 Acc: 91.02 BMA: 93.41 Best Acc: 91.78 Best BMA: 93.41 Temperature: 1.77E-05  Loss: 12185.052 Corrections: -5805.396
+
+Epoch 320 Chain 0 loss std 2.38e+03 variance 2.83e+06 smothing variance 2.92e+06 scaled smoothing variance 7.17e-02
+Epoch 320 Chain 1 loss std 2.01e+03 variance 2.02e+06 smothing variance 2.20e+06 scaled smoothing variance 5.40e-02
+Epoch 320 Chain 0 Acc: 90.68 BMA: 92.89 Best Acc: 90.68 Best BMA: 92.95 Temperature: 8.68E-05  Loss: 11803.053 Corrections: -5680.087
+Epoch 320 Chain 1 Acc: 90.87 BMA: 93.40 Best Acc: 91.78 Best BMA: 93.41 Temperature: 1.74E-05  Loss: 8489.256 Corrections: -5680.087
+
+Epoch 321 Chain 0 Acc: 90.09 BMA: 92.91 Best Acc: 90.68 Best BMA: 92.95 Temperature: 8.51E-05  Loss: 10038.176 Corrections: -5680.087
+Epoch 321 Chain 1 Acc: 90.54 BMA: 93.41 Best Acc: 91.78 Best BMA: 93.41 Temperature: 1.70E-05  Loss: 9101.277 Corrections: -5680.087
+
+Epoch 322 Chain 0 Acc: 90.94 BMA: 92.94 Best Acc: 90.94 Best BMA: 92.95 Temperature: 8.34E-05  Loss: 18818.857 Corrections: -5680.087
+Epoch 322 Chain 1 Acc: 90.53 BMA: 93.43 Best Acc: 91.78 Best BMA: 93.43 Temperature: 1.67E-05  Loss: 12638.687 Corrections: -5680.087
+
+Epoch 323 Chain 0 Acc: 89.13 BMA: 92.99 Best Acc: 90.94 Best BMA: 92.99 Temperature: 8.18E-05  Loss: 8610.731 Corrections: -5680.087
+Epoch 323 Chain 1 Acc: 90.48 BMA: 93.47 Best Acc: 91.78 Best BMA: 93.47 Temperature: 1.64E-05  Loss: 9222.607 Corrections: -5680.087
+
+Epoch 324 Chain 0 Acc: 88.13 BMA: 93.03 Best Acc: 90.94 Best BMA: 93.03 Temperature: 8.02E-05  Loss: 4498.226 Corrections: -5680.087
+Epoch 324 Chain 1 Acc: 90.90 BMA: 93.47 Best Acc: 91.78 Best BMA: 93.47 Temperature: 1.60E-05  Loss: 3160.279 Corrections: -5680.087
+
+Epoch 325 Chain 0 loss std 2.21e+03 variance 2.45e+06 smothing variance 2.78e+06 scaled smoothing variance 6.18e-02
+Epoch 325 Chain 1 loss std 2.01e+03 variance 2.01e+06 smothing variance 2.14e+06 scaled smoothing variance 4.77e-02
+Epoch 325 Chain 0 Acc: 89.33 BMA: 93.01 Best Acc: 90.94 Best BMA: 93.03 Temperature: 7.86E-05  Loss: 16703.352 Corrections: -5460.895
+Epoch 325 Chain 1 Acc: 91.59 BMA: 93.51 Best Acc: 91.78 Best BMA: 93.51 Temperature: 1.57E-05  Loss: 8085.260 Corrections: -5460.895
+
+Epoch 326 Chain 0 Acc: 89.46 BMA: 93.04 Best Acc: 90.94 Best BMA: 93.04 Temperature: 7.70E-05  Loss: 13981.411 Corrections: -5460.895
+Epoch 326 Chain 1 Acc: 90.94 BMA: 93.57 Best Acc: 91.78 Best BMA: 93.57 Temperature: 1.54E-05  Loss: 16671.658 Corrections: -5460.895
+
+Epoch 327 Chain 0 Acc: 90.84 BMA: 93.16 Best Acc: 90.94 Best BMA: 93.16 Temperature: 7.55E-05  Loss: 8696.065 Corrections: -5460.895
+Epoch 327 Chain 1 Acc: 90.68 BMA: 93.59 Best Acc: 91.78 Best BMA: 93.59 Temperature: 1.51E-05  Loss: 7044.562 Corrections: -5460.895
+
+Epoch 328 Chain 0 Acc: 89.65 BMA: 93.13 Best Acc: 90.94 Best BMA: 93.16 Temperature: 7.40E-05  Loss: 11407.275 Corrections: -5460.895
+Epoch 328 Chain 1 Acc: 91.35 BMA: 93.57 Best Acc: 91.78 Best BMA: 93.59 Temperature: 1.48E-05  Loss: 9509.482 Corrections: -5460.895
+
+Epoch 329 Chain 0 Acc: 87.40 BMA: 93.14 Best Acc: 90.94 Best BMA: 93.16 Temperature: 7.26E-05  Loss: 8948.978 Corrections: -5460.895
+Epoch 329 Chain 1 Acc: 91.08 BMA: 93.58 Best Acc: 91.78 Best BMA: 93.59 Temperature: 1.45E-05  Loss: 12776.443 Corrections: -5460.895
+
+Epoch 330 Chain 0 loss std 2.47e+03 variance 3.04e+06 smothing variance 2.85e+06 scaled smoothing variance 5.75e-02
+Epoch 330 Chain 1 loss std 1.88e+03 variance 1.77e+06 smothing variance 2.03e+06 scaled smoothing variance 4.09e-02
+Epoch 330 Chain 0 Acc: 90.06 BMA: 93.17 Best Acc: 90.94 Best BMA: 93.17 Temperature: 7.12E-05  Loss: 22074.852 Corrections: -5424.648
+Epoch 330 Chain 1 Acc: 91.31 BMA: 93.56 Best Acc: 91.78 Best BMA: 93.59 Temperature: 1.42E-05  Loss: 17076.336 Corrections: -5424.648
+
+Epoch 331 Chain 0 Acc: 89.37 BMA: 93.20 Best Acc: 90.94 Best BMA: 93.20 Temperature: 6.98E-05  Loss: 6453.878 Corrections: -5424.648
+Epoch 331 Chain 1 Acc: 91.67 BMA: 93.57 Best Acc: 91.78 Best BMA: 93.59 Temperature: 1.40E-05  Loss: 5742.290 Corrections: -5424.648
+
+Epoch 332 Chain 0 Acc: 90.52 BMA: 93.17 Best Acc: 90.94 Best BMA: 93.20 Temperature: 6.84E-05  Loss: 16729.861 Corrections: -5424.648
+Epoch 332 Chain 1 Acc: 91.17 BMA: 93.58 Best Acc: 91.78 Best BMA: 93.59 Temperature: 1.37E-05  Loss: 11740.193 Corrections: -5424.648
+
+Epoch 333 Chain 0 Acc: 90.52 BMA: 93.19 Best Acc: 90.94 Best BMA: 93.20 Temperature: 6.71E-05  Loss: 13094.489 Corrections: -5424.648
+Epoch 333 Chain 1 Acc: 91.79 BMA: 93.61 Best Acc: 91.79 Best BMA: 93.61 Temperature: 1.34E-05  Loss: 12626.400 Corrections: -5424.648
+
+Epoch 334 Chain 0 Acc: 90.02 BMA: 93.22 Best Acc: 90.94 Best BMA: 93.22 Temperature: 6.58E-05  Loss: 17499.594 Corrections: -5424.648
+Epoch 334 Chain 1 Acc: 91.58 BMA: 93.65 Best Acc: 91.79 Best BMA: 93.65 Temperature: 1.32E-05  Loss: 17144.691 Corrections: -5424.648
+
+Epoch 335 Chain 0 loss std 2.28e+03 variance 2.60e+06 smothing variance 2.78e+06 scaled smoothing variance 5.07e-02
+Epoch 335 Chain 1 loss std 2.15e+03 variance 2.31e+06 smothing variance 2.11e+06 scaled smoothing variance 3.86e-02
+Epoch 335 Chain 0 Acc: 90.78 BMA: 93.22 Best Acc: 90.94 Best BMA: 93.22 Temperature: 6.45E-05  Loss: 14610.312 Corrections: -5430.185
+Epoch 335 Chain 1 Acc: 91.24 BMA: 93.66 Best Acc: 91.79 Best BMA: 93.66 Temperature: 1.29E-05  Loss: 9725.911 Corrections: -5430.185
+
+Epoch 336 Chain 0 Acc: 90.18 BMA: 93.23 Best Acc: 90.94 Best BMA: 93.23 Temperature: 6.32E-05  Loss: 12600.992 Corrections: -5430.185
+Epoch 336 Chain 1 Acc: 90.70 BMA: 93.71 Best Acc: 91.79 Best BMA: 93.71 Temperature: 1.26E-05  Loss: 11033.319 Corrections: -5430.185
+
+Epoch 337 Chain 0 Acc: 89.23 BMA: 93.26 Best Acc: 90.94 Best BMA: 93.26 Temperature: 6.20E-05  Loss: 14421.536 Corrections: -5430.185
+Epoch 337 Chain 1 Acc: 91.69 BMA: 93.75 Best Acc: 91.79 Best BMA: 93.75 Temperature: 1.24E-05  Loss: 9156.977 Corrections: -5430.185
+
+Epoch 338 Chain 0 Acc: 89.91 BMA: 93.25 Best Acc: 90.94 Best BMA: 93.26 Temperature: 6.07E-05  Loss: 18078.705 Corrections: -5430.185
+Epoch 338 Chain 1 Acc: 91.70 BMA: 93.77 Best Acc: 91.79 Best BMA: 93.77 Temperature: 1.21E-05  Loss: 11551.875 Corrections: -5430.185
+
+Epoch 339 Chain 0 Acc: 91.01 BMA: 93.28 Best Acc: 91.01 Best BMA: 93.28 Temperature: 5.96E-05  Loss: 11297.308 Corrections: -5430.185
+Epoch 339 Chain 1 Acc: 91.48 BMA: 93.78 Best Acc: 91.79 Best BMA: 93.78 Temperature: 1.19E-05  Loss: 15743.315 Corrections: -5430.185
+
+Epoch 340 Chain 0 loss std 1.83e+03 variance 1.67e+06 smothing variance 2.45e+06 scaled smoothing variance 4.04e-02
+Epoch 340 Chain 1 loss std 2.03e+03 variance 2.05e+06 smothing variance 2.09e+06 scaled smoothing variance 3.46e-02
+Epoch 340 Chain 0 Acc: 90.35 BMA: 93.31 Best Acc: 91.01 Best BMA: 93.31 Temperature: 5.84E-05  Loss: 9126.706 Corrections: -5041.781
+Epoch 340 Chain 1 Acc: 91.79 BMA: 93.74 Best Acc: 91.79 Best BMA: 93.78 Temperature: 1.17E-05  Loss: 11446.463 Corrections: -5041.781
+
+Epoch 341 Chain 0 Acc: 89.66 BMA: 93.30 Best Acc: 91.01 Best BMA: 93.31 Temperature: 5.72E-05  Loss: 14840.315 Corrections: -5041.781
+Epoch 341 Chain 1 Acc: 91.76 BMA: 93.77 Best Acc: 91.79 Best BMA: 93.78 Temperature: 1.14E-05  Loss: 17261.809 Corrections: -5041.781
+
+Epoch 342 Chain 0 Acc: 90.42 BMA: 93.32 Best Acc: 91.01 Best BMA: 93.32 Temperature: 5.61E-05  Loss: 11874.352 Corrections: -5041.781
+Epoch 342 Chain 1 Acc: 91.17 BMA: 93.80 Best Acc: 91.79 Best BMA: 93.80 Temperature: 1.12E-05  Loss: 9813.260 Corrections: -5041.781
+
+Epoch 343 Chain 0 Acc: 89.85 BMA: 93.35 Best Acc: 91.01 Best BMA: 93.35 Temperature: 5.50E-05  Loss: 17818.348 Corrections: -5041.781
+Epoch 343 Chain 1 Acc: 90.98 BMA: 93.78 Best Acc: 91.79 Best BMA: 93.80 Temperature: 1.10E-05  Loss: 18633.420 Corrections: -5041.781
+
+Epoch 344 Chain 0 Acc: 91.38 BMA: 93.35 Best Acc: 91.38 Best BMA: 93.35 Temperature: 5.39E-05  Loss: 13068.804 Corrections: -5041.781
+Epoch 344 Chain 1 Acc: 91.41 BMA: 93.83 Best Acc: 91.79 Best BMA: 93.83 Temperature: 1.08E-05  Loss: 10621.684 Corrections: -5041.781
+
+Epoch 345 Chain 0 loss std 2.05e+03 variance 2.09e+06 smothing variance 2.34e+06 scaled smoothing variance 3.50e-02
+Epoch 345 Chain 1 loss std 1.77e+03 variance 1.56e+06 smothing variance 1.93e+06 scaled smoothing variance 2.90e-02
+Epoch 345 Chain 0 Acc: 90.84 BMA: 93.33 Best Acc: 91.38 Best BMA: 93.35 Temperature: 5.29E-05  Loss: 8872.901 Corrections: -4747.819
+Epoch 345 Chain 1 Acc: 91.66 BMA: 93.85 Best Acc: 91.79 Best BMA: 93.85 Temperature: 1.06E-05  Loss: 8144.892 Corrections: -4747.819
+
+Epoch 346 Chain 0 Acc: 90.64 BMA: 93.33 Best Acc: 91.38 Best BMA: 93.35 Temperature: 5.18E-05  Loss: 13850.197 Corrections: -4747.819
+Epoch 346 Chain 1 Acc: 92.08 BMA: 93.86 Best Acc: 92.08 Best BMA: 93.86 Temperature: 1.04E-05  Loss: 8052.567 Corrections: -4747.819
+
+Epoch 347 Chain 0 Acc: 90.82 BMA: 93.33 Best Acc: 91.38 Best BMA: 93.35 Temperature: 5.08E-05  Loss: 6319.447 Corrections: -4747.819
+Epoch 347 Chain 1 Acc: 92.18 BMA: 93.87 Best Acc: 92.18 Best BMA: 93.87 Temperature: 1.02E-05  Loss: 6216.576 Corrections: -4747.819
+
+Epoch 348 Chain 0 Acc: 90.69 BMA: 93.35 Best Acc: 91.38 Best BMA: 93.35 Temperature: 4.98E-05  Loss: 9692.480 Corrections: -4747.819
+Epoch 348 Chain 1 Acc: 90.70 BMA: 93.87 Best Acc: 92.18 Best BMA: 93.87 Temperature: 9.97E-06  Loss: 11183.508 Corrections: -4747.819
+
+Epoch 349 Chain 0 Acc: 91.43 BMA: 93.34 Best Acc: 91.43 Best BMA: 93.35 Temperature: 4.89E-05  Loss: 8322.945 Corrections: -4747.819
+Epoch 349 Chain 1 Acc: 92.24 BMA: 93.87 Best Acc: 92.24 Best BMA: 93.87 Temperature: 9.77E-06  Loss: 6926.485 Corrections: -4747.819
+
+Epoch 350 Chain 0 loss std 2.01e+03 variance 2.03e+06 smothing variance 2.25e+06 scaled smoothing variance 3.05e-02
+Epoch 350 Chain 1 loss std 1.44e+03 variance 1.03e+06 smothing variance 1.66e+06 scaled smoothing variance 2.26e-02
+Epoch 350 Chain 0 Acc: 90.76 BMA: 93.37 Best Acc: 91.43 Best BMA: 93.37 Temperature: 4.79E-05  Loss: 7514.001 Corrections: -4342.853
+Epoch 350 Chain 1 Acc: 91.93 BMA: 93.86 Best Acc: 92.24 Best BMA: 93.87 Temperature: 9.58E-06  Loss: 4505.530 Corrections: -4342.853
+
+Epoch 351 Chain 0 Acc: 91.56 BMA: 93.39 Best Acc: 91.56 Best BMA: 93.39 Temperature: 4.70E-05  Loss: 11736.164 Corrections: -4342.853
+Epoch 351 Chain 1 Acc: 91.61 BMA: 93.87 Best Acc: 92.24 Best BMA: 93.87 Temperature: 9.39E-06  Loss: 9070.402 Corrections: -4342.853
+
+Epoch 352 Chain 0 Acc: 91.72 BMA: 93.40 Best Acc: 91.72 Best BMA: 93.40 Temperature: 4.60E-05  Loss: 9690.416 Corrections: -4342.853
+Epoch 352 Chain 1 Acc: 90.85 BMA: 93.87 Best Acc: 92.24 Best BMA: 93.87 Temperature: 9.21E-06  Loss: 10767.604 Corrections: -4342.853
+
+Epoch 353 Chain 0 Acc: 91.68 BMA: 93.39 Best Acc: 91.72 Best BMA: 93.40 Temperature: 4.51E-05  Loss: 7733.890 Corrections: -4342.853
+Epoch 353 Chain 1 Acc: 91.70 BMA: 93.91 Best Acc: 92.24 Best BMA: 93.91 Temperature: 9.03E-06  Loss: 5865.978 Corrections: -4342.853
+
+Epoch 354 Chain 0 Acc: 91.18 BMA: 93.39 Best Acc: 91.72 Best BMA: 93.40 Temperature: 4.42E-05  Loss: 12766.075 Corrections: -4342.853
+Epoch 354 Chain 1 Acc: 91.50 BMA: 93.90 Best Acc: 92.24 Best BMA: 93.91 Temperature: 8.85E-06  Loss: 11311.026 Corrections: -4342.853
+
+Epoch 355 Chain 0 loss std 1.76e+03 variance 1.55e+06 smothing variance 2.04e+06 scaled smoothing variance 2.50e-02
+Epoch 355 Chain 1 loss std 1.54e+03 variance 1.18e+06 smothing variance 1.52e+06 scaled smoothing variance 1.87e-02
+Epoch 355 Chain 0 Acc: 91.56 BMA: 93.44 Best Acc: 91.72 Best BMA: 93.44 Temperature: 4.34E-05  Loss: 8518.202 Corrections: -3950.691
+Epoch 355 Chain 1 Acc: 92.37 BMA: 93.89 Best Acc: 92.37 Best BMA: 93.91 Temperature: 8.68E-06  Loss: 11508.050 Corrections: -3950.691
+
+Epoch 356 Swap (with jump F) chain 0 with chain 1 and increase 
+Epoch 356 Chain 0 Acc: 90.33 BMA: 93.47 Best Acc: 91.72 Best BMA: 93.47 Temperature: 4.25E-05  Loss: 11195.349 Corrections: -5643.845
+Epoch 356 Chain 1 Acc: 91.94 BMA: 93.92 Best Acc: 92.37 Best BMA: 93.92 Temperature: 8.51E-06  Loss: 11154.606 Corrections: -5643.845
+
+Epoch 357 Chain 0 Acc: 91.18 BMA: 93.45 Best Acc: 91.72 Best BMA: 93.47 Temperature: 4.17E-05  Loss: 8992.812 Corrections: -5643.845
+Epoch 357 Chain 1 Acc: 92.04 BMA: 93.93 Best Acc: 92.37 Best BMA: 93.93 Temperature: 8.34E-06  Loss: 6009.031 Corrections: -5643.845
+
+Epoch 358 Chain 0 Acc: 91.29 BMA: 93.46 Best Acc: 91.72 Best BMA: 93.47 Temperature: 4.09E-05  Loss: 6487.836 Corrections: -5643.845
+Epoch 358 Chain 1 Acc: 92.20 BMA: 93.93 Best Acc: 92.37 Best BMA: 93.93 Temperature: 8.18E-06  Loss: 7723.592 Corrections: -5643.845
+
+Epoch 359 Chain 0 Acc: 91.37 BMA: 93.47 Best Acc: 91.72 Best BMA: 93.47 Temperature: 4.01E-05  Loss: 13290.493 Corrections: -5643.845
+Epoch 359 Chain 1 Acc: 91.78 BMA: 93.93 Best Acc: 92.37 Best BMA: 93.93 Temperature: 8.02E-06  Loss: 9688.304 Corrections: -5643.845
+
+Epoch 360 Chain 0 loss std 1.84e+03 variance 1.69e+06 smothing variance 1.93e+06 scaled smoothing variance 3.07e-02
+Epoch 360 Chain 1 loss std 1.45e+03 variance 1.05e+06 smothing variance 1.38e+06 scaled smoothing variance 2.19e-02
+Epoch 360 Chain 0 Acc: 91.53 BMA: 93.49 Best Acc: 91.72 Best BMA: 93.49 Temperature: 3.93E-05  Loss: 11576.419 Corrections: -5255.290
+Epoch 360 Chain 1 Acc: 92.15 BMA: 93.92 Best Acc: 92.37 Best BMA: 93.93 Temperature: 7.86E-06  Loss: 8118.975 Corrections: -5255.290
+
+Epoch 361 Chain 0 Acc: 89.97 BMA: 93.47 Best Acc: 91.72 Best BMA: 93.49 Temperature: 3.85E-05  Loss: 11935.081 Corrections: -5255.290
+Epoch 361 Chain 1 Acc: 92.11 BMA: 93.92 Best Acc: 92.37 Best BMA: 93.93 Temperature: 7.70E-06  Loss: 9376.806 Corrections: -5255.290
+
+Epoch 362 Chain 0 Acc: 91.01 BMA: 93.54 Best Acc: 91.72 Best BMA: 93.54 Temperature: 3.78E-05  Loss: 8778.729 Corrections: -5255.290
+Epoch 362 Chain 1 Acc: 91.95 BMA: 93.93 Best Acc: 92.37 Best BMA: 93.93 Temperature: 7.55E-06  Loss: 8741.953 Corrections: -5255.290
+
+Epoch 363 Chain 0 Acc: 91.20 BMA: 93.51 Best Acc: 91.72 Best BMA: 93.54 Temperature: 3.70E-05  Loss: 9856.458 Corrections: -5255.290
+Epoch 363 Chain 1 Acc: 92.00 BMA: 93.95 Best Acc: 92.37 Best BMA: 93.95 Temperature: 7.41E-06  Loss: 9345.678 Corrections: -5255.290
+
+Epoch 364 Chain 0 Acc: 90.48 BMA: 93.54 Best Acc: 91.72 Best BMA: 93.54 Temperature: 3.63E-05  Loss: 13378.594 Corrections: -5255.290
+Epoch 364 Chain 1 Acc: 92.04 BMA: 93.98 Best Acc: 92.37 Best BMA: 93.98 Temperature: 7.26E-06  Loss: 9344.726 Corrections: -5255.290
+
+Epoch 365 Chain 0 loss std 1.87e+03 variance 1.75e+06 smothing variance 1.88e+06 scaled smoothing variance 2.71e-02
+Epoch 365 Chain 1 loss std 1.85e+03 variance 1.71e+06 smothing variance 1.48e+06 scaled smoothing variance 2.13e-02
+Epoch 365 Chain 0 Acc: 90.46 BMA: 93.54 Best Acc: 91.72 Best BMA: 93.54 Temperature: 3.56E-05  Loss: 16746.650 Corrections: -5325.773
+Epoch 365 Chain 1 Acc: 92.37 BMA: 94.01 Best Acc: 92.37 Best BMA: 94.01 Temperature: 7.12E-06  Loss: 13928.294 Corrections: -5325.773
+
+Epoch 366 Chain 0 Acc: 91.31 BMA: 93.57 Best Acc: 91.72 Best BMA: 93.57 Temperature: 3.49E-05  Loss: 6820.714 Corrections: -5325.773
+Epoch 366 Chain 1 Acc: 92.35 BMA: 94.03 Best Acc: 92.37 Best BMA: 94.03 Temperature: 6.98E-06  Loss: 3635.400 Corrections: -5325.773
+
+Epoch 367 Chain 0 Acc: 92.15 BMA: 93.57 Best Acc: 92.15 Best BMA: 93.57 Temperature: 3.42E-05  Loss: 12133.849 Corrections: -5325.773
+Epoch 367 Chain 1 Acc: 92.09 BMA: 94.01 Best Acc: 92.37 Best BMA: 94.03 Temperature: 6.84E-06  Loss: 12147.466 Corrections: -5325.773
+
+Epoch 368 Chain 0 Acc: 92.07 BMA: 93.64 Best Acc: 92.15 Best BMA: 93.64 Temperature: 3.35E-05  Loss: 10638.184 Corrections: -5325.773
+Epoch 368 Chain 1 Acc: 92.24 BMA: 94.04 Best Acc: 92.37 Best BMA: 94.04 Temperature: 6.71E-06  Loss: 9669.070 Corrections: -5325.773
+
+Epoch 369 Chain 0 Acc: 91.07 BMA: 93.67 Best Acc: 92.15 Best BMA: 93.67 Temperature: 3.29E-05  Loss: 10164.054 Corrections: -5325.773
+Epoch 369 Chain 1 Acc: 91.79 BMA: 94.06 Best Acc: 92.37 Best BMA: 94.06 Temperature: 6.58E-06  Loss: 8969.486 Corrections: -5325.773
+
+Epoch 370 Chain 0 loss std 1.71e+03 variance 1.46e+06 smothing variance 1.75e+06 scaled smoothing variance 2.29e-02
+Epoch 370 Chain 1 loss std 1.94e+03 variance 1.87e+06 smothing variance 1.60e+06 scaled smoothing variance 2.08e-02
+Epoch 370 Chain 0 Acc: 91.74 BMA: 93.68 Best Acc: 92.15 Best BMA: 93.68 Temperature: 3.22E-05  Loss: 7886.898 Corrections: -5313.581
+Epoch 370 Chain 1 Acc: 91.28 BMA: 94.00 Best Acc: 92.37 Best BMA: 94.06 Temperature: 6.45E-06  Loss: 4055.954 Corrections: -5313.581
+
+Epoch 371 Chain 0 Acc: 91.21 BMA: 93.70 Best Acc: 92.15 Best BMA: 93.70 Temperature: 3.16E-05  Loss: 16967.500 Corrections: -5313.581
+Epoch 371 Chain 1 Acc: 92.28 BMA: 94.03 Best Acc: 92.37 Best BMA: 94.06 Temperature: 6.32E-06  Loss: 7368.370 Corrections: -5313.581
+
+Epoch 372 Chain 0 Acc: 91.12 BMA: 93.71 Best Acc: 92.15 Best BMA: 93.71 Temperature: 3.10E-05  Loss: 7827.711 Corrections: -5313.581
+Epoch 372 Chain 1 Acc: 92.26 BMA: 94.05 Best Acc: 92.37 Best BMA: 94.06 Temperature: 6.20E-06  Loss: 6119.577 Corrections: -5313.581
+
+Epoch 373 Chain 0 Acc: 91.81 BMA: 93.70 Best Acc: 92.15 Best BMA: 93.71 Temperature: 3.04E-05  Loss: 9289.546 Corrections: -5313.581
+Epoch 373 Chain 1 Acc: 92.57 BMA: 94.08 Best Acc: 92.57 Best BMA: 94.08 Temperature: 6.07E-06  Loss: 6964.950 Corrections: -5313.581
+
+Epoch 374 Chain 0 Acc: 92.00 BMA: 93.72 Best Acc: 92.15 Best BMA: 93.72 Temperature: 2.98E-05  Loss: 10166.707 Corrections: -5313.581
+Epoch 374 Chain 1 Acc: 92.44 BMA: 94.09 Best Acc: 92.57 Best BMA: 94.09 Temperature: 5.96E-06  Loss: 5843.052 Corrections: -5313.581
+
+Epoch 375 Chain 0 loss std 1.72e+03 variance 1.49e+06 smothing variance 1.67e+06 scaled smoothing variance 1.98e-02
+Epoch 375 Chain 1 loss std 1.47e+03 variance 1.08e+06 smothing variance 1.44e+06 scaled smoothing variance 1.70e-02
+Epoch 375 Chain 0 Acc: 92.17 BMA: 93.76 Best Acc: 92.17 Best BMA: 93.76 Temperature: 2.92E-05  Loss: 11651.887 Corrections: -4940.764
+Epoch 375 Chain 1 Acc: 92.19 BMA: 94.08 Best Acc: 92.57 Best BMA: 94.09 Temperature: 5.84E-06  Loss: 13238.637 Corrections: -4940.764
+
+Epoch 376 Chain 0 Acc: 91.88 BMA: 93.75 Best Acc: 92.17 Best BMA: 93.76 Temperature: 2.86E-05  Loss: 8585.559 Corrections: -4940.764
+Epoch 376 Chain 1 Acc: 92.69 BMA: 94.08 Best Acc: 92.69 Best BMA: 94.09 Temperature: 5.72E-06  Loss: 11910.579 Corrections: -4940.764
+
+Epoch 377 Swap (with jump F) chain 0 with chain 1 and increase 
+Epoch 377 Chain 0 Acc: 92.65 BMA: 93.73 Best Acc: 92.65 Best BMA: 93.76 Temperature: 2.81E-05  Loss: 11509.381 Corrections: -4940.764
+Epoch 377 Chain 1 Acc: 91.51 BMA: 94.12 Best Acc: 92.69 Best BMA: 94.12 Temperature: 5.61E-06  Loss: 16803.770 Corrections: -4940.764
+
+Epoch 378 Chain 0 Acc: 91.57 BMA: 93.74 Best Acc: 92.65 Best BMA: 93.76 Temperature: 2.75E-05  Loss: 5441.933 Corrections: -7058.234
+Epoch 378 Chain 1 Acc: 93.00 BMA: 94.16 Best Acc: 93.00 Best BMA: 94.16 Temperature: 5.50E-06  Loss: 3126.570 Corrections: -7058.234
+
+Epoch 379 Chain 0 Acc: 91.17 BMA: 93.74 Best Acc: 92.65 Best BMA: 93.76 Temperature: 2.70E-05  Loss: 10560.602 Corrections: -7058.234
+Epoch 379 Chain 1 Acc: 92.55 BMA: 94.18 Best Acc: 93.00 Best BMA: 94.18 Temperature: 5.39E-06  Loss: 9795.298 Corrections: -7058.234
+
+Epoch 380 Chain 0 loss std 2.17e+03 variance 2.36e+06 smothing variance 1.88e+06 scaled smoothing variance 2.87e-02
+Epoch 380 Chain 1 loss std 1.66e+03 variance 1.38e+06 smothing variance 1.42e+06 scaled smoothing variance 2.17e-02
+Epoch 380 Chain 0 Acc: 90.12 BMA: 93.77 Best Acc: 92.65 Best BMA: 93.77 Temperature: 2.64E-05  Loss: 7641.544 Corrections: -7484.311
+Epoch 380 Chain 1 Acc: 92.63 BMA: 94.20 Best Acc: 93.00 Best BMA: 94.20 Temperature: 5.29E-06  Loss: 8108.447 Corrections: -7484.311
+
+Epoch 381 Chain 0 Acc: 92.18 BMA: 93.77 Best Acc: 92.65 Best BMA: 93.77 Temperature: 2.59E-05  Loss: 5718.333 Corrections: -7484.311
+Epoch 381 Chain 1 Acc: 92.77 BMA: 94.26 Best Acc: 93.00 Best BMA: 94.26 Temperature: 5.18E-06  Loss: 7459.071 Corrections: -7484.311
+
+Epoch 382 Chain 0 Acc: 91.84 BMA: 93.76 Best Acc: 92.65 Best BMA: 93.77 Temperature: 2.54E-05  Loss: 9933.066 Corrections: -7484.311
+Epoch 382 Chain 1 Acc: 92.93 BMA: 94.25 Best Acc: 93.00 Best BMA: 94.26 Temperature: 5.08E-06  Loss: 9108.065 Corrections: -7484.311
+
+Epoch 383 Chain 0 Acc: 91.70 BMA: 93.76 Best Acc: 92.65 Best BMA: 93.77 Temperature: 2.49E-05  Loss: 8671.670 Corrections: -7484.311
+Epoch 383 Chain 1 Acc: 92.90 BMA: 94.23 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.98E-06  Loss: 11814.301 Corrections: -7484.311
+
+Epoch 384 Chain 0 Acc: 92.10 BMA: 93.80 Best Acc: 92.65 Best BMA: 93.80 Temperature: 2.44E-05  Loss: 8573.146 Corrections: -7484.311
+Epoch 384 Chain 1 Acc: 92.30 BMA: 94.22 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.89E-06  Loss: 7495.646 Corrections: -7484.311
+
+Epoch 385 Chain 0 loss std 1.63e+03 variance 1.33e+06 smothing variance 1.71e+06 scaled smoothing variance 2.37e-02
+Epoch 385 Chain 1 loss std 1.49e+03 variance 1.10e+06 smothing variance 1.33e+06 scaled smoothing variance 1.84e-02
+Epoch 385 Chain 0 Acc: 91.44 BMA: 93.80 Best Acc: 92.65 Best BMA: 93.80 Temperature: 2.39E-05  Loss: 7153.050 Corrections: -6892.729
+Epoch 385 Chain 1 Acc: 92.50 BMA: 94.21 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.79E-06  Loss: 8211.757 Corrections: -6892.729
+
+Epoch 386 Chain 0 Acc: 91.57 BMA: 93.79 Best Acc: 92.65 Best BMA: 93.80 Temperature: 2.35E-05  Loss: 10024.321 Corrections: -6892.729
+Epoch 386 Chain 1 Acc: 92.78 BMA: 94.23 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.70E-06  Loss: 7878.147 Corrections: -6892.729
+
+Epoch 387 Chain 0 Acc: 91.59 BMA: 93.79 Best Acc: 92.65 Best BMA: 93.80 Temperature: 2.30E-05  Loss: 8436.340 Corrections: -6892.729
+Epoch 387 Chain 1 Acc: 92.99 BMA: 94.23 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.60E-06  Loss: 9175.457 Corrections: -6892.729
+
+Epoch 388 Chain 0 Acc: 92.23 BMA: 93.82 Best Acc: 92.65 Best BMA: 93.82 Temperature: 2.26E-05  Loss: 6437.328 Corrections: -6892.729
+Epoch 388 Chain 1 Acc: 92.57 BMA: 94.22 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.51E-06  Loss: 7529.049 Corrections: -6892.729
+
+Epoch 389 Chain 0 Acc: 91.95 BMA: 93.79 Best Acc: 92.65 Best BMA: 93.82 Temperature: 2.21E-05  Loss: 9305.542 Corrections: -6892.729
+Epoch 389 Chain 1 Acc: 92.84 BMA: 94.25 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.43E-06  Loss: 8086.736 Corrections: -6892.729
+
+Epoch 390 Chain 0 loss std 1.49e+03 variance 1.12e+06 smothing variance 1.53e+06 scaled smoothing variance 1.92e-02
+Epoch 390 Chain 1 loss std 1.35e+03 variance 9.12e+05 smothing variance 1.20e+06 scaled smoothing variance 1.51e-02
+Epoch 390 Chain 0 Acc: 91.61 BMA: 93.83 Best Acc: 92.65 Best BMA: 93.83 Temperature: 2.17E-05  Loss: 14498.720 Corrections: -6204.018
+Epoch 390 Chain 1 Acc: 92.97 BMA: 94.23 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.34E-06  Loss: 10973.831 Corrections: -6204.018
+
+Epoch 391 Chain 0 Acc: 92.15 BMA: 93.82 Best Acc: 92.65 Best BMA: 93.83 Temperature: 2.13E-05  Loss: 11236.334 Corrections: -6204.018
+Epoch 391 Chain 1 Acc: 93.00 BMA: 94.24 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.25E-06  Loss: 6438.286 Corrections: -6204.018
+
+Epoch 392 Chain 0 Acc: 92.23 BMA: 93.86 Best Acc: 92.65 Best BMA: 93.86 Temperature: 2.08E-05  Loss: 10108.204 Corrections: -6204.018
+Epoch 392 Chain 1 Acc: 92.93 BMA: 94.24 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.17E-06  Loss: 8482.450 Corrections: -6204.018
+
+Epoch 393 Chain 0 Acc: 91.74 BMA: 93.85 Best Acc: 92.65 Best BMA: 93.86 Temperature: 2.04E-05  Loss: 11948.982 Corrections: -6204.018
+Epoch 393 Chain 1 Acc: 92.53 BMA: 94.24 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.09E-06  Loss: 11330.772 Corrections: -6204.018
+
+Epoch 394 Chain 0 Acc: 92.14 BMA: 93.90 Best Acc: 92.65 Best BMA: 93.90 Temperature: 2.00E-05  Loss: 15501.134 Corrections: -6204.018
+Epoch 394 Chain 1 Acc: 92.98 BMA: 94.26 Best Acc: 93.00 Best BMA: 94.26 Temperature: 4.01E-06  Loss: 13868.275 Corrections: -6204.018
+
+Epoch 395 Chain 0 loss std 1.40e+03 variance 9.78e+05 smothing variance 1.37e+06 scaled smoothing variance 1.55e-02
+Epoch 395 Chain 1 loss std 1.33e+03 variance 8.87e+05 smothing variance 1.11e+06 scaled smoothing variance 1.26e-02
+Epoch 395 Chain 0 Acc: 91.44 BMA: 93.92 Best Acc: 92.65 Best BMA: 93.92 Temperature: 1.96E-05  Loss: 8393.308 Corrections: -5611.098
+Epoch 395 Chain 1 Acc: 93.16 BMA: 94.22 Best Acc: 93.16 Best BMA: 94.26 Temperature: 3.93E-06  Loss: 5845.697 Corrections: -5611.098
+
+Epoch 396 Chain 0 Acc: 91.81 BMA: 93.94 Best Acc: 92.65 Best BMA: 93.94 Temperature: 1.93E-05  Loss: 5414.268 Corrections: -5611.098
+Epoch 396 Chain 1 Acc: 93.26 BMA: 94.24 Best Acc: 93.26 Best BMA: 94.26 Temperature: 3.85E-06  Loss: 6756.757 Corrections: -5611.098
+
+Epoch 397 Chain 0 Acc: 92.03 BMA: 93.95 Best Acc: 92.65 Best BMA: 93.95 Temperature: 1.89E-05  Loss: 3789.391 Corrections: -5611.098
+Epoch 397 Chain 1 Acc: 93.18 BMA: 94.25 Best Acc: 93.26 Best BMA: 94.26 Temperature: 3.78E-06  Loss: 7365.723 Corrections: -5611.098
+
+Epoch 398 Chain 0 Acc: 91.70 BMA: 93.96 Best Acc: 92.65 Best BMA: 93.96 Temperature: 1.85E-05  Loss: 6113.083 Corrections: -5611.098
+Epoch 398 Chain 1 Acc: 92.53 BMA: 94.24 Best Acc: 93.26 Best BMA: 94.26 Temperature: 3.70E-06  Loss: 2400.075 Corrections: -5611.098
+
+Epoch 399 Chain 0 Acc: 92.23 BMA: 93.98 Best Acc: 92.65 Best BMA: 93.98 Temperature: 1.82E-05  Loss: 7177.176 Corrections: -5611.098
+Epoch 399 Chain 1 Acc: 92.73 BMA: 94.27 Best Acc: 93.26 Best BMA: 94.27 Temperature: 3.63E-06  Loss: 8011.053 Corrections: -5611.098
+
+Epoch 400 Chain 0 loss std 1.56e+03 variance 1.21e+06 smothing variance 1.32e+06 scaled smoothing variance 1.36e-02
+Epoch 400 Chain 1 loss std 1.38e+03 variance 9.51e+05 smothing variance 1.06e+06 scaled smoothing variance 1.09e-02
+Epoch 400 Chain 0 Acc: 92.80 BMA: 94.00 Best Acc: 92.80 Best BMA: 94.00 Temperature: 1.78E-05  Loss: 9444.894 Corrections: -5397.352
+Epoch 400 Chain 1 Acc: 92.64 BMA: 94.25 Best Acc: 93.26 Best BMA: 94.27 Temperature: 3.56E-06  Loss: 7986.233 Corrections: -5397.352
+
+Epoch 401 Chain 0 Acc: 91.50 BMA: 94.00 Best Acc: 92.80 Best BMA: 94.00 Temperature: 1.74E-05  Loss: 8119.388 Corrections: -5397.352
+Epoch 401 Chain 1 Acc: 92.33 BMA: 94.27 Best Acc: 93.26 Best BMA: 94.27 Temperature: 3.49E-06  Loss: 11592.106 Corrections: -5397.352
+
+Epoch 402 Chain 0 Acc: 92.49 BMA: 93.99 Best Acc: 92.80 Best BMA: 94.00 Temperature: 1.71E-05  Loss: 9235.574 Corrections: -5397.352
+Epoch 402 Chain 1 Acc: 93.02 BMA: 94.27 Best Acc: 93.26 Best BMA: 94.27 Temperature: 3.42E-06  Loss: 6032.060 Corrections: -5397.352
+
+Epoch 403 Chain 0 Acc: 92.53 BMA: 94.00 Best Acc: 92.80 Best BMA: 94.00 Temperature: 1.68E-05  Loss: 8532.415 Corrections: -5397.352
+Epoch 403 Chain 1 Acc: 92.81 BMA: 94.27 Best Acc: 93.26 Best BMA: 94.27 Temperature: 3.35E-06  Loss: 5106.019 Corrections: -5397.352
+
+Epoch 404 Chain 0 Acc: 92.41 BMA: 94.00 Best Acc: 92.80 Best BMA: 94.00 Temperature: 1.64E-05  Loss: 9582.353 Corrections: -5397.352
+Epoch 404 Chain 1 Acc: 92.82 BMA: 94.30 Best Acc: 93.26 Best BMA: 94.30 Temperature: 3.29E-06  Loss: 9209.572 Corrections: -5397.352
+
+Epoch 405 Chain 0 loss std 1.59e+03 variance 1.26e+06 smothing variance 1.30e+06 scaled smoothing variance 1.21e-02
+Epoch 405 Chain 1 loss std 1.12e+03 variance 6.25e+05 smothing variance 9.30e+05 scaled smoothing variance 8.66e-03
+Epoch 405 Chain 0 Acc: 91.70 BMA: 94.03 Best Acc: 92.80 Best BMA: 94.03 Temperature: 1.61E-05  Loss: 11910.967 Corrections: -5059.434
+Epoch 405 Chain 1 Acc: 92.73 BMA: 94.29 Best Acc: 93.26 Best BMA: 94.30 Temperature: 3.22E-06  Loss: 7705.949 Corrections: -5059.434
+
+Epoch 406 Chain 0 Acc: 92.03 BMA: 94.03 Best Acc: 92.80 Best BMA: 94.03 Temperature: 1.58E-05  Loss: 5123.973 Corrections: -5059.434
+Epoch 406 Chain 1 Acc: 93.13 BMA: 94.31 Best Acc: 93.26 Best BMA: 94.31 Temperature: 3.16E-06  Loss: 4513.702 Corrections: -5059.434
+
+Epoch 407 Chain 0 Acc: 92.58 BMA: 94.07 Best Acc: 92.80 Best BMA: 94.07 Temperature: 1.55E-05  Loss: 7387.485 Corrections: -5059.434
+Epoch 407 Chain 1 Acc: 93.04 BMA: 94.31 Best Acc: 93.26 Best BMA: 94.31 Temperature: 3.10E-06  Loss: 7205.172 Corrections: -5059.434
+
+Epoch 408 Chain 0 Acc: 92.35 BMA: 94.07 Best Acc: 92.80 Best BMA: 94.07 Temperature: 1.52E-05  Loss: 8290.805 Corrections: -5059.434
+Epoch 408 Chain 1 Acc: 92.93 BMA: 94.33 Best Acc: 93.26 Best BMA: 94.33 Temperature: 3.04E-06  Loss: 5110.424 Corrections: -5059.434
+
+Epoch 409 Chain 0 Acc: 92.42 BMA: 94.03 Best Acc: 92.80 Best BMA: 94.07 Temperature: 1.49E-05  Loss: 5433.679 Corrections: -5059.434
+Epoch 409 Chain 1 Acc: 92.86 BMA: 94.34 Best Acc: 93.26 Best BMA: 94.34 Temperature: 2.98E-06  Loss: 7509.479 Corrections: -5059.434
+
+Epoch 410 Chain 0 loss std 1.60e+03 variance 1.28e+06 smothing variance 1.29e+06 scaled smoothing variance 1.09e-02
+Epoch 410 Chain 1 loss std 1.17e+03 variance 6.86e+05 smothing variance 8.57e+05 scaled smoothing variance 7.23e-03
+Epoch 410 Chain 0 Acc: 91.90 BMA: 94.08 Best Acc: 92.80 Best BMA: 94.08 Temperature: 1.46E-05  Loss: 7765.617 Corrections: -4876.366
+Epoch 410 Chain 1 Acc: 92.90 BMA: 94.35 Best Acc: 93.26 Best BMA: 94.35 Temperature: 2.92E-06  Loss: 9128.482 Corrections: -4876.366
+
+Epoch 411 Chain 0 Acc: 92.23 BMA: 94.09 Best Acc: 92.80 Best BMA: 94.09 Temperature: 1.43E-05  Loss: 12752.357 Corrections: -4876.366
+Epoch 411 Chain 1 Acc: 92.93 BMA: 94.34 Best Acc: 93.26 Best BMA: 94.35 Temperature: 2.86E-06  Loss: 13567.772 Corrections: -4876.366
+
+Epoch 412 Chain 0 Acc: 92.49 BMA: 94.07 Best Acc: 92.80 Best BMA: 94.09 Temperature: 1.40E-05  Loss: 5607.994 Corrections: -4876.366
+Epoch 412 Chain 1 Acc: 92.59 BMA: 94.36 Best Acc: 93.26 Best BMA: 94.36 Temperature: 2.81E-06  Loss: 5667.770 Corrections: -4876.366
+
+Epoch 413 Chain 0 Acc: 92.85 BMA: 94.06 Best Acc: 92.85 Best BMA: 94.09 Temperature: 1.38E-05  Loss: 10809.478 Corrections: -4876.366
+Epoch 413 Chain 1 Acc: 92.88 BMA: 94.37 Best Acc: 93.26 Best BMA: 94.37 Temperature: 2.75E-06  Loss: 6668.333 Corrections: -4876.366
+
+Epoch 414 Chain 0 Acc: 92.42 BMA: 94.10 Best Acc: 92.85 Best BMA: 94.10 Temperature: 1.35E-05  Loss: 6285.856 Corrections: -4876.366
+Epoch 414 Chain 1 Acc: 92.81 BMA: 94.36 Best Acc: 93.26 Best BMA: 94.37 Temperature: 2.70E-06  Loss: 7551.644 Corrections: -4876.366
+
+Epoch 415 Chain 0 loss std 1.53e+03 variance 1.17e+06 smothing variance 1.26e+06 scaled smoothing variance 9.62e-03
+Epoch 415 Chain 1 loss std 1.26e+03 variance 7.98e+05 smothing variance 8.39e+05 scaled smoothing variance 6.41e-03
+Epoch 415 Chain 0 Acc: 92.40 BMA: 94.11 Best Acc: 92.85 Best BMA: 94.11 Temperature: 1.32E-05  Loss: 9841.009 Corrections: -4754.394
+Epoch 415 Chain 1 Acc: 93.14 BMA: 94.36 Best Acc: 93.26 Best BMA: 94.37 Temperature: 2.64E-06  Loss: 10665.128 Corrections: -4754.394
+
+Epoch 416 Chain 0 Acc: 92.71 BMA: 94.12 Best Acc: 92.85 Best BMA: 94.12 Temperature: 1.30E-05  Loss: 13047.449 Corrections: -4754.394
+Epoch 416 Chain 1 Acc: 93.00 BMA: 94.36 Best Acc: 93.26 Best BMA: 94.37 Temperature: 2.59E-06  Loss: 9754.083 Corrections: -4754.394
+
+Epoch 417 Chain 0 Acc: 92.88 BMA: 94.13 Best Acc: 92.88 Best BMA: 94.13 Temperature: 1.27E-05  Loss: 14437.537 Corrections: -4754.394
+Epoch 417 Chain 1 Acc: 92.92 BMA: 94.37 Best Acc: 93.26 Best BMA: 94.37 Temperature: 2.54E-06  Loss: 11223.485 Corrections: -4754.394
+
+Epoch 418 Chain 0 Acc: 92.96 BMA: 94.13 Best Acc: 92.96 Best BMA: 94.13 Temperature: 1.25E-05  Loss: 4217.567 Corrections: -4754.394
+Epoch 418 Chain 1 Acc: 93.15 BMA: 94.38 Best Acc: 93.26 Best BMA: 94.38 Temperature: 2.49E-06  Loss: 4056.910 Corrections: -4754.394
+
+Epoch 419 Chain 0 Acc: 92.81 BMA: 94.13 Best Acc: 92.96 Best BMA: 94.13 Temperature: 1.22E-05  Loss: 8636.019 Corrections: -4754.394
+Epoch 419 Chain 1 Acc: 92.59 BMA: 94.38 Best Acc: 93.26 Best BMA: 94.38 Temperature: 2.44E-06  Loss: 8084.622 Corrections: -4754.394
+
+Epoch 420 Chain 0 loss std 1.48e+03 variance 1.09e+06 smothing variance 1.21e+06 scaled smoothing variance 8.36e-03
+Epoch 420 Chain 1 loss std 1.26e+03 variance 7.90e+05 smothing variance 8.24e+05 scaled smoothing variance 5.70e-03
+Epoch 420 Chain 0 Acc: 92.76 BMA: 94.12 Best Acc: 92.96 Best BMA: 94.13 Temperature: 1.20E-05  Loss: 4127.066 Corrections: -4607.293
+Epoch 420 Chain 1 Acc: 93.07 BMA: 94.39 Best Acc: 93.26 Best BMA: 94.39 Temperature: 2.40E-06  Loss: 4793.995 Corrections: -4607.293
+
+Epoch 421 Chain 0 Acc: 92.73 BMA: 94.15 Best Acc: 92.96 Best BMA: 94.15 Temperature: 1.17E-05  Loss: 5994.343 Corrections: -4607.293
+Epoch 421 Chain 1 Acc: 92.62 BMA: 94.40 Best Acc: 93.26 Best BMA: 94.40 Temperature: 2.35E-06  Loss: 5073.647 Corrections: -4607.293
+
+Epoch 422 Chain 0 Acc: 92.79 BMA: 94.16 Best Acc: 92.96 Best BMA: 94.16 Temperature: 1.15E-05  Loss: 4677.231 Corrections: -4607.293
+Epoch 422 Chain 1 Acc: 92.78 BMA: 94.44 Best Acc: 93.26 Best BMA: 94.44 Temperature: 2.30E-06  Loss: 4634.271 Corrections: -4607.293
+
+Epoch 423 Chain 0 Acc: 92.91 BMA: 94.16 Best Acc: 92.96 Best BMA: 94.16 Temperature: 1.13E-05  Loss: 8867.347 Corrections: -4607.293
+Epoch 423 Chain 1 Acc: 93.16 BMA: 94.42 Best Acc: 93.26 Best BMA: 94.44 Temperature: 2.26E-06  Loss: 5843.575 Corrections: -4607.293
+
+Epoch 424 Chain 0 Acc: 92.96 BMA: 94.18 Best Acc: 92.96 Best BMA: 94.18 Temperature: 1.11E-05  Loss: 9308.071 Corrections: -4607.293
+Epoch 424 Chain 1 Acc: 93.24 BMA: 94.43 Best Acc: 93.26 Best BMA: 94.44 Temperature: 2.21E-06  Loss: 7304.782 Corrections: -4607.293
+
+Epoch 425 Chain 0 loss std 1.46e+03 variance 1.07e+06 smothing variance 1.17e+06 scaled smoothing variance 7.32e-03
+Epoch 425 Chain 1 loss std 1.17e+03 variance 6.85e+05 smothing variance 7.82e+05 scaled smoothing variance 4.90e-03
+Epoch 425 Chain 0 Acc: 92.44 BMA: 94.18 Best Acc: 92.96 Best BMA: 94.18 Temperature: 1.08E-05  Loss: 10198.468 Corrections: -4419.260
+Epoch 425 Chain 1 Acc: 92.83 BMA: 94.47 Best Acc: 93.26 Best BMA: 94.47 Temperature: 2.17E-06  Loss: 6870.659 Corrections: -4419.260
+
+Epoch 426 Chain 0 Acc: 92.82 BMA: 94.20 Best Acc: 92.96 Best BMA: 94.20 Temperature: 1.06E-05  Loss: 7168.732 Corrections: -4419.260
+Epoch 426 Chain 1 Acc: 93.34 BMA: 94.50 Best Acc: 93.34 Best BMA: 94.50 Temperature: 2.13E-06  Loss: 6003.649 Corrections: -4419.260
+
+Epoch 427 Chain 0 Acc: 92.77 BMA: 94.21 Best Acc: 92.96 Best BMA: 94.21 Temperature: 1.04E-05  Loss: 4815.877 Corrections: -4419.260
+Epoch 427 Chain 1 Acc: 93.21 BMA: 94.49 Best Acc: 93.34 Best BMA: 94.50 Temperature: 2.09E-06  Loss: 4485.590 Corrections: -4419.260
+
+Epoch 428 Chain 0 Acc: 92.70 BMA: 94.20 Best Acc: 92.96 Best BMA: 94.21 Temperature: 1.02E-05  Loss: 6449.339 Corrections: -4419.260
+Epoch 428 Chain 1 Acc: 93.13 BMA: 94.50 Best Acc: 93.34 Best BMA: 94.50 Temperature: 2.04E-06  Loss: 3590.890 Corrections: -4419.260
+
+Epoch 429 Chain 0 Acc: 92.86 BMA: 94.21 Best Acc: 92.96 Best BMA: 94.21 Temperature: 1.00E-05  Loss: 7558.757 Corrections: -4419.260
+Epoch 429 Chain 1 Acc: 93.23 BMA: 94.49 Best Acc: 93.34 Best BMA: 94.50 Temperature: 2.00E-06  Loss: 6034.461 Corrections: -4419.260
+
+Epoch 430 Chain 0 loss std 1.40e+03 variance 9.86e+05 smothing variance 1.11e+06 scaled smoothing variance 6.32e-03
+Epoch 430 Chain 1 loss std 1.41e+03 variance 9.96e+05 smothing variance 8.46e+05 scaled smoothing variance 4.81e-03
+Epoch 430 Chain 0 Acc: 92.82 BMA: 94.21 Best Acc: 92.96 Best BMA: 94.21 Temperature: 9.82E-06  Loss: 8578.212 Corrections: -4441.574
+Epoch 430 Chain 1 Acc: 93.36 BMA: 94.49 Best Acc: 93.36 Best BMA: 94.50 Temperature: 1.96E-06  Loss: 8959.369 Corrections: -4441.574
+
+Epoch 431 Swap (with jump F) chain 0 with chain 1 and increase 
+Epoch 431 Chain 0 Acc: 93.42 BMA: 94.21 Best Acc: 93.42 Best BMA: 94.21 Temperature: 9.63E-06  Loss: 4633.210 Corrections: -4441.574
+Epoch 431 Chain 1 Acc: 92.49 BMA: 94.48 Best Acc: 93.36 Best BMA: 94.50 Temperature: 1.93E-06  Loss: 9245.767 Corrections: -4441.574
+
+Epoch 432 Chain 0 Acc: 93.12 BMA: 94.23 Best Acc: 93.42 Best BMA: 94.23 Temperature: 9.44E-06  Loss: 5169.967 Corrections: -6345.106
+Epoch 432 Chain 1 Acc: 93.11 BMA: 94.48 Best Acc: 93.36 Best BMA: 94.50 Temperature: 1.89E-06  Loss: 6394.385 Corrections: -6345.106
+
+Epoch 433 Chain 0 Acc: 92.96 BMA: 94.23 Best Acc: 93.42 Best BMA: 94.23 Temperature: 9.26E-06  Loss: 3548.996 Corrections: -6345.106
+Epoch 433 Chain 1 Acc: 93.22 BMA: 94.49 Best Acc: 93.36 Best BMA: 94.50 Temperature: 1.85E-06  Loss: 4042.487 Corrections: -6345.106
+
+Epoch 434 Chain 0 Acc: 93.12 BMA: 94.23 Best Acc: 93.42 Best BMA: 94.23 Temperature: 9.08E-06  Loss: 5941.157 Corrections: -6345.106
+Epoch 434 Chain 1 Acc: 93.21 BMA: 94.56 Best Acc: 93.36 Best BMA: 94.56 Temperature: 1.82E-06  Loss: 2917.130 Corrections: -6345.106
+
+Epoch 435 Chain 0 loss std 1.39e+03 variance 9.64e+05 smothing variance 1.07e+06 scaled smoothing variance 7.85e-03
+Epoch 435 Chain 1 loss std 1.32e+03 variance 8.78e+05 smothing variance 8.56e+05 scaled smoothing variance 6.29e-03
+Epoch 435 Chain 0 Acc: 92.68 BMA: 94.25 Best Acc: 93.42 Best BMA: 94.25 Temperature: 8.90E-06  Loss: 7670.826 Corrections: -6230.693
+Epoch 435 Chain 1 Acc: 93.11 BMA: 94.59 Best Acc: 93.36 Best BMA: 94.59 Temperature: 1.78E-06  Loss: 5995.460 Corrections: -6230.693
+
+Epoch 436 Chain 0 Acc: 92.92 BMA: 94.27 Best Acc: 93.42 Best BMA: 94.27 Temperature: 8.72E-06  Loss: 4720.052 Corrections: -6230.693
+Epoch 436 Chain 1 Acc: 93.02 BMA: 94.61 Best Acc: 93.36 Best BMA: 94.61 Temperature: 1.74E-06  Loss: 5421.126 Corrections: -6230.693
+
+Epoch 437 Chain 0 Acc: 92.75 BMA: 94.27 Best Acc: 93.42 Best BMA: 94.27 Temperature: 8.55E-06  Loss: 7866.900 Corrections: -6230.693
+Epoch 437 Chain 1 Acc: 93.08 BMA: 94.62 Best Acc: 93.36 Best BMA: 94.62 Temperature: 1.71E-06  Loss: 4918.962 Corrections: -6230.693
+
+Epoch 438 Chain 0 Acc: 93.09 BMA: 94.30 Best Acc: 93.42 Best BMA: 94.30 Temperature: 8.38E-06  Loss: 6195.014 Corrections: -6230.693
+Epoch 438 Chain 1 Acc: 93.22 BMA: 94.60 Best Acc: 93.36 Best BMA: 94.62 Temperature: 1.68E-06  Loss: 3119.973 Corrections: -6230.693
+
+Epoch 439 Chain 0 Acc: 92.68 BMA: 94.32 Best Acc: 93.42 Best BMA: 94.32 Temperature: 8.22E-06  Loss: 13207.887 Corrections: -6230.693
+Epoch 439 Chain 1 Acc: 93.14 BMA: 94.61 Best Acc: 93.36 Best BMA: 94.62 Temperature: 1.64E-06  Loss: 5778.586 Corrections: -6230.693
+
+Epoch 440 Chain 0 loss std 1.27e+03 variance 8.06e+05 smothing variance 9.90e+05 scaled smoothing variance 6.59e-03
+Epoch 440 Chain 1 loss std 1.59e+03 variance 1.26e+06 smothing variance 9.77e+05 scaled smoothing variance 6.50e-03
+Epoch 440 Chain 0 Acc: 93.11 BMA: 94.32 Best Acc: 93.42 Best BMA: 94.32 Temperature: 8.06E-06  Loss: 2894.473 Corrections: -6368.006
+Epoch 440 Chain 1 Acc: 93.35 BMA: 94.62 Best Acc: 93.36 Best BMA: 94.62 Temperature: 1.61E-06  Loss: 8824.698 Corrections: -6368.006
+
+Epoch 441 Chain 0 Acc: 92.81 BMA: 94.32 Best Acc: 93.42 Best BMA: 94.32 Temperature: 7.90E-06  Loss: 3954.514 Corrections: -6368.006
+Epoch 441 Chain 1 Acc: 93.43 BMA: 94.62 Best Acc: 93.43 Best BMA: 94.62 Temperature: 1.58E-06  Loss: 2178.960 Corrections: -6368.006
+
+Epoch 442 Chain 0 Acc: 92.65 BMA: 94.33 Best Acc: 93.42 Best BMA: 94.33 Temperature: 7.75E-06  Loss: 9788.969 Corrections: -6368.006
+Epoch 442 Chain 1 Acc: 93.11 BMA: 94.65 Best Acc: 93.43 Best BMA: 94.65 Temperature: 1.55E-06  Loss: 11313.631 Corrections: -6368.006
+
+Epoch 443 Chain 0 Acc: 92.84 BMA: 94.32 Best Acc: 93.42 Best BMA: 94.33 Temperature: 7.59E-06  Loss: 4870.035 Corrections: -6368.006
+Epoch 443 Chain 1 Acc: 93.37 BMA: 94.65 Best Acc: 93.43 Best BMA: 94.65 Temperature: 1.52E-06  Loss: 3579.079 Corrections: -6368.006
+
+Epoch 444 Chain 0 Acc: 93.25 BMA: 94.33 Best Acc: 93.42 Best BMA: 94.33 Temperature: 7.45E-06  Loss: 7768.713 Corrections: -6368.006
+Epoch 444 Chain 1 Acc: 93.40 BMA: 94.68 Best Acc: 93.43 Best BMA: 94.68 Temperature: 1.49E-06  Loss: 6120.529 Corrections: -6368.006
+
+Epoch 445 Chain 0 loss std 1.20e+03 variance 7.23e+05 smothing variance 9.10e+05 scaled smoothing variance 5.48e-03
+Epoch 445 Chain 1 loss std 1.36e+03 variance 9.24e+05 smothing variance 9.61e+05 scaled smoothing variance 5.79e-03
+Epoch 445 Chain 0 Acc: 93.12 BMA: 94.32 Best Acc: 93.42 Best BMA: 94.33 Temperature: 7.30E-06  Loss: 6299.805 Corrections: -6058.039
+Epoch 445 Chain 1 Acc: 93.55 BMA: 94.68 Best Acc: 93.55 Best BMA: 94.68 Temperature: 1.46E-06  Loss: 4355.795 Corrections: -6058.039
+
+Epoch 446 Chain 0 Acc: 92.88 BMA: 94.34 Best Acc: 93.42 Best BMA: 94.34 Temperature: 7.16E-06  Loss: 10169.021 Corrections: -6058.039
+Epoch 446 Chain 1 Acc: 93.18 BMA: 94.68 Best Acc: 93.55 Best BMA: 94.68 Temperature: 1.43E-06  Loss: 9609.592 Corrections: -6058.039
+
+Epoch 447 Chain 0 Acc: 93.12 BMA: 94.37 Best Acc: 93.42 Best BMA: 94.37 Temperature: 7.02E-06  Loss: 7996.051 Corrections: -6058.039
+Epoch 447 Chain 1 Acc: 93.47 BMA: 94.70 Best Acc: 93.55 Best BMA: 94.70 Temperature: 1.40E-06  Loss: 4534.519 Corrections: -6058.039
+
+Epoch 448 Chain 0 Acc: 93.13 BMA: 94.36 Best Acc: 93.42 Best BMA: 94.37 Temperature: 6.88E-06  Loss: 8240.624 Corrections: -6058.039
+Epoch 448 Chain 1 Acc: 93.11 BMA: 94.70 Best Acc: 93.55 Best BMA: 94.70 Temperature: 1.38E-06  Loss: 9980.915 Corrections: -6058.039
+
+Epoch 449 Chain 0 Acc: 93.46 BMA: 94.35 Best Acc: 93.46 Best BMA: 94.37 Temperature: 6.74E-06  Loss: 8647.461 Corrections: -6058.039
+Epoch 449 Chain 1 Acc: 93.06 BMA: 94.69 Best Acc: 93.55 Best BMA: 94.70 Temperature: 1.35E-06  Loss: 8763.942 Corrections: -6058.039
+
+Epoch 450 Chain 0 loss std 1.39e+03 variance 9.63e+05 smothing variance 9.26e+05 scaled smoothing variance 5.05e-03
+Epoch 450 Chain 1 loss std 1.14e+03 variance 6.51e+05 smothing variance 8.68e+05 scaled smoothing variance 4.74e-03
+Epoch 450 Chain 0 Acc: 92.86 BMA: 94.38 Best Acc: 93.46 Best BMA: 94.38 Temperature: 6.61E-06  Loss: 10124.262 Corrections: -5808.600
+Epoch 450 Chain 1 Acc: 93.04 BMA: 94.70 Best Acc: 93.55 Best BMA: 94.70 Temperature: 1.32E-06  Loss: 9615.851 Corrections: -5808.600
+
+Epoch 451 Chain 0 Acc: 92.96 BMA: 94.38 Best Acc: 93.46 Best BMA: 94.38 Temperature: 6.48E-06  Loss: 1937.233 Corrections: -5808.600
+Epoch 451 Chain 1 Acc: 93.13 BMA: 94.71 Best Acc: 93.55 Best BMA: 94.71 Temperature: 1.30E-06  Loss: 2643.699 Corrections: -5808.600
+
+Epoch 452 Chain 0 Acc: 93.35 BMA: 94.38 Best Acc: 93.46 Best BMA: 94.38 Temperature: 6.35E-06  Loss: 5368.855 Corrections: -5808.600
+Epoch 452 Chain 1 Acc: 93.37 BMA: 94.72 Best Acc: 93.55 Best BMA: 94.72 Temperature: 1.27E-06  Loss: 7058.968 Corrections: -5808.600
+
+Epoch 453 Chain 0 Acc: 93.33 BMA: 94.38 Best Acc: 93.46 Best BMA: 94.38 Temperature: 6.23E-06  Loss: 5590.672 Corrections: -5808.600
+Epoch 453 Chain 1 Acc: 93.21 BMA: 94.72 Best Acc: 93.55 Best BMA: 94.72 Temperature: 1.25E-06  Loss: 4304.965 Corrections: -5808.600
+
+Epoch 454 Chain 0 Acc: 93.12 BMA: 94.39 Best Acc: 93.46 Best BMA: 94.39 Temperature: 6.11E-06  Loss: 2583.555 Corrections: -5808.600
+Epoch 454 Chain 1 Acc: 93.19 BMA: 94.72 Best Acc: 93.55 Best BMA: 94.72 Temperature: 1.22E-06  Loss: 3118.081 Corrections: -5808.600
+
+Epoch 455 Chain 0 loss std 1.24e+03 variance 7.72e+05 smothing variance 8.80e+05 scaled smoothing variance 4.35e-03
+Epoch 455 Chain 1 loss std 1.14e+03 variance 6.51e+05 smothing variance 8.03e+05 scaled smoothing variance 3.97e-03
+Epoch 455 Chain 0 Acc: 93.38 BMA: 94.41 Best Acc: 93.46 Best BMA: 94.41 Temperature: 5.99E-06  Loss: 7327.504 Corrections: -5448.689
+Epoch 455 Chain 1 Acc: 93.27 BMA: 94.68 Best Acc: 93.55 Best BMA: 94.72 Temperature: 1.20E-06  Loss: 6248.123 Corrections: -5448.689
+
+Epoch 456 Chain 0 Acc: 92.91 BMA: 94.41 Best Acc: 93.46 Best BMA: 94.41 Temperature: 5.87E-06  Loss: 5556.216 Corrections: -5448.689
+Epoch 456 Chain 1 Acc: 93.48 BMA: 94.69 Best Acc: 93.55 Best BMA: 94.72 Temperature: 1.17E-06  Loss: 3765.238 Corrections: -5448.689
+
+Epoch 457 Chain 0 Acc: 93.01 BMA: 94.44 Best Acc: 93.46 Best BMA: 94.44 Temperature: 5.76E-06  Loss: 5121.676 Corrections: -5448.689
+Epoch 457 Chain 1 Acc: 93.29 BMA: 94.70 Best Acc: 93.55 Best BMA: 94.72 Temperature: 1.15E-06  Loss: 6773.014 Corrections: -5448.689
+
+Epoch 458 Chain 0 Acc: 93.44 BMA: 94.43 Best Acc: 93.46 Best BMA: 94.44 Temperature: 5.64E-06  Loss: 6289.011 Corrections: -5448.689
+Epoch 458 Chain 1 Acc: 93.37 BMA: 94.70 Best Acc: 93.55 Best BMA: 94.72 Temperature: 1.13E-06  Loss: 3390.091 Corrections: -5448.689
+
+Epoch 459 Chain 0 Acc: 92.96 BMA: 94.43 Best Acc: 93.46 Best BMA: 94.44 Temperature: 5.53E-06  Loss: 3234.608 Corrections: -5448.689
+Epoch 459 Chain 1 Acc: 93.16 BMA: 94.71 Best Acc: 93.55 Best BMA: 94.72 Temperature: 1.11E-06  Loss: 4642.802 Corrections: -5448.689
+
+Epoch 460 Chain 0 loss std 1.41e+03 variance 1.00e+06 smothing variance 9.16e+05 scaled smoothing variance 4.10e-03
+Epoch 460 Chain 1 loss std 1.13e+03 variance 6.40e+05 smothing variance 7.54e+05 scaled smoothing variance 3.38e-03
+Epoch 460 Chain 0 Acc: 93.19 BMA: 94.43 Best Acc: 93.46 Best BMA: 94.44 Temperature: 5.42E-06  Loss: 2947.794 Corrections: -5406.767
+Epoch 460 Chain 1 Acc: 93.22 BMA: 94.74 Best Acc: 93.55 Best BMA: 94.74 Temperature: 1.08E-06  Loss: 872.632 Corrections: -5406.767
+
+Epoch 461 Chain 0 Acc: 93.46 BMA: 94.42 Best Acc: 93.46 Best BMA: 94.44 Temperature: 5.32E-06  Loss: 4632.603 Corrections: -5406.767
+Epoch 461 Chain 1 Acc: 93.40 BMA: 94.78 Best Acc: 93.55 Best BMA: 94.78 Temperature: 1.06E-06  Loss: 2904.295 Corrections: -5406.767
+
+Epoch 462 Chain 0 Acc: 93.00 BMA: 94.43 Best Acc: 93.46 Best BMA: 94.44 Temperature: 5.21E-06  Loss: 7801.486 Corrections: -5406.767
+Epoch 462 Chain 1 Acc: 93.36 BMA: 94.78 Best Acc: 93.55 Best BMA: 94.78 Temperature: 1.04E-06  Loss: 9312.852 Corrections: -5406.767
+
+Epoch 463 Chain 0 Acc: 93.23 BMA: 94.43 Best Acc: 93.46 Best BMA: 94.44 Temperature: 5.11E-06  Loss: 5536.478 Corrections: -5406.767
+Epoch 463 Chain 1 Acc: 93.54 BMA: 94.79 Best Acc: 93.55 Best BMA: 94.79 Temperature: 1.02E-06  Loss: 3948.962 Corrections: -5406.767
+
+Epoch 464 Chain 0 Acc: 93.12 BMA: 94.43 Best Acc: 93.46 Best BMA: 94.44 Temperature: 5.01E-06  Loss: 3046.476 Corrections: -5406.767
+Epoch 464 Chain 1 Acc: 93.45 BMA: 94.78 Best Acc: 93.55 Best BMA: 94.79 Temperature: 1.00E-06  Loss: 5677.133 Corrections: -5406.767
+
+Epoch 465 Chain 0 loss std 1.14e+03 variance 6.49e+05 smothing variance 8.36e+05 scaled smoothing variance 3.39e-03
+Epoch 465 Chain 1 loss std 1.21e+03 variance 7.36e+05 smothing variance 7.48e+05 scaled smoothing variance 3.04e-03
+Epoch 465 Chain 0 Acc: 93.33 BMA: 94.46 Best Acc: 93.46 Best BMA: 94.46 Temperature: 4.91E-06  Loss: 15204.956 Corrections: -5129.497
+Epoch 465 Chain 1 Acc: 93.60 BMA: 94.78 Best Acc: 93.60 Best BMA: 94.79 Temperature: 9.82E-07  Loss: 7485.068 Corrections: -5129.497
+
+Epoch 466 Chain 0 Acc: 93.13 BMA: 94.45 Best Acc: 93.46 Best BMA: 94.46 Temperature: 4.82E-06  Loss: 6108.228 Corrections: -5129.497
+Epoch 466 Chain 1 Acc: 93.52 BMA: 94.78 Best Acc: 93.60 Best BMA: 94.79 Temperature: 9.63E-07  Loss: 2666.469 Corrections: -5129.497
+
+Epoch 467 Chain 0 Acc: 93.60 BMA: 94.46 Best Acc: 93.60 Best BMA: 94.46 Temperature: 4.72E-06  Loss: 4762.333 Corrections: -5129.497
+Epoch 467 Chain 1 Acc: 93.41 BMA: 94.78 Best Acc: 93.60 Best BMA: 94.79 Temperature: 9.44E-07  Loss: 5172.848 Corrections: -5129.497
+
+Epoch 468 Chain 0 Acc: 93.02 BMA: 94.44 Best Acc: 93.60 Best BMA: 94.46 Temperature: 4.63E-06  Loss: 7466.484 Corrections: -5129.497
+Epoch 468 Chain 1 Acc: 93.34 BMA: 94.77 Best Acc: 93.60 Best BMA: 94.79 Temperature: 9.26E-07  Loss: 10457.133 Corrections: -5129.497
+
+Epoch 469 Chain 0 Acc: 93.27 BMA: 94.45 Best Acc: 93.60 Best BMA: 94.46 Temperature: 4.54E-06  Loss: 10285.081 Corrections: -5129.497
+Epoch 469 Chain 1 Acc: 93.40 BMA: 94.74 Best Acc: 93.60 Best BMA: 94.79 Temperature: 9.08E-07  Loss: 6225.207 Corrections: -5129.497
+
+Epoch 470 Chain 0 loss std 1.13e+03 variance 6.40e+05 smothing variance 7.77e+05 scaled smoothing variance 2.86e-03
+Epoch 470 Chain 1 loss std 1.04e+03 variance 5.40e+05 smothing variance 6.86e+05 scaled smoothing variance 2.52e-03
+Epoch 470 Chain 0 Acc: 93.03 BMA: 94.46 Best Acc: 93.60 Best BMA: 94.46 Temperature: 4.45E-06  Loss: 4370.432 Corrections: -4737.188
+Epoch 470 Chain 1 Acc: 93.48 BMA: 94.74 Best Acc: 93.60 Best BMA: 94.79 Temperature: 8.90E-07  Loss: 1995.181 Corrections: -4737.188
+
+Epoch 471 Chain 0 Acc: 93.13 BMA: 94.49 Best Acc: 93.60 Best BMA: 94.49 Temperature: 4.36E-06  Loss: 5791.270 Corrections: -4737.188
+Epoch 471 Chain 1 Acc: 93.58 BMA: 94.75 Best Acc: 93.60 Best BMA: 94.79 Temperature: 8.72E-07  Loss: 7352.523 Corrections: -4737.188
+
+Epoch 472 Chain 0 Acc: 93.37 BMA: 94.48 Best Acc: 93.60 Best BMA: 94.49 Temperature: 4.28E-06  Loss: 3776.566 Corrections: -4737.188
+Epoch 472 Chain 1 Acc: 93.48 BMA: 94.75 Best Acc: 93.60 Best BMA: 94.79 Temperature: 8.55E-07  Loss: 3132.672 Corrections: -4737.188
+
+Epoch 473 Chain 0 Acc: 93.19 BMA: 94.49 Best Acc: 93.60 Best BMA: 94.49 Temperature: 4.19E-06  Loss: 6340.043 Corrections: -4737.188
+Epoch 473 Chain 1 Acc: 93.26 BMA: 94.72 Best Acc: 93.60 Best BMA: 94.79 Temperature: 8.39E-07  Loss: 5860.439 Corrections: -4737.188
+
+Epoch 474 Chain 0 Acc: 93.33 BMA: 94.50 Best Acc: 93.60 Best BMA: 94.50 Temperature: 4.11E-06  Loss: 6023.414 Corrections: -4737.188
+Epoch 474 Chain 1 Acc: 93.49 BMA: 94.77 Best Acc: 93.60 Best BMA: 94.79 Temperature: 8.22E-07  Loss: 7455.582 Corrections: -4737.188
+
+Epoch 475 Chain 0 loss std 1.37e+03 variance 9.36e+05 smothing variance 8.25e+05 scaled smoothing variance 2.74e-03
+Epoch 475 Chain 1 loss std 1.42e+03 variance 1.01e+06 smothing variance 7.82e+05 scaled smoothing variance 2.60e-03
+Epoch 475 Chain 0 Acc: 93.46 BMA: 94.51 Best Acc: 93.60 Best BMA: 94.51 Temperature: 4.03E-06  Loss: 9121.838 Corrections: -5202.251
+Epoch 475 Chain 1 Acc: 93.54 BMA: 94.77 Best Acc: 93.60 Best BMA: 94.79 Temperature: 8.06E-07  Loss: 5758.575 Corrections: -5202.251
+
+Epoch 476 Chain 0 Acc: 93.34 BMA: 94.51 Best Acc: 93.60 Best BMA: 94.51 Temperature: 3.95E-06  Loss: 5777.523 Corrections: -5202.251
+Epoch 476 Chain 1 Acc: 93.49 BMA: 94.77 Best Acc: 93.60 Best BMA: 94.79 Temperature: 7.90E-07  Loss: 7022.333 Corrections: -5202.251
+
+Epoch 477 Chain 0 Acc: 93.49 BMA: 94.51 Best Acc: 93.60 Best BMA: 94.51 Temperature: 3.87E-06  Loss: 8128.328 Corrections: -5202.251
+Epoch 477 Chain 1 Acc: 93.53 BMA: 94.76 Best Acc: 93.60 Best BMA: 94.79 Temperature: 7.75E-07  Loss: 4867.434 Corrections: -5202.251
+
+Epoch 478 Chain 0 Acc: 93.59 BMA: 94.51 Best Acc: 93.60 Best BMA: 94.51 Temperature: 3.80E-06  Loss: 3815.634 Corrections: -5202.251
+Epoch 478 Chain 1 Acc: 93.44 BMA: 94.76 Best Acc: 93.60 Best BMA: 94.79 Temperature: 7.59E-07  Loss: 3300.594 Corrections: -5202.251
+
+Epoch 479 Chain 0 Acc: 93.15 BMA: 94.52 Best Acc: 93.60 Best BMA: 94.52 Temperature: 3.72E-06  Loss: 2887.865 Corrections: -5202.251
+Epoch 479 Chain 1 Acc: 93.30 BMA: 94.78 Best Acc: 93.60 Best BMA: 94.79 Temperature: 7.45E-07  Loss: 3556.582 Corrections: -5202.251
+
+Epoch 480 Chain 0 loss std 1.07e+03 variance 5.69e+05 smothing variance 7.48e+05 scaled smoothing variance 2.25e-03
+Epoch 480 Chain 1 loss std 1.19e+03 variance 7.06e+05 smothing variance 7.59e+05 scaled smoothing variance 2.29e-03
+Epoch 480 Chain 0 Acc: 93.36 BMA: 94.53 Best Acc: 93.60 Best BMA: 94.53 Temperature: 3.65E-06  Loss: 9819.047 Corrections: -4880.744
+Epoch 480 Chain 1 Acc: 93.29 BMA: 94.78 Best Acc: 93.60 Best BMA: 94.79 Temperature: 7.30E-07  Loss: 5289.176 Corrections: -4880.744
+
+Epoch 481 Chain 0 Acc: 93.58 BMA: 94.51 Best Acc: 93.60 Best BMA: 94.53 Temperature: 3.58E-06  Loss: 5550.887 Corrections: -4880.744
+Epoch 481 Chain 1 Acc: 93.68 BMA: 94.76 Best Acc: 93.68 Best BMA: 94.79 Temperature: 7.16E-07  Loss: 6293.464 Corrections: -4880.744
+
+Epoch 482 Chain 0 Acc: 93.37 BMA: 94.51 Best Acc: 93.60 Best BMA: 94.53 Temperature: 3.51E-06  Loss: 9141.682 Corrections: -4880.744
+Epoch 482 Chain 1 Acc: 93.30 BMA: 94.76 Best Acc: 93.68 Best BMA: 94.79 Temperature: 7.02E-07  Loss: 5159.156 Corrections: -4880.744
+
+Epoch 483 Chain 0 Acc: 93.35 BMA: 94.51 Best Acc: 93.60 Best BMA: 94.53 Temperature: 3.44E-06  Loss: 4443.714 Corrections: -4880.744
+Epoch 483 Chain 1 Acc: 93.40 BMA: 94.76 Best Acc: 93.68 Best BMA: 94.79 Temperature: 6.88E-07  Loss: 4351.544 Corrections: -4880.744
+
+Epoch 484 Chain 0 Acc: 93.43 BMA: 94.52 Best Acc: 93.60 Best BMA: 94.53 Temperature: 3.37E-06  Loss: 4737.347 Corrections: -4880.744
+Epoch 484 Chain 1 Acc: 93.24 BMA: 94.74 Best Acc: 93.68 Best BMA: 94.79 Temperature: 6.74E-07  Loss: 3789.338 Corrections: -4880.744
+
+Epoch 485 Chain 0 loss std 1.21e+03 variance 7.28e+05 smothing variance 7.42e+05 scaled smoothing variance 2.03e-03
+Epoch 485 Chain 1 loss std 1.32e+03 variance 8.65e+05 smothing variance 7.91e+05 scaled smoothing variance 2.16e-03
+Epoch 485 Chain 0 Acc: 93.45 BMA: 94.53 Best Acc: 93.60 Best BMA: 94.53 Temperature: 3.31E-06  Loss: 5906.080 Corrections: -4963.918
+Epoch 485 Chain 1 Acc: 93.40 BMA: 94.74 Best Acc: 93.68 Best BMA: 94.79 Temperature: 6.61E-07  Loss: 4973.229 Corrections: -4963.918
+
+Epoch 486 Chain 0 Acc: 93.19 BMA: 94.54 Best Acc: 93.60 Best BMA: 94.54 Temperature: 3.24E-06  Loss: 3705.691 Corrections: -4963.918
+Epoch 486 Chain 1 Acc: 93.26 BMA: 94.77 Best Acc: 93.68 Best BMA: 94.79 Temperature: 6.48E-07  Loss: 3761.613 Corrections: -4963.918
+
+Epoch 487 Chain 0 Acc: 93.40 BMA: 94.56 Best Acc: 93.60 Best BMA: 94.56 Temperature: 3.18E-06  Loss: 7712.438 Corrections: -4963.918
+Epoch 487 Chain 1 Acc: 93.43 BMA: 94.78 Best Acc: 93.68 Best BMA: 94.79 Temperature: 6.36E-07  Loss: 9968.723 Corrections: -4963.918
+
+Epoch 488 Chain 0 Acc: 93.40 BMA: 94.58 Best Acc: 93.60 Best BMA: 94.58 Temperature: 3.12E-06  Loss: 11107.917 Corrections: -4963.918
+Epoch 488 Chain 1 Acc: 93.42 BMA: 94.75 Best Acc: 93.68 Best BMA: 94.79 Temperature: 6.23E-07  Loss: 8270.431 Corrections: -4963.918
+
+Epoch 489 Chain 0 Acc: 93.39 BMA: 94.57 Best Acc: 93.60 Best BMA: 94.58 Temperature: 3.05E-06  Loss: 9282.831 Corrections: -4963.918
+Epoch 489 Chain 1 Acc: 93.50 BMA: 94.74 Best Acc: 93.68 Best BMA: 94.79 Temperature: 6.11E-07  Loss: 8354.149 Corrections: -4963.918
+
+Epoch 490 Chain 0 loss std 1.43e+03 variance 1.03e+06 smothing variance 8.28e+05 scaled smoothing variance 2.05e-03
+Epoch 490 Chain 1 loss std 9.72e+02 variance 4.73e+05 smothing variance 6.96e+05 scaled smoothing variance 1.72e-03
+Epoch 490 Chain 0 Acc: 93.23 BMA: 94.56 Best Acc: 93.60 Best BMA: 94.58 Temperature: 2.99E-06  Loss: 3579.443 Corrections: -4932.962
+Epoch 490 Chain 1 Acc: 93.59 BMA: 94.76 Best Acc: 93.68 Best BMA: 94.79 Temperature: 5.99E-07  Loss: 6586.880 Corrections: -4932.962
+
+Epoch 491 Chain 0 Acc: 93.74 BMA: 94.57 Best Acc: 93.74 Best BMA: 94.58 Temperature: 2.94E-06  Loss: 11333.616 Corrections: -4932.962
+Epoch 491 Chain 1 Acc: 93.47 BMA: 94.76 Best Acc: 93.68 Best BMA: 94.79 Temperature: 5.87E-07  Loss: 8520.411 Corrections: -4932.962
+
+Epoch 492 Chain 0 Acc: 93.53 BMA: 94.57 Best Acc: 93.74 Best BMA: 94.58 Temperature: 2.88E-06  Loss: 5224.909 Corrections: -4932.962
+Epoch 492 Chain 1 Acc: 93.42 BMA: 94.75 Best Acc: 93.68 Best BMA: 94.79 Temperature: 5.76E-07  Loss: 5441.901 Corrections: -4932.962
+
+Epoch 493 Chain 0 Acc: 93.38 BMA: 94.57 Best Acc: 93.74 Best BMA: 94.58 Temperature: 2.82E-06  Loss: 5720.742 Corrections: -4932.962
+Epoch 493 Chain 1 Acc: 93.52 BMA: 94.74 Best Acc: 93.68 Best BMA: 94.79 Temperature: 5.64E-07  Loss: 4704.509 Corrections: -4932.962
+
+Epoch 494 Chain 0 Acc: 93.30 BMA: 94.57 Best Acc: 93.74 Best BMA: 94.58 Temperature: 2.77E-06  Loss: 4630.716 Corrections: -4932.962
+Epoch 494 Chain 1 Acc: 93.36 BMA: 94.73 Best Acc: 93.68 Best BMA: 94.79 Temperature: 5.53E-07  Loss: 5747.719 Corrections: -4932.962
+
+Epoch 495 Chain 0 loss std 1.21e+03 variance 7.37e+05 smothing variance 8.01e+05 scaled smoothing variance 1.79e-03
+Epoch 495 Chain 1 loss std 1.06e+03 variance 5.66e+05 smothing variance 6.57e+05 scaled smoothing variance 1.47e-03
+Epoch 495 Chain 0 Acc: 93.48 BMA: 94.57 Best Acc: 93.74 Best BMA: 94.58 Temperature: 2.71E-06  Loss: 4184.332 Corrections: -4718.911
+Epoch 495 Chain 1 Acc: 93.45 BMA: 94.74 Best Acc: 93.68 Best BMA: 94.79 Temperature: 5.42E-07  Loss: 4265.732 Corrections: -4718.911
+
+Epoch 496 Chain 0 Acc: 93.28 BMA: 94.57 Best Acc: 93.74 Best BMA: 94.58 Temperature: 2.66E-06  Loss: 7465.549 Corrections: -4718.911
+Epoch 496 Chain 1 Acc: 93.44 BMA: 94.74 Best Acc: 93.68 Best BMA: 94.79 Temperature: 5.32E-07  Loss: 8991.339 Corrections: -4718.911
+
+Epoch 497 Chain 0 Acc: 93.45 BMA: 94.57 Best Acc: 93.74 Best BMA: 94.58 Temperature: 2.61E-06  Loss: 3951.418 Corrections: -4718.911
+Epoch 497 Chain 1 Acc: 93.50 BMA: 94.74 Best Acc: 93.68 Best BMA: 94.79 Temperature: 5.21E-07  Loss: 3489.786 Corrections: -4718.911
+
+Epoch 498 Chain 0 Acc: 93.60 BMA: 94.59 Best Acc: 93.74 Best BMA: 94.59 Temperature: 2.56E-06  Loss: 7750.308 Corrections: -4718.911
+Epoch 498 Chain 1 Acc: 93.63 BMA: 94.75 Best Acc: 93.68 Best BMA: 94.79 Temperature: 5.11E-07  Loss: 8195.236 Corrections: -4718.911
+
+Epoch 499 Chain 0 Acc: 93.60 BMA: 94.59 Best Acc: 93.74 Best BMA: 94.59 Temperature: 2.51E-06  Loss: 5961.196 Corrections: -4718.911
+Epoch 499 Chain 1 Acc: 93.55 BMA: 94.74 Best Acc: 93.68 Best BMA: 94.79 Temperature: 5.01E-07  Loss: 6335.399 Corrections: -4718.911
+
+Time used 17921.44s
