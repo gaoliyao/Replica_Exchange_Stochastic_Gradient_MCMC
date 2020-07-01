@@ -24,7 +24,7 @@ Experiment code for "[Non-convex Learning via Replica Exchange Stochastic Gradie
 
 3. ggplot2 (library)
 
-Please check the file in the simulation folder
+Please check the file in the **simulation** folder
 
 
 
