@@ -49,7 +49,7 @@ Setup: batch size 256 and 500 epochs. Simulated annealing is used by default.
 $ python bayes_cnn.py -data cifar10 -model resnet -depth 20 -sn 500 -train 256 -lr 2e-6 -T 0.01 -chains 1
 ```
 
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `reSGHMC`  The low-temperature chain has the same settings as SGHMC; The high-temperature chain has a learning rate 3e-6 (2e-6/0.66) and a temperature 0.05 (0.01/0.2). The initial correction factor is 3e5. 
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `reSGHMC`  The low-temperature chain has the same setting as SGHMC; The initial F is 3e5. 
 ```bash
 $ python bayes_cnn.py -data cifar10 -model resnet -depth 20 -sn 500 -train 256 -chains 2 -LRgap 0.66 -Tgap 0.2 -F_jump 0.7 -bias_F 3e5
 ```
@@ -62,6 +62,7 @@ $ python bayes_cnn.py -data cifar10 -model resnet -depth 20 -sn 500 -train 256 -
 To use a large batch size 1024, you need a slower annealing rate and 2000 epochs to keep the same iterations.
 ```bash
 $ python bayes_cnn.py -data cifar10 -model resnet -depth 20 -sn 2000 -train 1024 -chains 1 -lr_anneal 0.996 -anneal 1.005 -F_anneal 1.005
+$ python bayes_cnn.py -data cifar10 -model resnet -depth 20 -sn 2000 -train 1024 -chains 2 -lr_anneal 0.996 -anneal 1.005 -F_anneal 1.005 -LRgap 0.66 -Tgap 0.2 -F_jump 0.7
 ```
 
 To run the WRN models, you can use "-model wrn -depth 0" and "-model wrn28 -depth 0" to run WRN-16-8 and wrn-28-10 models, respectively. 
