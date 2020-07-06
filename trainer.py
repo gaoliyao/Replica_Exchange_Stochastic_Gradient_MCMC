@@ -1,6 +1,6 @@
 """
 Code for Replica Exchange Stochastic Gradient MCMC on supervised learning
-Wei Deng
+(c) Wei Deng, Liyao Gao
 July 1, 2020
 
 You can cite this paper 'Non-convex Learning via Replica Exchange Stochastic Gradient MCMC (ICML 2020)' if you find it useful.
