@@ -68,3 +68,16 @@ $ python bayes_cnn.py -data cifar10 -model resnet -depth 20 -sn 2000 -train 1024
 To run the WRN models, you can use "-model wrn -depth 0" and "-model wrn28 -depth 0" to run WRN-16-8 and wrn-28-10 models, respectively. 
 
 # Semi-supervised Learning via Bayesian GAN
+## Environment
+
+1. Python2.7
+
+2. Tensorflow == 1.0.0 (version number might be critical)
+
+3. Numpy
+
+## How to run code on CIFAR10 using Replica Exchange Stochastic Gradient MCMC
+```bash
+python ./bayesian_gan_hmc.py --dataset cifar --numz 10 --num_mcmc 2 --data_path ./output --out_dir ./output --train_iter 15000 --N 4000 --lr 0.00045 -LRgap 0.66 -Tgap 100 --semi_supervised --n_save 100 --gen_observed 4000 --fileName cifar10_4000_0.00045_0.66_100
+```
+For detailed instruction please check the README.md file inside semi_supervised_learning folder. 
