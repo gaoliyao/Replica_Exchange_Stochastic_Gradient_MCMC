@@ -36,7 +36,7 @@ Please check the file in the **simulation** folder
 
 1. Python2.7
 
-2. PyTorch > 1.1
+2. PyTorch >= 1.1
 
 3. Numpy
 
@@ -44,14 +44,14 @@ Please check the file in the **simulation** folder
 
 Setup: batch size 256 and 500 epochs. Simulated annealing is used by default.
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `SGHMC` Set the default learning rate to 2e-6 and the temperature to 0.01
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `SGHMC` Set the default learning rate (lr) to 2e-6 and the temperature (T) to 0.01
 ```bash
 $ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 500 -train 256 -lr 2e-6 -T 0.01 -chains 1
 ```
 
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `reSGHMC`  The low-temperature chain has the same setting as SGHMC; The initial F is 3e5. 
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `reSGHMC`  The low-temperature chain has the same setting as SGHMC; The high-temperature chain has a higher lr 3e-6=2e-6/LRgap and a higher T 0.05=0.01/Tgap; The initial F is 3e5. 
 ```bash
-$ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 500 -train 256 -chains 2 -LRgap 0.66 -Tgap 0.2 -F_jump 0.7 -bias_F 3e5
+$ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 500 -train 256 -chains 2 -LRgap 0.66 -Tgap 0.2 -F_jump 0.8 -bias_F 3e5
 ```
 
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Naive reSGHMC`  Simply set bias_F=1e300 and F_jump=1 as follows
@@ -62,10 +62,21 @@ $ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 500 -train 256 
 To use a large batch size 1024, you need a slower annealing rate and 2000 epochs to keep the same iterations.
 ```bash
 $ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 2000 -train 1024 -chains 1 -lr_anneal 0.996 -anneal 1.005 -F_anneal 1.005
-$ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 2000 -train 1024 -chains 2 -lr_anneal 0.996 -anneal 1.005 -F_anneal 1.005 -LRgap 0.66 -Tgap 0.2 -F_jump 0.7
+$ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 2000 -train 1024 -chains 2 -lr_anneal 0.996 -anneal 1.005 -F_anneal 1.005 -LRgap 0.66 -Tgap 0.2 -F_jump 0.8
 ```
 
-To run the WRN models, you can use "-model wrn -depth 0" and "-model wrn28 -depth 0" to run WRN-16-8 and wrn-28-10 models, respectively. 
+To run the WRN models (WRN-16-8 and wrn-28-10) , you can try the following
+```bash
+$ python bayes_cnn.py -data cifar100 -model wrn -sn 500 -train 256 -LRgap 0.66 -Tgap 0.2 -chains 2 -F_jump 0.8 -cool 20 -bias_F 3e5
+$ python bayes_cnn.py -data cifar100 -model wrn28 -sn 500 -train 256 -LRgap 0.66 -Tgap 0.2 -chains 2 -F_jump 0.8 -cool 20 -bias_F 3e5
+```
+Note that in WRN models, we need to include the extra **cooling time** because cases of two consecutive swaps during the same epoch happens a lot and cancel the acceleration effects.
+
+To reduce the hyperparameter tuning cost, you can also try to use greedy instead of swap to break the detailed balance condition. This helps for the optimization purposes and almost has the same optimization performance as the swap type. For example
+```bash
+$ python bayes_cnn.py -data cifar100 -model wrn -types greedy -sn 500 -train 256 -chains 2 -cool 20 -bias_F 3e5
+```
+
 
 # Semi-supervised Learning via Bayesian GAN
 ## Environment

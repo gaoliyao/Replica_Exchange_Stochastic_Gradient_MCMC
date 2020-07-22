@@ -61,6 +61,7 @@ def trainer(nets, train_loader, test_loader, pars):
     losses = np.empty((0, pars.chains))
     counter = 1.
     adjusted_corrections = 0
+    cooling_time = []
     start = time.time()
     for epoch in range(pars.sn):
         if pars.var > 0 and epoch % pars.var == 0 and epoch >= 10:
@@ -114,16 +115,19 @@ def trainer(nets, train_loader, test_loader, pars):
                         if pars.types == 'greedy':
                             samplers[idx+1].net.load_state_dict(samplers[idx].net.state_dict())
                             print('Epoch {} Copy chain {} to chain {}'.format(epoch, idx, idx+1))
-                        elif pars.types == 'swap':
+                        elif pars.types == 'swap' and epoch not in cooling_time:
                             temporary = pickle.loads(pickle.dumps(samplers[idx+1].net))
                             samplers[idx+1].net.load_state_dict(samplers[idx].net.state_dict())
                             samplers[idx].net.load_state_dict(temporary.state_dict())
                             print('Epoch {} Swap (with jump F) chain {} with chain {} and increase '.format(epoch, idx, idx+1))
                             pars.bias_F *= pars.F_jump
+                            cooling_time = range(epoch, epoch+pars.cool)
+                        elif pars.types == 'swap':
+                            print('Epoch {} Cooling period'.format(epoch))
                         else:
                             sys.exit('Unknown swapping types.')
         """ Anneaing """
-        pars.bias_F *= pars.anneal
+        pars.bias_F *= pars.F_anneal
         for idx in range(pars.chains):
             if epoch > (0.4 * pars.sn) and pars.lr_anneal <= 1.:
                 samplers[idx].eta *= pars.lr_anneal
