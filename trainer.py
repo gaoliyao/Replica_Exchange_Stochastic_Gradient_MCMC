@@ -127,7 +127,7 @@ def trainer(nets, train_loader, test_loader, pars):
                         else:
                             sys.exit('Unknown swapping types.')
         """ Anneaing """
-        pars.bias_F *= pars.F_anneal
+        pars.bias_F *= pars.anneal
         for idx in range(pars.chains):
             if epoch > (0.4 * pars.sn) and pars.lr_anneal <= 1.:
                 samplers[idx].eta *= pars.lr_anneal

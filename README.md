@@ -56,19 +56,19 @@ $ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 500 -train 256 
 
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Naive reSGHMC`  Simply set bias_F=1e300 and F_jump=1 as follows
 ```bash
-$ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 500 -train 256 -chains 2 -LRgap 0.66 -Tgap 0.2 -F_jump 1 -bias_F 1e300
+$ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 500 -train 256 -chains 2 -F_jump 1 -bias_F 1e300
 ```
 
 To use a large batch size 1024, you need a slower annealing rate and 2000 epochs to keep the same iterations.
 ```bash
-$ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 2000 -train 1024 -chains 1 -lr_anneal 0.996 -anneal 1.005 -F_anneal 1.005
-$ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 2000 -train 1024 -chains 2 -lr_anneal 0.996 -anneal 1.005 -F_anneal 1.005 -LRgap 0.66 -Tgap 0.2 -F_jump 0.8
+$ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 2000 -train 1024 -chains 1 -lr_anneal 0.996 -anneal 1.005
+$ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 2000 -train 1024 -chains 2 -lr_anneal 0.996 -anneal 1.005 -F_jump 0.8
 ```
 
 To run the WRN models (WRN-16-8 and wrn-28-10) , you can try the following
 ```bash
-$ python bayes_cnn.py -data cifar100 -model wrn -sn 500 -train 256 -LRgap 0.66 -Tgap 0.2 -chains 2 -F_jump 0.8 -cool 20 -bias_F 3e5
-$ python bayes_cnn.py -data cifar100 -model wrn28 -sn 500 -train 256 -LRgap 0.66 -Tgap 0.2 -chains 2 -F_jump 0.8 -cool 20 -bias_F 3e5
+$ python bayes_cnn.py -data cifar100 -model wrn -sn 500 -train 256 -chains 2 -F_jump 0.8 -cool 20 -bias_F 3e5
+$ python bayes_cnn.py -data cifar100 -model wrn28 -sn 500 -train 256 -chains 2 -F_jump 0.8 -cool 20 -bias_F 3e5
 ```
 Note that in WRN models, we need to include the extra **cooling time** because cases of two consecutive swaps during the same epoch happens a lot and cancel the acceleration effects.
 

@@ -52,34 +52,33 @@ model_names = sorted(name for name in models.__dict__
 
 def main():
     parser = argparse.ArgumentParser(description='Grid search')
+    """ dataset """
+    parser.add_argument('-data', default='cifar100', dest='data', help='MNIST/ Fashion MNIST/ CIFAR10/ CIFAR100')
     parser.add_argument('-aug', default=1, type=float, help='Data augmentation or not')
-    parser.add_argument('-split', default=2, type=int, help='Bayes avg every split epochs')
-    # numper of optimization/ sampling epochs
-    parser.add_argument('-sn', default=1000, type=int, help='Sampling Epochs')
-    parser.add_argument('-wdecay', default=25, type=float, help='Samling weight decay')
+    """ ResNet models or WRN models """
+    parser.add_argument('-model', default='resnet', type=str, help='resnet / preact / WRN')
+    parser.add_argument('-depth', type=int, default=20, help='Model depth.')
+    """ number of training epochs """
+    parser.add_argument('-sn', default=500, type=int, help='Sampling Epochs')
+    """ learning rate, momentum, weight decay (L2), temperature and annealing factors """
     parser.add_argument('-lr', default=2e-6, type=float, help='Sampling learning rate')
     parser.add_argument('-momentum', default=0.9, type=float, help='Sampling momentum learning rate')
-    parser.add_argument('-burn', default=200, type=float, help='burn in iterations for sampling when sn = 1000')
-    parser.add_argument('-ifstop', default=1, type=int, help='stop iteration if acc is too low')
-
-    # Parallel Tempering hyperparameters
+    parser.add_argument('-wdecay', default=25, type=float, help='Samling weight decay')
+    parser.add_argument('-T', default=0.01, type=float, help='Inverse temperature for high temperature chain')
+    parser.add_argument('-anneal', default=1.002, type=float, help='temperature annealing factor (default for 500 epochs)')
+    parser.add_argument('-lr_anneal', default=0.992, type=float, help='lr annealing factor (default for 500 epochs)')
+    """ high-temperature hyperparameters """
     parser.add_argument('-chains', default=2, type=int, help='Total number of chains')
     parser.add_argument('-types', default='swap', type=str, help='swap type: greedy (low T copy high T), swap (low high T swap)')
-    parser.add_argument('-T', default=0.01, type=float, help='Inverse temperature for high temperature chain')
-    parser.add_argument('-Tgap', default=0.2, type=float, help='Temperature gap between chains')
-    parser.add_argument('-LRgap', default=0.66, type=float, help='Learning rate gap between chains')
-    parser.add_argument('-anneal', default=1.002, type=float, help='temperature annealing factor')
-    parser.add_argument('-lr_anneal', default=0.992, type=float, help='lr annealing factor (default for 500 epochs)')
-    parser.add_argument('-F_anneal', default=1.002, type=float, help='F annealing factor (default the same as temperature anneal)')
+    parser.add_argument('-Tgap', default=0.2, type=float, help='Tgap=low-temperature /high-temperature')
+    parser.add_argument('-LRgap', default=0.66, type=float, help='LRgap=low-temperature lr / high-temperature lr')
+    """ default settings for the correction factor F """
+    parser.add_argument('-bias_F', default=3e5, type=float, help='correction factor F')
     parser.add_argument('-F_jump', default=1, type=float, help='F jump factor')
     parser.add_argument('-cool', default=0, type=int, help='No swaps happen during the cooling time after a swap')
 
     # other settings
     parser.add_argument('-ck', default=False, type=bool, help='Check if we need overwriting check')
-    parser.add_argument('-data', default='cifar100', dest='data', help='MNIST/ Fashion MNIST/ CIFAR10/ CIFAR100')
-    #parser.add_argument('-no_c', default=100, type=int, help='number of classes')
-    parser.add_argument('-model', default='resnet', type=str, help='resnet / preact / WRN')
-    parser.add_argument('-depth', type=int, default=20, help='Model depth.')
     parser.add_argument('-total', default=50000, type=int, help='Total data points')
     parser.add_argument('-train', default=1000, type=int, help='Training batch size')
     parser.add_argument('-test', default=500, type=int, help='Testing batch size')
@@ -88,10 +87,11 @@ def main():
     parser.add_argument('-multi', default=0, type=int, help='Multiple GPUs')
     parser.add_argument('-var', default=5, type=int, help='estimate variance piecewise, positive value means estimate every [var] epochs')
     parser.add_argument('-windows', default=20, type=int, help='Moving average of corrections')
-    parser.add_argument('-alpha', default=0.1, type=float, help='forgetting rate')
-    parser.add_argument('-bias_F', default=2000, type=float, help='correction factor F')
+    parser.add_argument('-alpha', default=0.3, type=float, help='forgetting rate')
     parser.add_argument('-repeats', default=50, type=int, help='number of samples to estimate sample std')
-
+    parser.add_argument('-burn', default=200, type=float, help='burn in iterations for sampling when sn = 1000')
+    parser.add_argument('-ifstop', default=1, type=int, help='stop iteration if acc is too low')
+    parser.add_argument('-split', default=2, type=int, help='Bayes avg every split epochs')
 
     pars = parser.parse_args()
     """ Step 0: Numpy printing setup and set GPU and Seeds """
