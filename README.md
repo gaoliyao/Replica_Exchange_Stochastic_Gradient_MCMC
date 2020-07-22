@@ -72,7 +72,7 @@ $ python bayes_cnn.py -data cifar100 -model wrn28 -sn 500 -train 256 -LRgap 0.66
 ```
 Note that in WRN models, we need to include the extra **cooling time** because cases of two consecutive swaps during the same epoch happens a lot and cancel the acceleration effects.
 
-To reduce the hyperparameter tuning cost, you can also try to use greedy instead of swap to break the detailed balance condition. This helps for the optimization purposes and almost has the same optimization performance as the swap type. For example
+To reduce the hyperparameter tuning cost, you can try **greedy** instead of swap to break the detailed balance. This strategy has the same optimization performance as the swap type. For example
 ```bash
 $ python bayes_cnn.py -data cifar100 -model wrn -types greedy -sn 500 -train 256 -chains 2 -cool 20 -bias_F 3e5
 ```
