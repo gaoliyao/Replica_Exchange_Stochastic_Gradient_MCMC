@@ -49,7 +49,7 @@ Setup: batch size 256 and 500 epochs. Simulated annealing is used by default.
 $ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 500 -train 256 -lr 2e-6 -T 0.01 -chains 1
 ```
 
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `reSGHMC`  The low-temperature chain has the same setting as SGHMC; The high-temperature chain has a higher lr 3e-6=2e-6/LRgap and a higher T 0.05=0.01/Tgap; The initial F is 3e5. 
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `reSGHMC`  The low-temperature chain has the same setting as SGHMC; The high-temperature chain has a higher lr=3e-6 (2e-6/LRgap) and a higher T=0.05 (0.01/Tgap); The initial F is 3e5. 
 ```bash
 $ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 500 -train 256 -chains 2 -LRgap 0.66 -Tgap 0.2 -F_jump 0.8 -bias_F 3e5
 ```
