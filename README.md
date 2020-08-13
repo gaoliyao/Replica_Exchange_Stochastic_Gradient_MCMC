@@ -1,6 +1,6 @@
 # Replica Exchange Stochastic Gradient MCMC
 
-Experiment code for "[Non-convex Learning via Replica Exchange Stochastic Gradient MCMC](link to be updated)". This is a scalable replica exchange (also known as parallel tempering) stochastic gradient MCMC algorithm with clear acceleration guarantees. This algorithm proposes **corrected swaps** to connect the high-temperature process for **exploration** and the low-temperature process for **exploitation**. 
+Experiment code for "[Non-convex Learning via Replica Exchange Stochastic Gradient MCMC](https://arxiv.org/pdf/2008.05367.pdf)". This is a scalable replica exchange (also known as parallel tempering) stochastic gradient MCMC algorithm with clear acceleration guarantees. This algorithm proposes **corrected swaps** to connect the high-temperature process for **exploration** and the low-temperature process for **exploitation**. 
 
 <img src="/figures/path_v5.png" width="300"> <img src="/figures/simulation.png" width="300">
 
