@@ -65,7 +65,7 @@ $ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 2000 -train 102
 $ python bayes_cnn.py -data cifar100 -model resnet -depth 20 -sn 2000 -train 1024 -chains 2 -lr_anneal 0.996 -anneal 1.005 -F_jump 0.8
 ```
 
-** Remark: If you do Bayesian model average every epoch and there are two swaps in the same epoch, the acceleration may be neutralized. To handle this issue, you need to consider a cooling time。 **
+Remark: If you do Bayesian model average every epoch and there are two swaps in the same epoch, the **acceleration may be neutralized**. To handle this issue, you need to consider a cooling time.
 
 To run the WRN models (WRN-16-8 and wrn-28-10) , you can try the following
 ```bash
