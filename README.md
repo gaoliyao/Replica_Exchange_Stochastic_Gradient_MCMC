@@ -9,8 +9,10 @@ Experiment code for "[Non-convex Learning via Replica Exchange Stochastic Gradie
 @inproceedings{reSGMCMC,
   title={Non-convex Learning via Replica Exchange Stochastic Gradient MCMC},
   author={Wei Deng and Qi Feng* and Liyao Gao* and Faming Liang and Guang Lin},
-  booktitle={International Conference on Machine Learning},
-  year={2020}
+  booktitle =   {Proceedings of the 37th International Conference on Machine Learning},
+  pages =   {2474--2483},
+  year =   {2020},
+  volume =   {119}
 }
 ```
 
